@@ -1,0 +1,107 @@
+
+<!-- table zwave_devices search -->
+
+ <!-- action usual -->
+ [#if DATA_SOURCE="s_okbit" || DATA_SOURCE=""#]
+ <!-- table s_okbit search -->
+ [#if VIEW_MODE="search_s_okbit" || VIEW_MODE=""#]
+ 
+ <div class="float-right" style="margin-top:20px; margin-right:20px;">
+			<button class="btn btn-primary btn-sm" data-toggle="modal" data-target="#about">O модуле&nbsp;&nbsp;<span class="glyphicon glyphicon-info-sign icon-white"></span></button>
+		</div>
+		
+		
+		<div class="modal fade" id="about" tabindex="-1" role="dialog" aria-labelledby="about1" aria-hidden="true">
+		<!-- <div id="about" class="modal hide"> -->
+			<div class="modal-dialog">
+				<div class="modal-content">
+					<div class="modal-header">
+						<button class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+						<h4 class="modal-title">Scene by OkBit.ru</h4>
+					</div>
+					<div class="modal-body">
+						<div class="float-right">
+							<img src="../templates/scene_okbit/img/scene_okbit.png"  width="48" height="48">
+							<br><br><p><b>v.1.0</b></p>
+						</div>
+						<p class="float-left">
+							<#LANG_OKBIT_APP_MODULE#><br><br>
+							<#LANG_OKBIT_APP_DISCUS#><a href="https://majordomo.smartliving.ru/forum/viewtopic.php?f=5&t=5851" target="_blank"><#LANG_OKBIT_APP_DISCUS2#></a>.<br>
+							<#LANG_OKBIT_APP_PROJ#> <a href="https://github.com/foxvlad/OkBitUDP" target="_blank">GitHub</a>.<br>
+							<#LANG_OKBIT_APP_CONNECT#><a href="https://connect.smartliving.ru/tasks/314.html" target="_blank">Connect</a>.<br>
+						</p>
+						
+						<h6><#LANG_OKBIT_APP_THANKS#> <b>skysilver</b>, <b>Aven</b>, <b>Egor Savenko</b></h6>
+					</div>
+					<div class="modal-footer">
+						<div class="pull-left"><#LANG_OKBIT_APP_Author#>: <a href="http://okbit.ru" target="_blank">foxvlad</a></div>
+						<button type="button" class="btn btn-default" data-dismiss="modal"><#LANG_OKBIT_APP_CLOSE#></button>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+ 
+		<div>
+			<img src="../templates/Scene_OkBit/img/scene_okbit.png"  width="30" height="30">
+			&nbsp;&nbsp;&nbsp;
+			<a href="?view_mode=edit_s_okbit&data_source=<#DATA_SOURCE#>" class="btn btn-default"><i class="glyphicon glyphicon-plus"></i> <#LANG_ADD_NEW_SCENE#></a>
+			<a class="btn btn-default" href="<#ROOTHTML#>popup/scenes.html" target=_blank><#LANG_PREVIEW#></a>
+			&nbsp;
+		</div>
+ 
+ 
+ 
+ 
+ 
+  [#inc s_okbit_search_admin.html#]
+ [#endif VIEW_MODE#]
+ <!-- / table s_okbit search -->
+ 
+	<!--  table s_okbit add/edit -->
+	[#if VIEW_MODE="edit_s_okbit"#]
+	
+	
+	[#if ID!="" && MOD!="6000"#]
+			[#if TITLE!=""#]<h4>[#TITLE#]</h4>[#endif TITLE#]
+			<ul class="nav nav-tabs">
+				<li[#if TAB=""#] class="active"[#endif#]>
+				<a href="?data_source=<#DATA_SOURCE#>&view_mode=<#VIEW_MODE#>&id=<#ID#>&tab="><#LANG_GENERAL#></a>
+				</li>
+				<li[#if TAB="data"#] class="active"[#endif#]>
+				<a href="?data_source=<#DATA_SOURCE#>&view_mode=<#VIEW_MODE#>&id=<#ID#>&tab=data">Элементы сцены</a>
+				</li>
+				<li[#if TAB="data_else"#] class="active"[#endif#]>
+				<a href="?data_source=<#DATA_SOURCE#>&view_mode=<#VIEW_MODE#>&id=<#ID#>&tab=data_else">Информация</a>				
+				</li>
+			</ul>
+			&nbsp;<br/>
+		[#endif ID && MOD#]
+		
+		[#if TAB=""#]
+			[#inc s_okbit_edit.html#]
+		[#endif TAB#]
+		
+		[#if TAB="data"#]
+			[#inc s_okbit_edit_elements.html#]
+		[#endif TAB#]
+		
+		[#if TAB="data_else"#]
+			Информация по сцене			
+		[#endif TAB#]
+	
+	[#endif VIEW_MODE#]
+	<!-- / table s_okbit add/edit -->
+ 
+ 
+ 
+
+ <!-- table s_okbit view --> 
+ [#if VIEW_MODE="view_s_okbit"#]
+   [#if TAB=""#]
+    [#inc s_okbit_view_default.html#]
+   [#endif TAB#]
+ [#endif VIEW_MODE#]
+ <!-- / table s_okbit view -->
+ [#endif DATA_SOURCE#]
+ 

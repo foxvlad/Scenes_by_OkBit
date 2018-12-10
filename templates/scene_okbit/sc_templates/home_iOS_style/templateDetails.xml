@@ -1,0 +1,36 @@
+<?xml version='1.0'?>
+<templates>
+	<css>
+		<name>light</name>
+		<img_ico>thumbnail2</img_ico>
+		<files>light</files>
+	</css>
+	<css>
+		<name>dark</name>
+		<img_ico>thumbnail3</img_ico>
+		<files>dark</files>	</css>
+	<position>
+		<namePosition>HEADER</namePosition>
+		<positionFile>header</positionFile>
+		<priority>100</priority>		
+		<elements>
+			<nameElements>el_1</nameElements>
+			<nameElements>el_2</nameElements>
+		</elements>
+	</position>
+	<position>
+		<namePosition>LEFT</namePosition>
+		<positionFile>left</positionFile>
+		<priority>90</priority>
+	</position>
+	<position>
+		<namePosition>CENTER</namePosition>
+		<positionFile>center</positionFile>
+		<priority>80</priority>
+	</position>
+	<position>
+		<namePosition>RIGHT</namePosition>
+		<positionFile>right</positionFile>
+		<priority>70</priority>
+	</position>
+</templates>
