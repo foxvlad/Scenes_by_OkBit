@@ -54,8 +54,7 @@
 			
 
 			
-			foreach ($xml as $position) {
-				
+			foreach ($xml as $position) {		
 				
 				if($position->namePosition){
 					$res_pos[$pos]['POSIT'] = $position->namePosition;
@@ -64,7 +63,7 @@
 			}
 			
 			
-			$qwe = SQLSelect("SELECT * FROM scene_element_okbit WHERE PARENT_ID='".$res[$i]['ID']."'");
+			$qwe = SQLSelect("SELECT * FROM scene_element_okbit WHERE PARENT_ID='".$res[$i]['ID']."' ORDER BY PRIORITY DESC");
 			
 			$scene_id = $res[$i]['ID'];
 			

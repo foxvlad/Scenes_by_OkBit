@@ -1,2 +1,1 @@
-Комнаты</br>
-{{LEFT}}
+<div class="left-menu">{{LEFT}}</div>

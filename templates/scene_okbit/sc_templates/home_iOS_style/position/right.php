@@ -1,2 +1,1 @@
-Погода<br>
-{{RIGHT}}
+<div class="right-menu">{{RIGHT}}</div>

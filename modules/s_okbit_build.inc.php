@@ -32,7 +32,7 @@
 	
 	//счситываем все элементы данной сцены
 	
-	$elm_html = SQLSelect("SELECT * FROM scene_element_okbit WHERE PARENT_ID='".$rec_templates['ID']."'");
+	$elm_html = SQLSelect("SELECT * FROM scene_element_okbit WHERE PARENT_ID='".$rec_templates['ID']."' ORDER BY PRIORITY DESC");
 	$total_html=count($elm_html);
 	
 	

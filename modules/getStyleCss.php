@@ -5,7 +5,9 @@ if(isset($_GET['template'])){
 
 		foreach ($xml as $css) {			
 			$temp_rec = $css->name;
-			echo "obj.options[obj.options.length] = new Option('$temp_rec','$temp_rec');\n";
+			if ($temp_rec){
+				echo "obj.options[obj.options.length] = new Option('$temp_rec','$temp_rec');\n";
+			}
 		}		
       }    
 ?> 

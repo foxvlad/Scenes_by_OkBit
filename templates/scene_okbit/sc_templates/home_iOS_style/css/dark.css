@@ -11,38 +11,13 @@ table {
 	width:100%!important;
 }
 
-.{{HEADER}} { /* HEADER */
-	position: relative !important;
-	top: auto !important;
-	left : auto !important;
-	z-index : auto !important;
-	width: calc(100% - 2px); !important;
-	margin: 1px!important;
-	padding:20px;
-	font-size:18px!important;
-	height:70px;
-	background:#37373a;
-	border-bottom: 2px ridge #6d6e6f;
+.top-title {
+	float:left;
+	font-size: 16px;
+	text-align:left;
+	margin: 18px 0  0 20px;
+	font-weight: bold;
 }
-
-
-/* CSS Движение вниз */
-
-.{{HEADER}} { /* HEADER */
-    animation-name: slideDown;
-    -webkit-animation-name: slideDown;  
- 
-    animation-duration: 2s; 
-    -webkit-animation-duration: 2s;
- 
-    animation-timing-function: ease;    
-    -webkit-animation-timing-function: ease;    
- 
-    visibility: visible !important;                     
-}
-
-
-
 
 .top-menu{
 	float:right;
@@ -52,7 +27,114 @@ table {
 .top-menu ul li{
 	float:left;
 	margin:5px;
-	
+}
+
+.top-link{
+	width:50px;
+	height:50px;
+	border-radius: 4px;
+	background-size: cover;
+	margin-right: 15px;
+}
+
+.top-ico-1{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/cold.png);
+}
+
+.top-ico-2{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/lamp.png);
+}
+
+.top-ico-3{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/note.png);
+}
+
+.top-ico-4{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/cam.png);
+}
+
+.top-ico-5{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/shit.png);
+}
+
+.top-ico-6{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/setting.png);
+}
+
+
+.left-title {
+	width:100%;
+	font-size: 14px;
+	text-align:left;
+	font-weight: bold;
+	padding: 4px;
+}
+
+
+.left-menu{
+	float:right;
+	font-size:16px;
+	width:100%;
+}
+
+.left-link{
+	width:100%;
+	height: 38px;
+	background: #37373a;
+	padding: 7px;
+	margin-bottom:2px;
+}
+
+.left-link span{
+	font-size: 16px;
+	margin: 4px 0 0 8px;
+	float:left;
+	font-weight: bold;
+}
+
+A .left-link {
+	color: #fff;
+	font-size: 16px!important;
+}
+
+A, A:hover {
+	text-decoration: none!important;
+}
+
+.left-menu ul, .right-menu ul{
+	margin: 0px;
+}
+
+.left-ico{
+	float:left;
+	width:25px;
+	height: 25px;
+	background-size: cover;
+}
+
+.left-ico-1{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/spal.png);
+}
+
+.left-ico-2{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/kuh.png);
+}
+
+.left-ico-3{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/zal.png);
+}
+
+.left-ico-4{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/vanna.png);
+}
+
+.left-arrow{
+	margin: 4px 2px 0 0;
+	float:right;
+	width:10px;
+	height: 15px;
+	background-size: cover;
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/sRight.png);
 }
 
 .time-home {
@@ -62,7 +144,7 @@ table {
 
 
 .img-home {
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/home4.jpg);
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/home.png);
 	border: 0px solid #fff;
 	border-radius: 10px;
 	width:calc(100%);
@@ -87,6 +169,50 @@ table {
 	background: linear-gradient(to top, rgba(127,127,127,0), rgba(127,127,127,0.8));
 }
 
+.right-menu{
+	float:right;
+	font-size:16px;
+	width:100%;
+}
+
+.right-title {
+	font-size: 15px;
+	text-align:left;
+	font-weight: bold;
+	padding: 4px;
+}
+
+
+.{{HEADER}} { /* HEADER */
+	position: relative !important;
+	top: auto !important;
+	left : auto !important;
+	z-index : auto !important;
+	width: calc(100% - 2px) !important;
+	margin: 1px!important;
+	padding:4px !important;
+	font-size:18px!important;
+	height:70px !important;
+	background:#37373a !important;
+	border-bottom: 2px ridge #6d6e6f !important;
+}
+
+
+/* CSS Движение вниз */
+
+.{{HEADER}} { /* HEADER */
+    animation-name: slideDown;
+    -webkit-animation-name: slideDown;  
+ 
+    animation-duration: 2s; 
+    -webkit-animation-duration: 2s;
+ 
+    animation-timing-function: ease;    
+    -webkit-animation-timing-function: ease;    
+ 
+    visibility: visible !important;                     
+}
+
 
 
 .{{LEFT}} {	/* LEFT */
@@ -94,11 +220,11 @@ table {
 	top: auto !important;
 	left : auto !important;
 	z-index : auto !important;
-	padding-left:10px  !important;
+	padding:0px  !important;
 	font-size: 18px !important;
 	width:23%  !important;
 	float:left  !important;
-	height:570px  !important;
+	height:560px  !important;
 	text-align:left  !important;
 	border: 0px !important;
 	border-right: 2px solid #242425  !important;
@@ -133,7 +259,7 @@ table {
 	width:calc(54% - 35px);		
 	margin-top: 10px  !important;
 	float:left  !important;
-	height:560px  !important;
+	height:550px  !important;
 	text-align:center !important;
 	background : 0 !important;
 	border: 0px !important;
@@ -155,11 +281,11 @@ table {
 	top: auto !important;
 	left : auto !important;
 	z-index : auto !important;
-	padding-left:10px  !important;
+	padding: 0px  !important;
 	font-size: 18px !important;
 	width:23%  !important;
 	float:left  !important;
-	height:570px  !important;
+	height:560px  !important;
 	text-align:left  !important;
 	border: 0px !important;
 	border-left: 2px solid #242425  !important;
