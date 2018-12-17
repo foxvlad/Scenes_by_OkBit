@@ -1,6 +1,6 @@
 <?php
 /**
-* Scene_OkBit 
+* Scenes_OkBit 
 * @package project
 * @author Wizard <sergejey@gmail.com>
 * @copyright http://majordomo.smartliving.ru/ (c)
@@ -8,16 +8,16 @@
 */
 //
 //
-class scene_okbit extends module {
+class scenes_okbit extends module {
 /**
-* Scene_OkBit
+* Scenes_OkBit
 *
 * Module class constructor
 *
 * @access private
 */
 function __construct() {
-  $this->name="scene_okbit";
+  $this->name="scenes_okbit";
   $this->title="Сцены от OkBit.ru";
   $this->module_category="Визуализация";
   $this->checkInstalled();
@@ -354,7 +354,7 @@ function delete_elements($id) {
 * @access public
 */
  function uninstall() {
-  SQLExec('DROP TABLE IF EXISTS scene_okbit');
+  SQLExec('DROP TABLE IF EXISTS scenes_okbit');
   SQLExec('DROP TABLE IF EXISTS scene_element_okbit');
   parent::uninstall();
  }
@@ -367,30 +367,30 @@ function delete_elements($id) {
 */
  function dbInstall($data) {
 /*
-scene_okbit - 
+scenes_okbit - 
 scene_element_okbit - 
 */
   $data = <<<EOD
- scene_okbit: ID int(10) unsigned NOT NULL auto_increment
- scene_okbit: SCENES_ID int(10) NOT NULL DEFAULT '0'
- scene_okbit: TEMPLATE varchar(255) NOT NULL DEFAULT ''
- scene_okbit: TEMPLATE_CSS varchar(255) NOT NULL DEFAULT ''
- scene_okbit: ADDITION varchar(255) NOT NULL DEFAULT ''
- scene_okbit: PRIORITY int(10) NOT NULL DEFAULT '0'
- scene_element_okbit: ID int(10) unsigned NOT NULL auto_increment
- scene_element_okbit: TITLE varchar(100) NOT NULL DEFAULT ''
- scene_element_okbit: POSITION varchar(100) NOT NULL DEFAULT ''
- scene_element_okbit: VALUE varchar(255) NOT NULL DEFAULT ''
- scene_element_okbit: HTML varchar(255) NOT NULL DEFAULT ''
- scene_element_okbit: TEXTAREA varchar(255) NOT NULL DEFAULT ''
- scene_element_okbit: TYPE varchar(255) NOT NULL DEFAULT ''
- scene_element_okbit: SCENE_LINK varchar(100) NOT NULL DEFAULT ''
- scene_element_okbit: ICO varchar(255) NOT NULL DEFAULT ''
- scene_element_okbit: PARENT_ID int(10) NOT NULL DEFAULT '0'
- scene_element_okbit: LINKED_OBJECT varchar(100) NOT NULL DEFAULT ''
- scene_element_okbit: LINKED_PROPERTY varchar(100) NOT NULL DEFAULT ''
- scene_element_okbit: LINKED_METHOD varchar(100) NOT NULL DEFAULT ''
- scene_element_okbit: PRIORITY int(10) NOT NULL DEFAULT '0'
+ scenes_okbit: ID int(10) unsigned NOT NULL auto_increment
+ scenes_okbit: SCENES_ID int(10) NOT NULL DEFAULT '0'
+ scenes_okbit: TEMPLATE varchar(255) NOT NULL DEFAULT ''
+ scenes_okbit: TEMPLATE_CSS varchar(255) NOT NULL DEFAULT ''
+ scenes_okbit: ADDITION varchar(255) NOT NULL DEFAULT ''
+ scenes_okbit: PRIORITY int(10) NOT NULL DEFAULT '0'
+ scenes_element_okbit: ID int(10) unsigned NOT NULL auto_increment
+ scenes_element_okbit: TITLE varchar(100) NOT NULL DEFAULT ''
+ scenes_element_okbit: POSITION varchar(100) NOT NULL DEFAULT ''
+ scenes_element_okbit: VALUE varchar(255) NOT NULL DEFAULT ''
+ scenes_element_okbit: HTML varchar(255) NOT NULL DEFAULT ''
+ scenes_element_okbit: TEXTAREA varchar(255) NOT NULL DEFAULT ''
+ scenes_element_okbit: TYPE varchar(255) NOT NULL DEFAULT ''
+ scenes_element_okbit: SCENE_LINK varchar(100) NOT NULL DEFAULT ''
+ scenes_element_okbit: ICO varchar(255) NOT NULL DEFAULT ''
+ scenes_element_okbit: PARENT_ID int(10) NOT NULL DEFAULT '0'
+ scenes_element_okbit: LINKED_OBJECT varchar(100) NOT NULL DEFAULT ''
+ scenes_element_okbit: LINKED_PROPERTY varchar(100) NOT NULL DEFAULT ''
+ scenes_element_okbit: LINKED_METHOD varchar(100) NOT NULL DEFAULT ''
+ scenes_element_okbit: PRIORITY int(10) NOT NULL DEFAULT '0'
  
  
 EOD;

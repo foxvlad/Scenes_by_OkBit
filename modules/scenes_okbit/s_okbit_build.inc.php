@@ -15,24 +15,24 @@
 
 
 	$rec_element = SQLSelectOne("SELECT * FROM elements WHERE SCENE_ID='".$rec['ID']."' AND TITLE='scene_by_okbit.ru'");
-	$rec_templates = SQLSelectOne("SELECT * FROM scene_okbit WHERE SCENES_ID='".$rec['ID']."'");
+	$rec_templates = SQLSelectOne("SELECT * FROM scenes_okbit WHERE SCENES_ID='".$rec['ID']."'");
 	
 	$elm_states = Array();
 	
-	$contents = file_get_contents('./templates/scene_okbit/sc_templates/'.$rec_templates['TEMPLATE'].'/index.php');
+	$contents = file_get_contents('./templates/scenes_okbit/sc_templates/'.$rec_templates['TEMPLATE'].'/index.php');
 	
-	$xml = simplexml_load_file('./templates/scene_okbit/sc_templates/'.$rec_templates['TEMPLATE'].'/templateDetails.xml');
+	$xml = simplexml_load_file('./templates/scenes_okbit/sc_templates/'.$rec_templates['TEMPLATE'].'/templateDetails.xml');
 
 	//подключаем нужный стиль
 	foreach ($xml as $css) {			
 		$temp_rec = $css->name;					
 		if ($rec_templates['TEMPLATE_CSS'] == $temp_rec) $temp_css = $css->files;
 	}	
-	$contents_css = file_get_contents('./templates/scene_okbit/sc_templates/'.$rec_templates['TEMPLATE'].'/css/'.$temp_css.'.css');
+	$contents_css = file_get_contents('./templates/scenes_okbit/sc_templates/'.$rec_templates['TEMPLATE'].'/css/'.$temp_css.'.css');
 	
 	//счситываем все элементы данной сцены
 	
-	$elm_html = SQLSelect("SELECT * FROM scene_element_okbit WHERE PARENT_ID='".$rec_templates['ID']."' ORDER BY PRIORITY DESC");
+	$elm_html = SQLSelect("SELECT * FROM scenes_element_okbit WHERE PARENT_ID='".$rec_templates['ID']."' ORDER BY PRIORITY DESC");
 	$total_html=count($elm_html);
 	
 	
@@ -45,7 +45,7 @@
 			$elm_h_states = SQLSelectOne("SELECT * FROM elm_states WHERE ELEMENT_ID='".$rec_h[ID]."'");
 			$elm_h_states['ELEMENT_ID'] = $rec_h[ID];
 			$elm_h_states['TITLE'] = 'default';
-			$html_in = file_get_contents('./templates/scene_okbit/sc_templates/'.$rec_templates['TEMPLATE'].'/position/'.$position->positionFile.'.php');
+			$html_in = file_get_contents('./templates/scenes_okbit/sc_templates/'.$rec_templates['TEMPLATE'].'/position/'.$position->positionFile.'.php');
 			
 			//перебираем элементы сцены 
 			$li_html ='';

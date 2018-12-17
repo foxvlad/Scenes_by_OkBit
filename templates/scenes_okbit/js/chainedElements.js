@@ -8,7 +8,7 @@ function getElementes(sel)
 		var index = ajax.length;
 		ajax[index] = new sack();
 		
-		ajax[index].requestFile = '/modules/scene_okbit/getElements.php?position='+position+'&template=home_iOS_style';	// Specifying which file to get
+		ajax[index].requestFile = '/modules/scenes_okbit/getElements.php?position='+position+'&template=home_iOS_style';	// Specifying which file to get
 		ajax[index].onCompletion = function(){ createElements(index) };	// Specify function that will be executed after file has been found
 		ajax[index].runAJAX();		// Execute AJAX function
 	}

@@ -8,7 +8,7 @@ function getTemplateCodeList(sel)
 		var index = ajax.length;
 		ajax[index] = new sack();
 		
-		ajax[index].requestFile = '/modules/scene_okbit/getStyleCss.php?template='+template;	// Specifying which file to get
+		ajax[index].requestFile = '/modules/scenes_okbit/getStyleCss.php?template='+template;	// Specifying which file to get
 		ajax[index].onCompletion = function(){ createCSS(index) };	// Specify function that will be executed after file has been found
 		ajax[index].runAJAX();		// Execute AJAX function
 	}

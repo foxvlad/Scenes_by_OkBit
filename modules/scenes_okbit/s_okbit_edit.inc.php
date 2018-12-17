@@ -12,7 +12,7 @@
 
 
 
-$table_name = 'scene_okbit';
+$table_name = 'scenes_okbit';
 
 $rec = SQLSelectOne("SELECT * FROM $table_name WHERE ID='$id'");
 	
@@ -26,7 +26,7 @@ if ($rec['ID']) {
 
 if ($this->mode == 'update') {
 	
-	//DebMes("UPDATE ", 'scene_okbit');
+	//DebMes("UPDATE ", 'scenes_okbit');
 
 	$this->getConfig();
 	$ok = 1;
@@ -65,7 +65,7 @@ if ($this->mode == 'update') {
 	if ($ok) {
 		if ($rec['ID']) {
 			
-			//DebMes("ID - ".$Record['ID'].' Prioriti - '. $Record['PRIORITY'] , 'scene_okbit');
+			//DebMes("ID - ".$Record['ID'].' Prioriti - '. $Record['PRIORITY'] , 'scenes_okbit');
 			SQLUpdate('scenes', $Record);
 			SQLUpdate($table_name, $rec);
 			
@@ -76,7 +76,7 @@ if ($this->mode == 'update') {
 			
 
 		//создаем в базе данных позиции длясцены, считаниые из xml файла	
-			$xml = simplexml_load_file('./templates/scene_okbit/sc_templates/'.$rec['TEMPLATE'].'/templateDetails.xml');
+			$xml = simplexml_load_file('./templates/scenes_okbit/sc_templates/'.$rec['TEMPLATE'].'/templateDetails.xml');
 			foreach ($xml as $position) {
 				if($position->namePosition){
 						$rec_element = Array();
@@ -110,18 +110,18 @@ if ($this->mode == 'update') {
 if ($this->tab == 'data') {
 	
 	if ($view_el=='') {	
-		//DebMes ("search-date", 'scene_okbit');
-		$res = SQLSelectOne("SELECT * FROM scene_okbit WHERE ID='".$id."'");
+		//DebMes ("search-date", 'scenes_okbit');
+		$res = SQLSelectOne("SELECT * FROM scenes_okbit WHERE ID='".$id."'");
 		$res_temp = SQLSelectOne("SELECT * FROM scenes WHERE ID='".$res['SCENES_ID']."'");
 		$rec['TITLE'] = $res_temp['TITLE'];
 		
-		$xml = simplexml_load_file('./templates/scene_okbit/sc_templates/'.$res['TEMPLATE'].'/templateDetails.xml');
+		$xml = simplexml_load_file('./templates/scenes_okbit/sc_templates/'.$res['TEMPLATE'].'/templateDetails.xml');
 		$pos = 0;
 		foreach ($xml as $position) {		
 			if($position->namePosition){
 				$res_pos[$pos]['POSIT'] = $position->namePosition;
 				
-				$qwe = SQLSelect("SELECT * FROM scene_element_okbit WHERE PARENT_ID='".$res['ID']."' ORDER BY PRIORITY DESC");
+				$qwe = SQLSelect("SELECT * FROM scenes_element_okbit WHERE PARENT_ID='".$res['ID']."' ORDER BY PRIORITY DESC");
 					
 					
 					for($iq=0;$iq<count($res_pos);$iq++){
@@ -198,7 +198,7 @@ $filelist = array();
 
 //Сканировнание папки со стилями оформления для вывода списка тем в выподающий список
 	
-	if ($handle = opendir('./templates/scene_okbit/sc_templates')) {
+	if ($handle = opendir('./templates/scenes_okbit/sc_templates')) {
 
 		while (false !== ($file = readdir($handle))) { 
 			if ($file != "." && $file != "..") {
@@ -222,7 +222,7 @@ $filelist = array();
 	
 	
 	if ($rec['TEMPLATE']) {	
-		$xml = simplexml_load_file('./templates/scene_okbit/sc_templates/'.$rec['TEMPLATE'].'/templateDetails.xml');
+		$xml = simplexml_load_file('./templates/scenes_okbit/sc_templates/'.$rec['TEMPLATE'].'/templateDetails.xml');
 		foreach ($xml as $css) {		
 			$temp_rec = $css->name;
 			if($temp_rec){
@@ -239,7 +239,7 @@ $filelist = array();
 	$rec['TEMPLATE_SEARH'] = $text_html;
 	$rec['TEMPLATE_CSS'] = $text_css;
 	
-	$rec['TEMPLATE_IMG'] = BASE_URL.'/templates/scene_okbit/sc_templates/'.$rec['TEMPLATE'].'/images/'.$temp_img.'.png';
+	$rec['TEMPLATE_IMG'] = BASE_URL.'/templates/scenes_okbit/sc_templates/'.$rec['TEMPLATE'].'/images/'.$temp_img.'.png';
 }
 
 outHash($rec, $out);

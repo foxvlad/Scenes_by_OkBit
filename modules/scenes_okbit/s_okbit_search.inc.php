@@ -19,7 +19,7 @@
   $sortby_s_okbit="PRIORITY DESC";
   $out['SORTBY']=$sortby_s_okbit;
   // SEARCH RESULTS
-  $res=SQLSelect("SELECT * FROM scene_okbit WHERE $qry ORDER BY ".$sortby_s_okbit);
+  $res=SQLSelect("SELECT * FROM scenes_okbit WHERE $qry ORDER BY ".$sortby_s_okbit);
   
 
   
@@ -38,19 +38,19 @@
 			$result[$in]['TEMPLATE_CSS'] = $res[$i]['TEMPLATE_CSS'];
 						
 			
-			$xml = simplexml_load_file('./templates/scene_okbit/sc_templates/'.$result[$in]['TEMPLATE'].'/templateDetails.xml');
+			$xml = simplexml_load_file('./templates/scenes_okbit/sc_templates/'.$result[$in]['TEMPLATE'].'/templateDetails.xml');
 
 			foreach ($xml as $css) {			
 				$temp_rec = $css->name;					
 				if ($result[$in]['TEMPLATE_CSS'] == $temp_rec) 	$temp_img = $css->img_ico;
 			}			
-			$result[$in]['TEMPLATE_IMG'] = BASE_URL.'/templates/scene_okbit/sc_templates/'.$res[$i]['TEMPLATE'].'/images/'.$temp_img.'.png';
+			$result[$in]['TEMPLATE_IMG'] = BASE_URL.'/templates/scenes_okbit/sc_templates/'.$res[$i]['TEMPLATE'].'/images/'.$temp_img.'.png';
 			
 			
 		
 			$pos = 0;
 			
-			//DebMes(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>", 'scene_okbit');
+			//DebMes(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>", 'scenes_okbit');
 			
 
 			
@@ -63,7 +63,7 @@
 			}
 			
 			
-			$qwe = SQLSelect("SELECT * FROM scene_element_okbit WHERE PARENT_ID='".$res[$i]['ID']."' ORDER BY PRIORITY DESC");
+			$qwe = SQLSelect("SELECT * FROM scenes_element_okbit WHERE PARENT_ID='".$res[$i]['ID']."' ORDER BY PRIORITY DESC");
 			
 			$scene_id = $res[$i]['ID'];
 			
@@ -89,9 +89,9 @@
 			$result[$in]['TOTAL'] = $total_el;
 			
 			$in++;
-			//DebMes ("Yes", 'scene_okbit');
+			//DebMes ("Yes", 'scenes_okbit');
 		}
-		else  SQLExec("DELETE FROM scene_okbit WHERE ID='".$res[$i]['ID']."'");
+		else  SQLExec("DELETE FROM scenes_okbit WHERE ID='".$res[$i]['ID']."'");
 	}
 	
 		

@@ -1,7 +1,7 @@
 <?php
 if(isset($_GET['template'])){
 		$zap = $_GET['position'];
-		$xml = simplexml_load_file('../../templates/scene_okbit/sc_templates/'.$_GET['template'].'/templateDetails.xml');
+		$xml = simplexml_load_file('../../templates/scenes_okbit/sc_templates/'.$_GET['template'].'/templateDetails.xml');
 
 		foreach ($xml as $elements) {
 			$element_val = $elements->nameElements;

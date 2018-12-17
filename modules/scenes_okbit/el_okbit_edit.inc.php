@@ -14,9 +14,9 @@
 	$ok = 1;
 
 
-	$rec = SQLSelectOne("SELECT * FROM scene_element_okbit WHERE ID='".$element_id."'");
+	$rec = SQLSelectOne("SELECT * FROM scenes_element_okbit WHERE ID='".$element_id."'");
 	
-	$res = SQLSelectOne("SELECT * FROM scene_okbit WHERE ID='".$scene_id."'");
+	$res = SQLSelectOne("SELECT * FROM scenes_okbit WHERE ID='".$scene_id."'");
 	
 	$res_scene = SQLSelectOne("SELECT * FROM scenes WHERE ID='".$res['SCENES_ID']."'");
 
@@ -69,11 +69,11 @@ if ($this->mode == 'update') {
 		
 	if ($ok){		
 		if ($rec['ID']) {// обновить элемент сцены
-			SQLUpdate('scene_element_okbit', $rec);
+			SQLUpdate('scenes_element_okbit', $rec);
 			
 		} else { // создать элемент сцены
 			$rec['PARENT_ID'] = $scene_id;
-			$rec['ID'] = SQLInsert('scene_element_okbit', $rec);
+			$rec['ID'] = SQLInsert('scenes_element_okbit', $rec);
 		}		
 		
 		$out['OK'] = 1;
@@ -83,7 +83,7 @@ if ($this->mode == 'update') {
 
 	$pos_el ='';
 	// получение списка позиций из xml файла
-	$xml = simplexml_load_file('./templates/scene_okbit/sc_templates/'.$res['TEMPLATE'].'/templateDetails.xml');
+	$xml = simplexml_load_file('./templates/scenes_okbit/sc_templates/'.$res['TEMPLATE'].'/templateDetails.xml');
 	foreach ($xml as $position) {		
 	$temp_pos = $position->namePosition;
 		if($temp_pos){
@@ -110,7 +110,7 @@ if ($this->mode == 'update') {
 		if($ico_val && $ico_pos == $rec['POSITION']){
 			if ($ico_id == $rec['ICO'])$checked='checked';
 			else $checked='';
-			$img = $img . '<input name="ico" type="radio" id="'.$ico_val.'" value="'.$ico_id.'" '.$checked.'><label for="'.$ico_val.'"><img src="/templates/scene_okbit/sc_templates/'.$res['TEMPLATE'].'/images/ico/'.$ico_val .'.png"></label>';
+			$img = $img . '<input name="ico" type="radio" id="'.$ico_val.'" value="'.$ico_id.'" '.$checked.'><label for="'.$ico_val.'"><img src="/templates/scenes_okbit/sc_templates/'.$res['TEMPLATE'].'/images/ico/'.$ico_val .'.png"></label>';
 		}
 	}	
 	
