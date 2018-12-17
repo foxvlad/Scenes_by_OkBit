@@ -239,7 +239,7 @@ $filelist = array();
 	$rec['TEMPLATE_SEARH'] = $text_html;
 	$rec['TEMPLATE_CSS'] = $text_css;
 	
-	$rec['TEMPLATE_IMG'] = BASE_URL.'/templates/scenes_okbit/sc_templates/'.$rec['TEMPLATE'].'/images/'.$temp_img.'.png';
+	$rec['TEMPLATE_IMG'] = '/templates/scenes_okbit/sc_templates/'.$rec['TEMPLATE'].'/images/'.$temp_img.'.png';
 }
 
 outHash($rec, $out);

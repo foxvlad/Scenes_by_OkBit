@@ -44,7 +44,7 @@
 				$temp_rec = $css->name;					
 				if ($result[$in]['TEMPLATE_CSS'] == $temp_rec) 	$temp_img = $css->img_ico;
 			}			
-			$result[$in]['TEMPLATE_IMG'] = BASE_URL.'/templates/scenes_okbit/sc_templates/'.$res[$i]['TEMPLATE'].'/images/'.$temp_img.'.png';
+			$result[$in]['TEMPLATE_IMG'] = '/templates/scenes_okbit/sc_templates/'.$res[$i]['TEMPLATE'].'/images/'.$temp_img.'.png';
 			
 			
 		
