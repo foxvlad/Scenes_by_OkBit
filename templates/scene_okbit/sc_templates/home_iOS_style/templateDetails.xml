@@ -8,15 +8,12 @@
 	<css>
 		<name>dark</name>
 		<img_ico>thumbnail3</img_ico>
-		<files>dark</files>	</css>
+		<files>dark</files>	
+	</css>
 	<position>
 		<namePosition>HEADER</namePosition>
 		<positionFile>header</positionFile>
 		<priority>100</priority>		
-		<elements>
-			<nameElements>el_1</nameElements>
-			<nameElements>el_2</nameElements>
-		</elements>
 	</position>
 	<position>
 		<namePosition>LEFT</namePosition>
@@ -33,4 +30,119 @@
 		<positionFile>right</positionFile>
 		<priority>70</priority>
 	</position>
+	<elements pos="HEADER">
+		<nameElements>ico_link</nameElements>
+		<titleElements>Ссылка иконка</titleElements>
+	</elements>
+	<elements pos="LEFT">
+		<nameElements>title</nameElements>
+		<titleElements>Заголовок</titleElements>
+	</elements>
+	<elements pos="LEFT">
+		<nameElements>html</nameElements>
+		<titleElements>Произвольный html</titleElements>
+	</elements>
+	<elements pos="LEFT">
+		<nameElements>link_ico</nameElements>
+		<titleElements>Ссылка с иконкой</titleElements>
+	</elements>
+	<elements pos="CENTER">
+		<nameElements>switch_ico</nameElements>
+		<titleElements>Выключатель иконка</titleElements>
+	</elements>
+	<elements pos="CENTER">
+		<nameElements>button_ico</nameElements>
+		<titleElements>Кнопка иконка</titleElements>
+	</elements>
+	<elements pos="CENTER">
+		<nameElements>html</nameElements>
+		<titleElements>Произвольный html</titleElements>
+	</elements>
+	<elements pos="RIGHT">
+		<nameElements>title</nameElements>
+		<titleElements>Заголовок</titleElements>
+	</elements>
+	<elements pos="RIGHT">
+		<nameElements>html</nameElements>
+		<titleElements>Произвольный html</titleElements>
+	</elements>
+	<elements pos="RIGHT">
+		<nameElements>link_ico</nameElements>
+		<titleElements>Ссылка с иконкой</titleElements>
+	</elements>
+	<ico pos="HEADER">
+		<filesIco id="1">top-cold</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="2">top-lamp</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="3">top-note</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="4">top-cam</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="5">top-shit</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="6">top-setting</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="7">top-gradus</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="8">top-plan</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="9">top-shit-poj</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="10">top-shit-ohr</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="11">top-graf</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="12">top-in-sys</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="1">room-spal</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="2">room-kuh</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="3">room-zal</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="4">room-vanna</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="5">room-dets</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="6">room-stol</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="7">room-lodj</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="8">room-ubor</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="9">room-kubin</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="10">room-prih</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="11">room-hoz</filesIco>
+	</ico>
+		<ico pos="LEFT">
+		<filesIco id="12">room-hoz2</filesIco>
+	</ico>	
+	<ico pos="LEFT">
+		<filesIco id="13">room-garaj</filesIco>
+	</ico>	
 </templates>

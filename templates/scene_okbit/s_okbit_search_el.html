@@ -1,0 +1,72 @@
+<!-- search results (list) -->
+<form action="?" method="post" name="frmList_S_OkBit" style="padding:0px" class="form">
+	
+		
+		<p>
+			<a href="?view_mode=edit_element&scene_id=<#ID#>" class="btn btn-default"><i class="glyphicon glyphicon-plus"></i> Добавить новый элемент</a>
+			<a href="?data_source=<#DATA_SOURCE#>" class="btn btn-default "><#LANG_STRING_BACK#></a>
+		</p>
+		
+		
+	
+		
+		
+		 <!-- [#begin RESULT#]-->
+			
+		[#begin POSITION#]
+				
+				
+				<table class="table table-bordered">
+					<tr>
+						<td colspan="4" style="text-align:center;background: #e3e3e3;font-weight: bold;font-size:14px;">[#POSIT#]</td>
+					</tr>
+				
+				
+					<tr>
+					 <th width="40%"><#LANG_TITLE#></th>
+					 <th width="20%"><#LANG_TYPE#></th>
+					 <th width="15%"><#LANG_PRIORITY#></th>
+					 <th width="25%">&nbsp;</th>
+					</tr>
+			
+				
+				[#begin ELEMENTS#]	
+					<tr>
+					<td>
+						<a href="?data_source=<#DATA_SOURCE#>&view_mode=edit_element&tab=data&scene_id=[#ID#]&element_id=[#ELEMENT_ID#]" title="Элементы">[#ELEMENT#]</a>
+					</td>
+					<td>
+						[#if TYPE == ico_link#]Ссылка иконка[#endif TYPE#]
+						[#if TYPE =="link_ico"#]Ссылка с иконка[#endif TYPE#]
+						[#if TYPE =="title"#]Заголовок[#endif TYPE#]
+						[#if TYPE == "html"#]HTML[#endif TYPE#]
+					</td>
+					<td>
+						[#PRIORITY#]
+					</td>
+					<td>
+						<div class="btn-group pull-right">
+
+								<a href="?view_mode=edit_s_okbit&id=<#ID#>&tab=<#TAB#>&view_el=up_elements&element_id=[#ELEMENT_ID#]" class="btn btn-default btn-sm"><i class="glyphicon glyphicon-arrow-up"></i></a>
+								<a href="?view_mode=edit_s_okbit&id=<#ID#>&tab=<#TAB#>&view_el=down_elements&element_id=[#ELEMENT_ID#]" class="btn btn-default btn-sm"><i class="glyphicon glyphicon-arrow-down"></i></a>
+								<a href="?view_mode=edit_element&scene_id=<#ID#>&element_id=[#ELEMENT_ID#]" class="btn btn-default btn-sm"><i class="glyphicon glyphicon-pencil"></i></a>
+								<a href="?view_mode=edit_s_okbit&id=<#ID#>&tab=<#TAB#>&view_el=delete_elements&element_id=[#ELEMENT_ID#]" class="btn btn-default btn-sm" onClick="return confirm('<#LANG_ARE_YOU_SURE#>')"><i class="glyphicon glyphicon-remove"></i></a>
+								
+								
+								
+						</div>
+						<div style="clear: both;"></div>
+					</td>
+					</tr>
+				
+
+				[#end ELEMENTS#]
+				</table>
+			
+			[#end POSITION#]
+
+	
+		 <!-- [#end RESULT#]-->		
+
+</form>
+<!-- / search results (list) -->

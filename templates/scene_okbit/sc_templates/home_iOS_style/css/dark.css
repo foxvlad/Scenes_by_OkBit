@@ -1,7 +1,21 @@
+@font-face {
+    font-family: okbit; /* Гарнитура шрифта */
+    src: url(../../templates/scene_okbit/sc_templates/home_iOS_style/css/font/IstokWeb-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+
+h4, span, div, p, text{
+	font-family: okbit!important;
+}
+
+html {
+	overflow:  hidden; /* скрываем полосы прокрутки */
+}
+
 body {
 	background: #2e323a!important;
 	background-image:url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/pattern_40.gif)!important;
-	color: #fff!important;
+	color: #b1b1b1 !important;
 	font-size: 20px!important;
 	text-align: center!important;
 	padding: 0px!important;
@@ -13,7 +27,7 @@ table {
 
 .top-title {
 	float:left;
-	font-size: 16px;
+	font-size: 19px;
 	text-align:left;
 	margin: 18px 0  0 20px;
 	font-weight: bold;
@@ -29,7 +43,7 @@ table {
 	margin:5px;
 }
 
-.top-link{
+.top-menu .link{
 	width:50px;
 	height:50px;
 	border-radius: 4px;
@@ -37,37 +51,63 @@ table {
 	margin-right: 15px;
 }
 
-.top-ico-1{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/cold.png);
+.top-menu .link-ico-1{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-cold.png);
 }
 
-.top-ico-2{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/lamp.png);
+.top-menu .link-ico-2{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-lamp.png);
 }
 
-.top-ico-3{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/note.png);
+.top-menu .link-ico-3{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-note.png);
 }
 
-.top-ico-4{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/cam.png);
+.top-menu .link-ico-4{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-cam.png);
 }
 
-.top-ico-5{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/shit.png);
+.top-menu .link-ico-5{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-shit.png);
 }
 
-.top-ico-6{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/setting.png);
+.top-menu .link-ico-6{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-setting.png);
+}
+
+.top-menu .link-ico-7{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-gradus.png);
+}
+
+.top-menu .link-ico-8{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-plan.png);
+}
+
+.top-menu .link-ico-9{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-shit-poj.png);
+}
+
+.top-menu .link-ico-10{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-shit-ohr.png);
+}
+
+.top-menu .link-ico-11{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-graf.png);
 }
 
 
-.left-title {
+.top-menu .link-ico-12{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-in-sys.png);
+}
+
+
+.left-menu .title {
 	width:100%;
-	font-size: 14px;
+	font-size: 12px;
 	text-align:left;
+	padding: 7px;
 	font-weight: bold;
-	padding: 4px;
+	text-transform: uppercase; 
 }
 
 
@@ -79,22 +119,24 @@ table {
 
 .left-link{
 	width:100%;
-	height: 38px;
+	height: 40px;
 	background: #37373a;
-	padding: 7px;
+	padding: 6px;
+	padding-top: 4px;
 	margin-bottom:2px;
 }
 
 .left-link span{
-	font-size: 16px;
-	margin: 4px 0 0 8px;
+	font-size: 14px;
+	margin: 6px 0 0 8px;
 	float:left;
 	font-weight: bold;
+	
 }
 
 A .left-link {
-	color: #fff;
-	font-size: 16px!important;
+	color: #b1b1b1!important;
+	font-size: 14px!important;
 }
 
 A, A:hover {
@@ -105,27 +147,63 @@ A, A:hover {
 	margin: 0px;
 }
 
-.left-ico{
+.left-menu .link-ico{
 	float:left;
-	width:25px;
-	height: 25px;
+	width:30px;
+	height: 30px;
 	background-size: cover;
 }
 
-.left-ico-1{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/spal.png);
+.left-menu .link-ico-1{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-spal.png);
 }
 
-.left-ico-2{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/kuh.png);
+.left-menu .link-ico-2{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-kuh.png);
 }
 
-.left-ico-3{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/zal.png);
+.left-menu .link-ico-3{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-zal.png);
 }
 
-.left-ico-4{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/vanna.png);
+.left-menu .link-ico-4{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-vanna.png);
+}
+
+.left-menu .link-ico-5{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-dets.png);
+}
+
+.left-menu .link-ico-6{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-stol.png);
+}
+
+.left-menu .link-ico-7{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-lodj.png);
+}
+
+.left-menu .link-ico-8{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-ubor.png);
+}
+
+.left-menu .link-ico-9{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-kubin.png);
+}
+
+.left-menu .link-ico-10{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-prih.png);
+}
+
+.left-menu .link-ico-11{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-hoz.png);
+}
+
+.left-menu .link-ico-12{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-hoz2.png);
+}
+
+.left-menu .link-ico-13{
+	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-garaj.png);
 }
 
 .left-arrow{
@@ -137,8 +215,20 @@ A, A:hover {
 	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/sRight.png);
 }
 
+
+.left-menu .text-html{
+	width:100%;
+	background: #37373a;
+	padding: 6px;
+	padding-top: 4px;
+	margin-bottom:2px;
+}
+
 .time-home {
 	font-size: 58px;
+	color:#ddd;
+	padding: 0px;
+	margin:0px;
 	text-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
 }
 
@@ -169,18 +259,40 @@ A, A:hover {
 	background: linear-gradient(to top, rgba(127,127,127,0), rgba(127,127,127,0.8));
 }
 
+.home-addition{
+	padding: 0px;
+	margin-top:-10px;
+	font-size: 22px;
+	color:#ddd;
+	text-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+}
+
+
+
 .right-menu{
 	float:right;
 	font-size:16px;
 	width:100%;
 }
 
-.right-title {
-	font-size: 15px;
+.right-menu .title {
+	width:100%;
+	font-size: 12px;
 	text-align:left;
+	padding: 7px;
 	font-weight: bold;
-	padding: 4px;
+	text-transform: uppercase; 
 }
+
+.right-menu .text-html{
+	width:100%;
+	background: #37373a;
+	padding: 6px;
+	padding-top: 4px;
+	margin-bottom:2px;
+}
+
+
 
 
 .{{HEADER}} { /* HEADER */
@@ -249,15 +361,14 @@ A, A:hover {
 
 .{{CENTER}} { /* CENTER */	
 	/*border: 1px solid #666;*/	
-	margin: 8px!important;
-	padding:0px;
+	margin: 15px!important;
+	padding:0 10px 0 10px;
 	position: relative !important;
 	top: auto !important;
 	left : auto !important;
 	z-index : auto !important;
 	font-size: 16px !important;
-	width:calc(54% - 35px);		
-	margin-top: 10px  !important;
+	width:calc(54% - 35px);
 	float:left  !important;
 	height:550px  !important;
 	text-align:center !important;

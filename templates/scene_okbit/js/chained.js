@@ -20,4 +20,3 @@ function createCSS(index)
 	eval(ajax[index].response);	// Executing the response from Ajax as Javascript code	
 }
 
-

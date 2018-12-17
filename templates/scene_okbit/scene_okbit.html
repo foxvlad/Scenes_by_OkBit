@@ -1,4 +1,83 @@
-<link href="../templates/scene_okbit/css/usual.css" rel="stylesheet" type="text/css">
+<style>
+.none-radio input[type="radio"]{
+	display: none!important;
+}
+
+.none-radio input[type="radio"]:checked + label {
+	border: 3px solid #08C  !important;
+	border-radius: 8px;
+}
+
+.none-radio label{
+	margin: 0 10px 0 0;
+	padding:2px;
+}
+
+
+/*---------Оформление. Общие стили---------*/
+
+.sc-title {
+	font-weight: bold;
+	padding:20px;
+	margin-top: 20px;
+	font-size: 17px;
+	
+}
+
+.sc-title-2 {
+	padding:20px;
+	width: 200px;
+}
+
+.img-preview {
+	width: 200px;
+	height: 120px;
+	float: left;
+	margin: 10px;
+}
+
+.cs-opis  {
+	float:left;
+	margin: 10px;
+}
+
+hr {
+	border: 0;
+	border-bottom: 2px solid #e3e3e3;
+	background: #000;
+}
+
+.sc-block {
+	border-left: 2px solid #e3e3e3;
+	border-right: 2px solid #e3e3e3;
+	width: 98%;
+	border-radius: 5px;
+	float:left;
+	margin: 10px;
+	
+}
+
+.sc-block ul {
+	margin-left: 50px;
+	padding: 15px;
+}
+
+.sc-h4 {
+	border-radius: 5px 5px 0 0;
+	background: #e3e3e3;
+	color:#000;
+	font-weight: bold;
+	text-align:center;
+	width:100%;
+	text-transform: uppercase;
+}
+
+
+
+</style>
+
+
+
 [#if ACTION=""#]
 <!-- Frontend -->
  [#inc action_usual.html#]

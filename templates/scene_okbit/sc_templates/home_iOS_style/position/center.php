@@ -6,6 +6,9 @@
 		<div class="time-home">
 			%ThisComputer.timeNow%
 		</div>
+		<div class="home-addition">
+			{{ADDITION}}
+		</div>
 		<div style="clear: left"></div>
 	</div>
 </div>
