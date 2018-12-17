@@ -248,9 +248,9 @@ function usual(&$out) {
 function reorder_elements($id, $direction='up') {
 	
 	
-	$element=SQLSelectOne("SELECT * FROM scene_element_okbit WHERE ID='".(int)$id."'");
+	$element=SQLSelectOne("SELECT * FROM scenes_element_okbit WHERE ID='".(int)$id."'");
 	
-	$all_elements=SQLSelect("SELECT * FROM scene_element_okbit WHERE PARENT_ID='".$element['PARENT_ID']."' AND POSITION='".$element['POSITION']."' ORDER BY PRIORITY DESC, TITLE");
+	$all_elements=SQLSelect("SELECT * FROM scenes_element_okbit WHERE PARENT_ID='".$element['PARENT_ID']."' AND POSITION='".$element['POSITION']."' ORDER BY PRIORITY DESC, TITLE");
 
 	$total=count($all_elements);
 
@@ -275,7 +275,7 @@ function reorder_elements($id, $direction='up') {
 	for($i=0;$i<$total;$i++) {
 		$all_elements[$i]['PRIORITY']=$priority;
 		$priority-=10;
-		SQLUpdate('scene_element_okbit', $all_elements[$i]);
+		SQLUpdate('scenes_element_okbit', $all_elements[$i]);
 	}
 
 }
@@ -287,9 +287,9 @@ function reorder_elements($id, $direction='up') {
 */
 
 function delete_elements($id) {
-	$element=SQLSelectOne("SELECT * FROM scene_element_okbit WHERE ID='".$id."'");
+	$element=SQLSelectOne("SELECT * FROM scenes_element_okbit WHERE ID='".$id."'");
 	if ($element['ID']) {
-		SQLExec("DELETE FROM scene_element_okbit WHERE ID='".$element['ID']."'");
+		SQLExec("DELETE FROM scenes_element_okbit WHERE ID='".$element['ID']."'");
 	}
  }
 
@@ -355,7 +355,7 @@ function delete_elements($id) {
 */
  function uninstall() {
   SQLExec('DROP TABLE IF EXISTS scenes_okbit');
-  SQLExec('DROP TABLE IF EXISTS scene_element_okbit');
+  SQLExec('DROP TABLE IF EXISTS scenes_element_okbit');
   parent::uninstall();
  }
 /**
@@ -368,7 +368,7 @@ function delete_elements($id) {
  function dbInstall($data) {
 /*
 scenes_okbit - 
-scene_element_okbit - 
+scenes_element_okbit - 
 */
   $data = <<<EOD
  scenes_okbit: ID int(10) unsigned NOT NULL auto_increment
