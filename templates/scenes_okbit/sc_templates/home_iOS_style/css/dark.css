@@ -1,6 +1,6 @@
 @font-face {
     font-family: okbit; /* Гарнитура шрифта */
-    src: url(../../templates/scene_okbit/sc_templates/home_iOS_style/css/font/IstokWeb-Regular.ttf); /* Путь к файлу со шрифтом */
+    src: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/css/font/IstokWeb-Regular.ttf); /* Путь к файлу со шрифтом */
 }
 
 
@@ -14,7 +14,7 @@ html {
 
 body {
 	background: #2e323a!important;
-	background-image:url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/pattern_40.gif)!important;
+	background-image:url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/pattern_40.gif)!important;
 	color: #b1b1b1 !important;
 	font-size: 20px!important;
 	text-align: center!important;
@@ -52,52 +52,52 @@ table {
 }
 
 .top-menu .link-ico-1{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-cold.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-cold.png);
 }
 
 .top-menu .link-ico-2{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-lamp.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-lamp.png);
 }
 
 .top-menu .link-ico-3{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-note.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-note.png);
 }
 
 .top-menu .link-ico-4{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-cam.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-cam.png);
 }
 
 .top-menu .link-ico-5{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-shit.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-shit.png);
 }
 
 .top-menu .link-ico-6{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-setting.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-setting.png);
 }
 
 .top-menu .link-ico-7{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-gradus.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-gradus.png);
 }
 
 .top-menu .link-ico-8{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-plan.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-plan.png);
 }
 
 .top-menu .link-ico-9{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-shit-poj.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-shit-poj.png);
 }
 
 .top-menu .link-ico-10{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-shit-ohr.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-shit-ohr.png);
 }
 
 .top-menu .link-ico-11{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-graf.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-graf.png);
 }
 
 
 .top-menu .link-ico-12{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/top-in-sys.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-in-sys.png);
 }
 
 
@@ -155,55 +155,55 @@ A, A:hover {
 }
 
 .left-menu .link-ico-1{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-spal.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-spal.png);
 }
 
 .left-menu .link-ico-2{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-kuh.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-kuh.png);
 }
 
 .left-menu .link-ico-3{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-zal.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-zal.png);
 }
 
 .left-menu .link-ico-4{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-vanna.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-vanna.png);
 }
 
 .left-menu .link-ico-5{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-dets.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-dets.png);
 }
 
 .left-menu .link-ico-6{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-stol.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-stol.png);
 }
 
 .left-menu .link-ico-7{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-lodj.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-lodj.png);
 }
 
 .left-menu .link-ico-8{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-ubor.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-ubor.png);
 }
 
 .left-menu .link-ico-9{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-kubin.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-kubin.png);
 }
 
 .left-menu .link-ico-10{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-prih.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-prih.png);
 }
 
 .left-menu .link-ico-11{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-hoz.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-hoz.png);
 }
 
 .left-menu .link-ico-12{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-hoz2.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-hoz2.png);
 }
 
 .left-menu .link-ico-13{
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/room-garaj.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-garaj.png);
 }
 
 .left-arrow{
@@ -212,7 +212,7 @@ A, A:hover {
 	width:10px;
 	height: 15px;
 	background-size: cover;
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/ico/sRight.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/sRight.png);
 }
 
 
@@ -234,7 +234,7 @@ A, A:hover {
 
 
 .img-home {
-	background-image: url(../../templates/scene_okbit/sc_templates/home_iOS_style/images/home.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/home.png);
 	border: 0px solid #fff;
 	border-radius: 10px;
 	width:calc(100%);
