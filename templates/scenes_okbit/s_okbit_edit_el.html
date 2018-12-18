@@ -80,6 +80,7 @@
 					[#if TYPE =="link_ico"#]Ссылка с иконка[#endif TYPE#]
 					[#if TYPE =="title"#]Заголовок[#endif TYPE#]
 					[#if TYPE == "html"#]HTML[#endif TYPE#]
+					[#if TYPE == "button_ico"#]Кнопка[#endif TYPE#]
 				[#endif ID#]
 					
 				</div>
@@ -93,6 +94,9 @@
 					[#endif TYPE#]
 					[#if TYPE =="html"#]
 						[#inc elements/html_text.html#]
+					[#endif TYPE#]
+					[#if TYPE =="button_ico"#]
+						[#inc elements/button_ico.html#]
 					[#endif TYPE#]
 			[#endif ID#]
 		

@@ -144,5 +144,29 @@
 	</ico>	
 	<ico pos="LEFT">
 		<filesIco id="13">room-garaj</filesIco>
-	</ico>	
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="1">script-lamp-0</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="2">script-eco-0</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="3">script-luna-0</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="4">script-sun-0</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="5">script-wather-0</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="6">script-zam-0</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="7">script-tv-0</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="8">script-smotr-0</filesIco>
+	</ico>
 </templates>

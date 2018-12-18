@@ -53,7 +53,7 @@
 			
 			
 				if ($elm_html[$i]['POSITION'] == $position->namePosition){
-					$li_html = $li_html.'<li>'.$elm_html[$i]['HTML'].'</li>';
+					$li_html = $li_html.'<li>'.$elm_html[$i]['HTML'].'</li>'. PHP_EOL;
 				}
 			}	
 			

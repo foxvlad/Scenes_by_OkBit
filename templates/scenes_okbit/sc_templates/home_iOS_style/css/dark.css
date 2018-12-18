@@ -206,6 +206,7 @@ A, A:hover {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-garaj.png);
 }
 
+
 .left-arrow{
 	margin: 4px 2px 0 0;
 	float:right;
@@ -242,7 +243,7 @@ A, A:hover {
 	 -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-     background-size: cover;
+    background-size: cover;
 	height: 350px;
 }
 
@@ -267,7 +268,101 @@ A, A:hover {
 	text-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
 }
 
+.center-menu {
+	padding-top:10px;
+}
 
+
+.center-menu .link-ico-out {
+	width:90px;
+	height: 90px;
+	text-align:center;
+	float:left;
+	margin-bottom: 10px;
+}
+
+
+.center-menu .link-ico{
+	margin: 0 auto;
+	width:60px;
+	height: 60px;
+	padding: 5px;
+	border-radius: 50%;
+	cursor: pointer
+}
+
+.center-menu .link-color-1{
+	border: 2px solid #d7a306;
+}
+.center-menu .link-color-2{
+	border: 2px solid #93d556;
+}
+
+.center-menu .link-color-3{
+	border: 2px solid #7c2443;
+}
+.center-menu .link-color-4{
+	border: 2px solid #07a307;
+}
+
+.center-menu .link-color-5{
+	border: 2px solid #0164b1;
+}
+
+.center-menu .link-color-6{
+	border: 2px solid #ce0101;
+}
+
+.center-menu .link-color-7{
+	border: 2px solid #dc4701;
+}
+
+.center-menu .link-color-8{
+	border: 2px solid #dc4701;
+}
+
+.center-menu .link-ico-in{
+	width:45px;
+	height: 45px;
+	background-size: cover;
+}
+
+.center-menu span {
+	font-size: 12px;
+	padding: 4px;
+}
+
+.center-menu .link-ico-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-lamp-0.png)!important;
+}
+
+.center-menu .link-ico-2 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-eco-0.png)!important;
+}
+
+.center-menu .link-ico-3 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-luna-0.png)!important;
+}
+
+.center-menu .link-ico-4 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-sun-0.png)!important;
+}
+
+.center-menu .link-ico-5 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-wather-0.png)!important;
+}
+
+.center-menu .link-ico-6 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-zam-0.png)!important;
+}
+
+.center-menu .link-ico-7 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-tv-0.png)!important;
+}
+
+.center-menu .link-ico-8 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-smotr-0.png)!important;
+}
 
 .right-menu{
 	float:right;
