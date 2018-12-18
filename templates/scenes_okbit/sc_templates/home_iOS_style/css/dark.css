@@ -305,11 +305,11 @@ A, A:hover {
 	border: 2px solid #07a307;
 }
 
-.center-menu .link-color-5{
+.center-menu .link-color-5, .center-menu .link-color-10{
 	border: 2px solid #0164b1;
 }
 
-.center-menu .link-color-6{
+.center-menu .link-color-6, .center-menu .link-color-11{
 	border: 2px solid #ce0101;
 }
 
@@ -362,6 +362,14 @@ A, A:hover {
 
 .center-menu .link-ico-9 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-code-0.png)!important;
+}
+
+.center-menu .link-ico-10 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-pivo-0.png)!important;
+}
+
+.center-menu .link-ico-11 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-party-0.png)!important;
 }
 
 .right-menu{

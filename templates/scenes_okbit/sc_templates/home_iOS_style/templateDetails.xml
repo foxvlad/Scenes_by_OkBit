@@ -169,4 +169,13 @@
 	<ico pos="CENTER">
 		<filesIco id="8">script-smotr-0</filesIco>
 	</ico>
+	<ico pos="CENTER">
+		<filesIco id="9">script-code-0</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="10">script-pivo-0</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="11">script-party-0</filesIco>
+	</ico>
 </templates>
