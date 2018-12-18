@@ -19,7 +19,7 @@ class scenes_okbit extends module {
 function __construct() {
   $this->name="scenes_okbit";
   $this->title="Сцены от OkBit.ru";
-  $this->module_category="objects";
+  $this->module_category="Визуализация";
   $this->checkInstalled();
 }
 /**
