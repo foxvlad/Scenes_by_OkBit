@@ -298,7 +298,7 @@ A, A:hover {
 	border: 2px solid #93d556;
 }
 
-.center-menu .link-color-3{
+.center-menu .link-color-3, .center-menu .link-color-9{
 	border: 2px solid #7c2443;
 }
 .center-menu .link-color-4{
@@ -313,11 +313,7 @@ A, A:hover {
 	border: 2px solid #ce0101;
 }
 
-.center-menu .link-color-7{
-	border: 2px solid #dc4701;
-}
-
-.center-menu .link-color-8{
+.center-menu .link-color-7, .center-menu .link-color-8{
 	border: 2px solid #dc4701;
 }
 
@@ -362,6 +358,10 @@ A, A:hover {
 
 .center-menu .link-ico-8 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-smotr-0.png)!important;
+}
+
+.center-menu .link-ico-9 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-code-0.png)!important;
 }
 
 .right-menu{
