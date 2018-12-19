@@ -42,8 +42,8 @@
 	foreach ($xml as $position) {
 		if($position->namePosition){
 			$rec_h = SQLSelectOne("SELECT * FROM elements WHERE SCENE_ID='".$rec['ID']."' AND TITLE='".$position->namePosition."'");
-			$elm_h_states = SQLSelectOne("SELECT * FROM elm_states WHERE ELEMENT_ID='".$rec_h[ID]."'");
-			$elm_h_states['ELEMENT_ID'] = $rec_h[ID];
+			$elm_h_states = SQLSelectOne("SELECT * FROM elm_states WHERE ELEMENT_ID='".$rec_h['ID']."'");
+			$elm_h_states['ELEMENT_ID'] = $rec_h['ID'];
 			$elm_h_states['TITLE'] = 'default';
 			$html_in = file_get_contents('./templates/scenes_okbit/sc_templates/'.$rec_templates['TEMPLATE'].'/position/'.$position->positionFile.'.php');
 			
@@ -68,7 +68,7 @@
 			SQLUpdate(elm_states, $elm_h_states);
 			
 			//прописываем в файле стиля класс для element_ваш_id
-			$contents_css = str_replace('{{'.$position->namePosition.'}}','element_'.$rec_h[ID].'',$contents_css);
+			$contents_css = str_replace('{{'.$position->namePosition.'}}','element_'.$rec_h['ID'].'',$contents_css);
 		}
 	}
 	
@@ -85,7 +85,7 @@
 		$rec_element['ID'] = SQLInsert(elements, $rec_element);
 		
 		
-		$elm_states['ELEMENT_ID'] = $rec_element[ID];
+		$elm_states['ELEMENT_ID'] = $rec_element['ID'];
 		$elm_states['TITLE'] = 'default';
 		$elm_states['HTML'] = $contents;
 		
@@ -104,8 +104,8 @@
 		$rec_element['PRIORITY'] = 10000;
 		SQLUpdate(elements, $rec_element);
 		
-		$elm_states = SQLSelectOne("SELECT * FROM elm_states WHERE ELEMENT_ID='".$rec_element[ID]."'");
-		$elm_states['ELEMENT_ID'] = $rec_element[ID];
+		$elm_states = SQLSelectOne("SELECT * FROM elm_states WHERE ELEMENT_ID='".$rec_element['ID']."'");
+		$elm_states['ELEMENT_ID'] = $rec_element['ID'];
 		$elm_states['TITLE'] = 'default';
 		
 		
