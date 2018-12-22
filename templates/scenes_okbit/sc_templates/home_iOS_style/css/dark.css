@@ -1514,7 +1514,7 @@ A, A:hover {
 		overflow:  hidden; /* скрываем полосы прокрутки */
 	}
 	
-	.small-title {
+	.small-title, .mini-title {
 		display: none;
 	}
 }
@@ -1596,6 +1596,30 @@ A, A:hover {
 	
 	.time-home{
 		font-size: 34px;
+	}
+	
+	.{{HEADER}} {
+		background: 0!important;
+		border: 0 !important;
+	}
+	
+	.mini-title {
+		font-size: 12px;
+		text-align:left;
+		padding: 7px;
+		font-weight: bold;
+		text-transform: uppercase; 
+	}
+	
+	.top-menu{
+		background: #2e323a!important;
+		width: 100%!important;
+		padding: 3px;
+	}
+	
+	.top-menu .link {
+		width: 42px !important;
+		height: 42px !important;
 	}
 }
 
