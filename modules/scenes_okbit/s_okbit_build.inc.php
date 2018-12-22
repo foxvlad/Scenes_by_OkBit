@@ -72,6 +72,13 @@
 		}
 	}
 	
+	if ($rec_templates['HOME_IMG']==''){
+		$contents_css = str_replace('{{HOME_IMG}}','../../templates/scenes_okbit/sc_templates/home_iOS_style/images/home_'.$rec_templates['TEMPLATE_CSS'].'.png',$contents_css);
+	}	
+	else {
+		$contents_css = str_replace('{{HOME_IMG}}',$rec_templates['HOME_IMG'],$contents_css);
+	}
+	
 	$contents = '';
 	
 	if ($rec_element['ID'] == '') {

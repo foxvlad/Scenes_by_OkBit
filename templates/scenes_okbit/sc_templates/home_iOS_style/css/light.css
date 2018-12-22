@@ -54,6 +54,19 @@ table {
 	margin-right: 15px;
 }
 
+
+.top-menu .link:active{
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)   
+	inset;box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)  
+	inset; 
+	  -moz-transform: translatey(3px); /* Для Firefox */ 
+	  -ms-transform: translatey(3px); /* Для IE */ 
+	  -webkit-transform: translatey(3px); /* Для Safari, Chrome, iOS */ 
+	  -o-transform:translatey(3px); /* Для Opera */ 
+	transform: translatey(3px);
+	border: 2px solid #b1b1b1;
+}
+
 .top-menu .link-ico-1{
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-cold.png);
 }
@@ -169,6 +182,19 @@ A, A:hover {
 	border-bottom: 2px solid #d7d7d7  !important;
 }
 
+.left-menu .left-link:active{
+	background: #c8c8d087!important;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)   
+	inset;box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)  
+	inset; 
+	  -moz-transform: translatey(3px); /* Для Firefox */ 
+	  -ms-transform: translatey(3px); /* Для IE */ 
+	  -webkit-transform: translatey(3px); /* Для Safari, Chrome, iOS */ 
+	  -o-transform:translatey(3px); /* Для Opera */ 
+	transform: translatey(3px); 
+}
+
+
 .left-menu .link-ico-1{
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-spal.png);
 }
@@ -221,6 +247,7 @@ A, A:hover {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-garaj.png);
 }
 
+
 .left-arrow{
 	margin: 4px 2px 0 0;
 	float:right;
@@ -238,7 +265,7 @@ A, A:hover {
 
 
 .img-home {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/home6.jpg);
+	background-image: url({{HOME_IMG}});;
 	border: 0px solid #fff;
 	border-radius: 10px;
 	width:calc(100%);
@@ -286,6 +313,20 @@ A, A:hover {
 	cursor: pointer
 }
 
+
+.center-menu .link-ico:active{
+	background: #c8c8d087!important;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)   
+	inset;box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)  
+	inset; 
+	  -moz-transform: translatey(3px); /* Для Firefox */ 
+	  -ms-transform: translatey(3px); /* Для IE */ 
+	  -webkit-transform: translatey(3px); /* Для Safari, Chrome, iOS */ 
+	  -o-transform:translatey(3px); /* Для Opera */ 
+	transform: translatey(3px); 
+}
+
+
 .center-menu .link-color-1{
 	border: 2px solid #d7a306;
 }
@@ -293,26 +334,22 @@ A, A:hover {
 	border: 2px solid #93d556;
 }
 
-.center-menu .link-color-3{
+.center-menu .link-color-3, .center-menu .link-color-9{
 	border: 2px solid #7c2443;
 }
 .center-menu .link-color-4{
 	border: 2px solid #07a307;
 }
 
-.center-menu .link-color-5{
+.center-menu .link-color-5, .center-menu .link-color-10{
 	border: 2px solid #0164b1;
 }
 
-.center-menu .link-color-6{
+.center-menu .link-color-6, .center-menu .link-color-11{
 	border: 2px solid #ce0101;
 }
 
-.center-menu .link-color-7{
-	border: 2px solid #dc4701;
-}
-
-.center-menu .link-color-8{
+.center-menu .link-color-7, .center-menu .link-color-8{
 	border: 2px solid #dc4701;
 }
 
@@ -357,6 +394,18 @@ A, A:hover {
 
 .center-menu .link-ico-8 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-smotr-0.png)!important;
+}
+
+.center-menu .link-ico-9 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-code-0.png)!important;
+}
+
+.center-menu .link-ico-10 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-pivo-0.png)!important;
+}
+
+.center-menu .link-ico-11 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-party-0.png)!important;
 }
 
 .right-menu{

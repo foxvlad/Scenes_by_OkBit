@@ -376,6 +376,7 @@ scenes_element_okbit -
  scenes_okbit: TEMPLATE varchar(255) NOT NULL DEFAULT ''
  scenes_okbit: TEMPLATE_CSS varchar(255) NOT NULL DEFAULT ''
  scenes_okbit: ADDITION varchar(255) NOT NULL DEFAULT ''
+ scenes_okbit: HOME_IMG varchar(255) NOT NULL DEFAULT ''
  scenes_okbit: PRIORITY int(10) NOT NULL DEFAULT '0'
  scenes_element_okbit: ID int(10) unsigned NOT NULL auto_increment
  scenes_element_okbit: TITLE varchar(100) NOT NULL DEFAULT ''

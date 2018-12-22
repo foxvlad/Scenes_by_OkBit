@@ -54,10 +54,6 @@
 		<nameElements>button_ico</nameElements>
 		<titleElements>Кнопка иконка</titleElements>
 	</elements>
-	<elements pos="CENTER">
-		<nameElements>html</nameElements>
-		<titleElements>Произвольный html</titleElements>
-	</elements>
 	<elements pos="RIGHT">
 		<nameElements>title</nameElements>
 		<titleElements>Заголовок</titleElements>
@@ -65,10 +61,6 @@
 	<elements pos="RIGHT">
 		<nameElements>html</nameElements>
 		<titleElements>Произвольный html</titleElements>
-	</elements>
-	<elements pos="RIGHT">
-		<nameElements>link_ico</nameElements>
-		<titleElements>Ссылка с иконкой</titleElements>
 	</elements>
 	<ico pos="HEADER">
 		<filesIco id="1">top-cold</filesIco>

@@ -47,7 +47,8 @@
 			<div class="btn-group pull-right">
 				[#if "<#ACTION#>"=="admin"#]
 					<a href="?view_mode=edit_s_okbit&data_source=<#DATA_SOURCE#>&id=[#ID#]" class="btn btn-default" title="Редактировать"><i class="glyphicon glyphicon-pencil"></i></a>
-					<a href="?data_source=<#DATA_SOURCE#>&view_mode=edit_s_okbit&tab=data&id=[#ID#]" class="btn btn-default" title="Элементы"><i class="glyphicon glyphicon-list"></i></a>
+					<a href="?data_source=<#DATA_SOURCE#>&view_mode=edit_s_okbit&tab=data&id=[#ID#]" class="btn btn-default" title="Элементы"><i class="glyphicon glyphicon-th-list"></i></a>
+					<a href="?data_source=<#DATA_SOURCE#>&view_mode=edit_s_okbit&tab=data_else&id=[#ID#]" class="btn btn-default" title="Дополнительные настройки"><i class="glyphicon glyphicon-asterisk"></i></a>
 					<a href="<#ROOTHTML#>popup/scenes/[#SCENES_ID#].html" target=_blank class="btn btn-default" title="Просмотр"><i class="glyphicon glyphicon-eye-open"></i></a>
 					<a href="?data_source=<#DATA_SOURCE#>&view_mode=build&id=[#SCENES_ID#]" class="btn btn-default" title="Собрать сцену"><i class="glyphicon glyphicon-save"></i></a>
 					<a href="?data_source=<#DATA_SOURCE#>&view_mode=delete_S_OkBit&id=[#ID#]" onClick="return confirm('Are you sure? Please confirm.')" class="btn btn-default" title="Удалить"><i class="glyphicon glyphicon-remove"></i></a>

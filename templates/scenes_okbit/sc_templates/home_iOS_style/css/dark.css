@@ -260,7 +260,7 @@ A, A:hover {
 
 
 .img-home {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/home.png);
+	background-image: url({{HOME_IMG}});
 	border: 0px solid #fff;
 	border-radius: 10px;
 	width:calc(100%);

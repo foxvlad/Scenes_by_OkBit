@@ -56,11 +56,21 @@ if ($this->mode == 'update') {
 		if ($rec['TEMPLATE_CSS'] == '') {
 			$out['ERR_TEMPLATE_CSS'] = 1;
 			$ok = 0;
-		}
-		
-		
-				
+		}	
+					
 	}
+	
+	if ($this->tab == 'data_else') {
+		
+		global $home_img;
+		$rec['HOME_IMG'] = $home_img;
+		
+		global $addition;
+		$rec['ADDITION'] = $addition;
+		
+		$ok = 1;
+	}
+	
 
 	if ($ok) {
 		if ($rec['ID']) {
@@ -234,7 +244,8 @@ $filelist = array();
 			}
 		}	
 	}
-		
+	
+	
 
 	$rec['TEMPLATE_SEARH'] = $text_html;
 	$rec['TEMPLATE_CSS'] = $text_css;
