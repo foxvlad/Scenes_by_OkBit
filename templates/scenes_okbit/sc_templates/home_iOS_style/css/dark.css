@@ -1,3 +1,7 @@
+
+
+
+
 @font-face {
     font-family: okbit; /* Гарнитура шрифта */
     src: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/css/font/IstokWeb-Regular.ttf); /* Путь к файлу со шрифтом */
@@ -8,9 +12,7 @@ h4, span, div, p, text{
 	font-family: okbit!important;
 }
 
-html {
-	overflow:  hidden; /* скрываем полосы прокрутки */
-}
+
 
 body {
 	background: #2e323a!important;
@@ -1503,6 +1505,107 @@ A, A:hover {
 		opacity: 1;
 	}
 }
+
+
+
+@media (min-width: 1200px) {
+	
+	html {
+		overflow:  hidden; /* скрываем полосы прокрутки */
+	}
+	
+	.small-title {
+		display: none;
+	}
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 700px) {
+	#scene_background_{{ID}} {
+		display: flex!important;
+		flex-flow: wrap!important;
+	}
+	
+	.{{HEADER}}, .{{LEFT}}, .{{CENTER}}, .{{RIGHT}} { 
+		width: 100%!important;
+		height : auto !important;
+	}
+		
+	.{{HEADER}} {order: 2!important;}
+	.{{LEFT}} {order: 1!important;}
+	.{{CENTER}} {order: 0!important;}
+	.{{RIGHT}} {order: 3!important;}
+	
+	
+	.{{CENTER}} {
+		padding: 0px!important;
+		margin: 0px!important;
+		background: #2e323a!important;
+	}
+	
+	.img-home {
+		height: 200px;
+		padding:0px;
+		margin: 0px;
+		border-radius: 0!important;
+	}
+
+	.in-home-1 {
+		height:130px;
+	}
+
+	.in-home-2 {
+		height:70px;
+		margin: 0 auto; 
+	}
+	
+	.top-title {
+		display: none;
+	}
+	
+	.small-title {
+		height:30px;
+		padding-top:5px;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	
+	.center-menu .link-ico-out {
+		width:85px;
+		margin-bottom: 5px;
+	}
+	
+	.in-home-1 img {
+		width: 90px;
+	}
+	
+	.time-home{
+		font-size: 34px;
+	}
+}
+
+
+
+
+
+
+
+
 
 
 

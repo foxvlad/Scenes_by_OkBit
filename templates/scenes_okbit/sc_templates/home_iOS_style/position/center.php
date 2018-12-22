@@ -1,3 +1,7 @@
+<div class="small-title">
+	{{TITLE}}
+</div>
+
 <div class="img-home">
 	<div class="in-home-1">
 		<img src="../../templates/scenes_okbit/sc_templates/home_iOS_style/images/logo_M_O.png" style="float:left;">

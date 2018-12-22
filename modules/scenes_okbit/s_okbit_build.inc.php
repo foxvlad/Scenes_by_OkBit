@@ -79,6 +79,8 @@
 		$contents_css = str_replace('{{HOME_IMG}}',$rec_templates['HOME_IMG'],$contents_css);
 	}
 	
+	$contents_css = str_replace('{{ID}}',$rec_templates['SCENES_ID'],$contents_css);
+	
 	$contents = '';
 	
 	if ($rec_element['ID'] == '') {
