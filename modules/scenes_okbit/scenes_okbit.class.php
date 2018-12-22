@@ -325,7 +325,7 @@ function delete_elements($id) {
  }
  function propertySetHandle($object, $property, $value) {
   $this->getConfig();
-   $table='so_okbit';
+   $table='scenes_element_okbit';
    $properties=SQLSelect("SELECT ID FROM $table WHERE LINKED_OBJECT LIKE '".DBSafe($object)."' AND LINKED_PROPERTY LIKE '".DBSafe($property)."'");
    $total=count($properties);
    if ($total) {

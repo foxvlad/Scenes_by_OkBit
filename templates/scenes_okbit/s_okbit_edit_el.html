@@ -81,6 +81,7 @@
 					[#if TYPE =="title"#]Заголовок[#endif TYPE#]
 					[#if TYPE == "html"#]HTML[#endif TYPE#]
 					[#if TYPE == "button_ico"#]Кнопка[#endif TYPE#]
+					[#if TYPE == "switch_ico"#]Выключетель[#endif TYPE#]
 				[#endif ID#]
 					
 				</div>
@@ -98,6 +99,9 @@
 					[#if TYPE =="button_ico"#]
 						[#inc elements/button_ico.html#]
 					[#endif TYPE#]
+					[#if TYPE =="switch_ico"#]
+						[#inc elements/switch_ico.html#]
+					[#endif TYPE#]					
 			[#endif ID#]
 		
 			

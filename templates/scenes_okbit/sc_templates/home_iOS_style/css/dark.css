@@ -328,30 +328,70 @@ A, A:hover {
 	transform: translatey(3px); 
 }
 
-.center-menu .link-color-1{
+.center-menu .link-color-1-0{
 	border: 2px solid #d7a306;
 }
-.center-menu .link-color-2{
+
+.center-menu .link-color-1-1{
+	border: 2px solid #fff;
+	background: #d7a306;
+}
+
+.center-menu .link-color-2-0{
 	border: 2px solid #93d556;
 }
 
-.center-menu .link-color-3, .center-menu .link-color-9{
+.center-menu .link-color-2-1{
+	border: 2px solid #ffffff55;
+	background:#93d556;
+}
+
+.center-menu .link-color-3-0, .center-menu .link-color-9-0{
 	border: 2px solid #7c2443;
 }
-.center-menu .link-color-4{
+
+.center-menu .link-color-3-1, .center-menu .link-color-9-1{
+	border: 2px solid #ffffff55;
+	background:#7c2443;
+}
+
+
+.center-menu .link-color-4-0{
 	border: 2px solid #07a307;
 }
 
-.center-menu .link-color-5, .center-menu .link-color-10{
+.center-menu .link-color-4-1{
+	border: 2px solid #ffffff55;
+	background:#07a307;
+}
+
+.center-menu .link-color-5-0, .center-menu .link-color-10-0{
 	border: 2px solid #0164b1;
 }
 
-.center-menu .link-color-6, .center-menu .link-color-11{
+.center-menu .link-color-5-1, .center-menu .link-color-10-1{
+	border: 2px solid #ffffff55;
+	background:#0164b1;
+	
+}
+
+.center-menu .link-color-6-0, .center-menu .link-color-11-0{
 	border: 2px solid #ce0101;
 }
 
-.center-menu .link-color-7, .center-menu .link-color-8{
+.center-menu .link-color-6-1, .center-menu .link-color-11-1{
+	border: 2px solid #ffffff55;
+	background:#ce0101;
+}
+
+.center-menu .link-color-7-0, .center-menu .link-color-8-0{
 	border: 2px solid #dc4701;
+
+}
+
+.center-menu .link-color-7-1, .center-menu .link-color-8-1{
+	border: 2px solid #ffffff55;
+	background:#dc4701;
 }
 
 .center-menu .link-ico-in{
@@ -365,48 +405,94 @@ A, A:hover {
 	padding: 4px;
 }
 
-.center-menu .link-ico-1 {
+.center-menu .link-ico-1-0 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-lamp-0.png)!important;
 }
 
-.center-menu .link-ico-2 {
+.center-menu .link-ico-1-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-lamp-1.png)!important;
+}
+
+.center-menu .link-ico-2-0 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-eco-0.png)!important;
 }
 
-.center-menu .link-ico-3 {
+.center-menu .link-ico-2-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-eco-1.png)!important;
+}
+
+.center-menu .link-ico-3-0 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-luna-0.png)!important;
 }
 
-.center-menu .link-ico-4 {
+.center-menu .link-ico-3-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-luna-1.png)!important;
+}
+
+.center-menu .link-ico-4-0 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-sun-0.png)!important;
 }
 
-.center-menu .link-ico-5 {
+.center-menu .link-ico-4-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-sun-1.png)!important;
+}
+
+.center-menu .link-ico-5-0 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-wather-0.png)!important;
 }
 
-.center-menu .link-ico-6 {
+.center-menu .link-ico-5-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-wather-1.png)!important;
+}
+
+.center-menu .link-ico-6-0 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-zam-0.png)!important;
 }
 
-.center-menu .link-ico-7 {
+.center-menu .link-ico-6-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-zam-1.png)!important;
+}
+
+.center-menu .link-ico-7-0 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-tv-0.png)!important;
 }
 
-.center-menu .link-ico-8 {
+.center-menu .link-ico-7-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-tv-1.png)!important;
+}
+
+
+.center-menu .link-ico-8-0 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-smotr-0.png)!important;
 }
 
-.center-menu .link-ico-9 {
+.center-menu .link-ico-8-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-smotr-1.png)!important;
+}
+
+.center-menu .link-ico-9-0 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-code-0.png)!important;
 }
 
-.center-menu .link-ico-10 {
+.center-menu .link-ico-9-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-code-1.png)!important;
+}
+
+
+.center-menu .link-ico-10-0 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-pivo-0.png)!important;
 }
 
-.center-menu .link-ico-11 {
+.center-menu .link-ico-10-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-pivo-1.png)!important;
+}
+
+.center-menu .link-ico-11-0 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-party-0.png)!important;
+}
+
+.center-menu .link-ico-11-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-party-1.png)!important;
 }
 
 .right-menu{

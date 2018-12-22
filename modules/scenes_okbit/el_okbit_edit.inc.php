@@ -84,6 +84,7 @@ if ($this->mode == 'update') {
 		$contents = str_replace('{{ELEMENT_ID}}',$rec['ID'],$contents);
 		$contents = str_replace('{{OBJECT}}',$rec['LINKED_OBJECT'],$contents);
 		$contents = str_replace('{{METOD}}',$rec['LINKED_METHOD'],$contents);
+		$contents = str_replace('{{LINKED_PROPERTY}}',$rec['LINKED_OBJECT'].'.'.$rec['LINKED_PROPERTY'],$contents);
 		$rec['HTML'] = $contents;
 		
 		
