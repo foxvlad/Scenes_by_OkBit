@@ -3,10 +3,7 @@
 					Oбъект:
 				</label>
 				<div class="col-lg-4 ">
-					<select name="scene_link" id="scene_link" class="form-control">
-						<option value='' ></option>
-						[#SCENE_LINK#]
-					</select>
+					<input type="text" name="linked_object"  class="form-control" id="linked_object" value="[#LINKED_OBJECT#]">
 				</div>
 			</div>
 			
@@ -15,10 +12,7 @@
 					Свойства:
 				</label>
 				<div class="col-lg-4 ">
-					<select name="scene_link" id="scene_link" class="form-control">
-						<option value='' ></option>
-						[#SCENE_LINK#]
-					</select>
+					<input type="text" name="linked_property" id="linked_property" value="[#LINKED_PROPERTY#]">
 				</div>
 			</div>
 			
@@ -27,15 +21,38 @@
 					Метод:
 				</label>
 				<div class="col-lg-4 ">
-					<select name="scene_link" id="scene_link" class="form-control">
-						<option value='' ></option>
-						[#SCENE_LINK#]
-					</select>
+					<input type="text" name="linked_method" id="linked_method" value="[#LINKED_METHOD#]">
 				</div>
 			</div>
-			
-			
-			
+		
+			[#module name="linkedobject" object_field="linked_object" property_field="linked_property" method_field="linked_method" width="300"#]
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
 			
 			<div class="form-group">
 				<label class="col-lg-3 control-label">

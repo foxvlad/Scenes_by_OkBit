@@ -55,6 +55,25 @@ if ($this->mode == 'update') {
 		global $textarea;
 		$rec['TEXTAREA'] = $textarea;
 		
+				
+		global $linked_object;
+		$rec['LINKED_OBJECT'] = trim($linked_object);
+			
+		global $linked_property;
+		$rec['LINKED_PROPERTY'] = trim($linked_property);
+			
+		global $linked_method;
+		$rec['LINKED_METHOD'] = trim($linked_method);
+			
+			
+		$old_linked_object = $rec['LINKED_OBJECT'];
+		$old_linked_property = $rec['LINKED_PROPERTY'];
+			
+		if ($old_linked_object && $old_linked_object != $rec['LINKED_OBJECT'] && $old_linked_property && $old_linked_property != $rec['LINKED_PROPERTY']) {
+			removeLinkedProperty($old_linked_object, $old_linked_property, $this->name);
+		}
+		
+
 		
 		//обработка шаблонов элементов
 		$contents = file_get_contents(DIR_MODULES.$this->name.'/elements/'.$rec['TYPE'].'_usual.php');
@@ -62,6 +81,9 @@ if ($this->mode == 'update') {
 		$contents = str_replace('{{ICO}}',$rec['ICO'],$contents);	
 		$contents = str_replace('{{TITLE}}',$rec['TITLE'],$contents);
 		$contents = str_replace('{{TEXTAREA}}',$rec['TEXTAREA'],$contents);
+		$contents = str_replace('{{ELEMENT_ID}}',$rec['ID'],$contents);
+		$contents = str_replace('{{OBJECT}}',$rec['LINKED_OBJECT'],$contents);
+		$contents = str_replace('{{METOD}}',$rec['LINKED_METHOD'],$contents);
 		$rec['HTML'] = $contents;
 		
 		
@@ -120,6 +142,14 @@ if ($this->mode == 'update') {
 	$rec['SCENE_LINK'] = $all_scenes;
 	
 }
+
+		
+	if ($rec['LINKED_OBJECT'] && $rec['LINKED_PROPERTY']) {
+		addLinkedProperty($rec['LINKED_OBJECT'], $rec['LINKED_PROPERTY'], $this->name);
+	}
+
+		
+		
 	
 	$rec['POSIT'] = $pos_el;
 
