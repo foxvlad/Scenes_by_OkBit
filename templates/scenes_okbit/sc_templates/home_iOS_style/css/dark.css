@@ -46,9 +46,21 @@ table {
 .top-menu .link{
 	width:50px;
 	height:50px;
-	border-radius: 4px;
+	border-radius: 10px;
 	background-size: cover;
 	margin-right: 15px;
+}
+
+.top-menu .link:active{
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)   
+	inset;box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)  
+	inset; 
+	  -moz-transform: translatey(3px); /* Для Firefox */ 
+	  -ms-transform: translatey(3px); /* Для IE */ 
+	  -webkit-transform: translatey(3px); /* Для Safari, Chrome, iOS */ 
+	  -o-transform:translatey(3px); /* Для Opera */ 
+	transform: translatey(3px);
+	border: 2px solid #b1b1b1;
 }
 
 .top-menu .link-ico-1{
@@ -142,6 +154,19 @@ A .left-link {
 A, A:hover {
 	text-decoration: none!important;
 }
+
+.left-menu .left-link:active{
+	background: #c8c8d087!important;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)   
+	inset;box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)  
+	inset; 
+	  -moz-transform: translatey(3px); /* Для Firefox */ 
+	  -ms-transform: translatey(3px); /* Для IE */ 
+	  -webkit-transform: translatey(3px); /* Для Safari, Chrome, iOS */ 
+	  -o-transform:translatey(3px); /* Для Opera */ 
+	transform: translatey(3px); 
+}
+
 
 .left-menu ul, .right-menu ul{
 	margin: 0px;
@@ -293,6 +318,14 @@ A, A:hover {
 
 .center-menu .link-ico:active{
 	background: #c8c8d087!important;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)   
+	inset;box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)  
+	inset; 
+	  -moz-transform: translatey(3px); /* Для Firefox */ 
+	  -ms-transform: translatey(3px); /* Для IE */ 
+	  -webkit-transform: translatey(3px); /* Для Safari, Chrome, iOS */ 
+	  -o-transform:translatey(3px); /* Для Opera */ 
+	transform: translatey(3px); 
 }
 
 .center-menu .link-color-1{
