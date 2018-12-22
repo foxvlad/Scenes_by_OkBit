@@ -1,3 +1,7 @@
+
+
+
+
 @font-face {
     font-family: okbit; /* Гарнитура шрифта */
     src: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/css/font/IstokWeb-Regular.ttf); /* Путь к файлу со шрифтом */
@@ -8,20 +12,16 @@ h4, span, div, p, text{
 	font-family: okbit!important;
 }
 
-html {
-	overflow:  hidden; /* скрываем полосы прокрутки */
-}
+
 
 body {
 	background: #f1eff6!important;
-	color: #5f5f5f!important;
+	color: #aeadaf!important;
+	color: #b1b1b1 !important;
 	font-size: 20px!important;
 	text-align: center!important;
 	padding: 0px!important;
-	font-family: okbit !important;
 }
-
-
 
 table {
 	width:100%!important;
@@ -33,12 +33,13 @@ table {
 	text-align:left;
 	margin: 18px 0  0 20px;
 	font-weight: bold;
-	color: #aeadaf;
+	color: #aeadaf!important;
 }
 
 .top-menu{
 	float:right;
 	font-size:16px;
+	margin: 0px!important;
 }
 
 .top-menu ul li{
@@ -51,9 +52,8 @@ table {
 	height:50px;
 	border-radius: 4px;
 	background-size: cover;
-	margin-right: 15px;
+	margin: 0 7px 0 7px;
 }
-
 
 .top-menu .link:active{
 	box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)   
@@ -117,31 +117,30 @@ table {
 }
 
 
+.left-menu .title {
+	color:#aeadaf;
+	width:100%;
+	font-size: 12px;
+	text-align:left;
+	padding: 7px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 2px solid #d7d7d7  !important;
+}
+
 
 .left-menu{
 	float:right;
 	font-size:16px;
 	width:100%;
-	
-}
-
-.left-menu .title{
-	width:100%;
-	font-size: 12px;
-	text-align:left;
-	padding: 7px;
-	color:#aeadaf;
-	font-weight: bold;
-	text-transform: uppercase;
-	border-bottom: 2px solid #d7d7d7  !important;
 }
 
 .left-link{
 	width:100%;
 	height: 40px;
 	background: #fbf9f9;
-	padding: 7px;
-	padding-top:4px;
+	padding: 6px;
+	padding-top: 4px;
 	font-weight: bold;
 	border-bottom: 2px solid #d7d7d7  !important;
 }
@@ -150,6 +149,8 @@ table {
 	font-size: 14px;
 	margin: 6px 0 0 8px;
 	float:left;
+	font-weight: bold;
+	
 }
 
 A .left-link {
@@ -161,7 +162,20 @@ A, A:hover {
 	text-decoration: none!important;
 }
 
-.left-menu ul, .left-menu ul li, .right-menu ul{
+.left-menu .left-link:active{
+	background: #c8c8d087!important;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)   
+	inset;box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)  
+	inset; 
+	  -moz-transform: translatey(3px); /* Для Firefox */ 
+	  -ms-transform: translatey(3px); /* Для IE */ 
+	  -webkit-transform: translatey(3px); /* Для Safari, Chrome, iOS */ 
+	  -o-transform:translatey(3px); /* Для Opera */ 
+	transform: translatey(3px); 
+}
+
+
+.left-menu ul, .right-menu ul{
 	margin: 0px;
 }
 
@@ -193,7 +207,6 @@ A, A:hover {
 	  -o-transform:translatey(3px); /* Для Opera */ 
 	transform: translatey(3px); 
 }
-
 
 .left-menu .link-ico-1{
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-spal.png);
@@ -257,6 +270,7 @@ A, A:hover {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/sRight_b.png);
 }
 
+
 .time-home {
 	font-size: 58px;
 	text-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
@@ -265,7 +279,7 @@ A, A:hover {
 
 
 .img-home {
-	background-image: url({{HOME_IMG}});;
+	background-image: url({{HOME_IMG}});
 	border: 0px solid #fff;
 	border-radius: 10px;
 	width:calc(100%);
@@ -279,21 +293,72 @@ A, A:hover {
 
 .in-home-1 {
 	width:calc(100%);
-	height:250px;
+	height:230px;
+}
+
+.ico-stutus{
+	float:right;
+	width: 120px;
+	margin: 15px;
+}
+
+.ico-stutus .ico {
+	float:right;
+	width:29px;
+	height:29px;
+	background-size: cover;
+	margin: 0 4px 0 4px;
+}
+
+.stutus-sec-green {
+		background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/state_sec_g.png);	
+}
+
+.stutus-sec-red {
+		background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/state_sec_r.png);	
+}
+
+.stutus-sec-yellow {
+		background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/state_sec_y.png);	
+}
+
+
+.stutus-com-green {
+		background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/state_com_g.png);	
+}
+
+.stutus-com-red {
+		background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/state_com_r.png);	
+}
+
+.stutus-com-yellow {
+		background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/state_com_y.png);	
+}
+
+
+.stutus-sys-green {
+		background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/state_sys_g.png);	
+}
+
+.stutus-sys-red {
+		background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/state_sys_r.png);	
+}
+
+.stutus-sys-yellow {
+		background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/state_sys_y.png);	
 }
 
 .in-home-2 {
 	width:calc(100%);
-	height:100px;
-	margin: 0 auto; 
+	height:120px;
+	margin: 0 auto;
 	border-radius: 0 0 10px 10px;
-	background: linear-gradient(to top, rgba(200,200,200,0.3), rgba(200,200,200,0.9));
+	background: linear-gradient(to top, rgba(127,127,127,0), rgba(127,127,127,0.8));
 }
-
 
 .home-addition{
 	padding: 0px;
-	margin-top:-20px;
+	margin-top:-10px;
 	font-size: 22px;
 	color:#ddd;
 	text-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
@@ -322,7 +387,6 @@ A, A:hover {
 	cursor: pointer
 }
 
-
 .center-menu .link-ico:active{
 	background: #c8c8d087!important;
 	box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)   
@@ -335,13 +399,12 @@ A, A:hover {
 	transform: translatey(3px); 
 }
 
-
 .center-menu .link-color-1-0{
 	border: 2px solid #d7a306;
 }
 
 .center-menu .link-color-1-1{
-	border: 2px solid #fff;
+	border: 2px solid #fbdf8a;
 	background: #d7a306;
 }
 
@@ -350,7 +413,7 @@ A, A:hover {
 }
 
 .center-menu .link-color-2-1{
-	border: 2px solid #ffffff55;
+	border: 2px solid #d2fdab;
 	background:#93d556;
 }
 
@@ -359,7 +422,7 @@ A, A:hover {
 }
 
 .center-menu .link-color-3-1, .center-menu .link-color-9-1{
-	border: 2px solid #ffffff55;
+	border: 2px solid #c94a77;
 	background:#7c2443;
 }
 
@@ -369,7 +432,7 @@ A, A:hover {
 }
 
 .center-menu .link-color-4-1{
-	border: 2px solid #ffffff55;
+	border: 2px solid #d8ff94;
 	background:#07a307;
 }
 
@@ -378,7 +441,7 @@ A, A:hover {
 }
 
 .center-menu .link-color-5-1, .center-menu .link-color-10-1{
-	border: 2px solid #ffffff55;
+	border: 2px solid #60a8e0;
 	background:#0164b1;
 	
 }
@@ -388,7 +451,7 @@ A, A:hover {
 }
 
 .center-menu .link-color-6-1, .center-menu .link-color-11-1{
-	border: 2px solid #ffffff55;
+	border: 2px solid #fd8989;
 	background:#ce0101;
 }
 
@@ -398,7 +461,7 @@ A, A:hover {
 }
 
 .center-menu .link-color-7-1, .center-menu .link-color-8-1{
-	border: 2px solid #ffffff55;
+	border: 2px solid #faa67e;
 	background:#dc4701;
 }
 
@@ -411,6 +474,7 @@ A, A:hover {
 .center-menu span {
 	font-size: 12px;
 	padding: 4px;
+	color: #777!important;
 }
 
 .center-menu .link-ico-1-0 {
@@ -502,6 +566,7 @@ A, A:hover {
 .center-menu .link-ico-11-1 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-party-1.png)!important;
 }
+
 .right-menu{
 	float:right;
 	font-size:16px;
@@ -512,10 +577,10 @@ A, A:hover {
 	width:100%;
 	font-size: 12px;
 	text-align:left;
-	padding: 4px;
-	color:#aeadaf;
+	padding: 7px;
 	font-weight: bold;
 	text-transform: uppercase;
+	color:#aeadaf;
 	border-bottom: 2px solid #d7d7d7  !important;
 }
 
@@ -523,11 +588,13 @@ A, A:hover {
 	width:100%;
 	color:#777;
 	background: #fbf9f9;
-	padding: 7px;
-	padding-top:4px;
-	font-weight: bold;
+	padding: 6px;
+	padding-top: 4px;
+	margin-bottom:2px;
 	border-bottom: 2px solid #d7d7d7  !important;
 }
+
+
 
 
 .{{HEADER}} { /* HEADER */
@@ -537,7 +604,7 @@ A, A:hover {
 	z-index : auto !important;
 	width: calc(100% - 2px) !important;
 	margin: 1px!important;
-	padding:4px !important;
+	padding:0px !important;
 	font-size:18px!important;
 	height:70px !important;
 	background:#f5f5f7 !important;
@@ -567,7 +634,7 @@ A, A:hover {
 	position: relative !important;
 	top: auto !important;
 	left : auto !important;
-	z-index : 1 !important;
+	z-index : auto !important;
 	padding:0px  !important;
 	font-size: 18px !important;
 	width:23%  !important;
@@ -598,13 +665,13 @@ A, A:hover {
 .{{CENTER}} { /* CENTER */	
 	/*border: 1px solid #666;*/	
 	margin: 15px!important;
-	padding:0px;
+	padding:0 10px 0 10px;
 	position: relative !important;
 	top: auto !important;
 	left : auto !important;
-	z-index : 0 !important;
+	z-index : auto !important;
 	font-size: 16px !important;
-	width:calc(54% - 35px);		
+	width:calc(54% - 35px);
 	float:left  !important;
 	height:550px  !important;
 	text-align:center !important;
@@ -627,7 +694,7 @@ A, A:hover {
 	position: relative !important;
 	top: auto !important;
 	left : auto !important;
-	z-index : 2 !important;
+	z-index : auto !important;
 	padding: 0px  !important;
 	font-size: 18px !important;
 	width:23%  !important;
@@ -1513,6 +1580,150 @@ A, A:hover {
 		opacity: 1;
 	}
 }
+
+
+
+@media (min-width: 900px) {
+	
+	html {
+		overflow:  hidden; /* скрываем полосы прокрутки */
+	}
+	
+	.small-title, .mini-title {
+		display: none;
+	}
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 700px) {
+	#scene_background_{{ID}} {
+		display: flex!important;
+		flex-flow: wrap!important;
+	}
+	
+	.{{HEADER}}, .{{LEFT}}, .{{CENTER}}, .{{RIGHT}} { 
+		width: 100%!important;
+		height : auto !important;
+	}
+		
+	.{{HEADER}} {order: 2!important;}
+	.{{LEFT}} {order: 1!important;}
+	.{{CENTER}} {order: 0!important;}
+	.{{RIGHT}} {order: 3!important;}
+	
+	
+	.{{CENTER}} {
+		padding: 0px!important;
+		margin: 0px!important;
+		background: #fbf9f9 !important;
+	}
+	
+	.img-home {
+		height: 200px;
+		padding:0px;
+		margin: 0px;
+		border-radius: 0!important;
+	}
+
+	.in-home-1 {
+		height:130px;
+	}
+
+	.in-home-2 {
+		height:70px;
+		margin: 0 auto; 
+	}
+	
+	.home-addition {
+		font-size: 16px;
+	}
+	
+	.top-title {
+		display: none;
+	}
+	
+	.small-title {
+		color: #aeadaf!important;
+		height:30px;
+		padding-top:5px;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	
+	.center-menu .link-ico-out {
+		width:85px;
+		margin-bottom: 5px;
+	}
+	
+	.in-home-1 img {
+		width: 90px;
+	}
+	
+	.ico-stutus{
+		margin: 10px;
+	}
+	
+	.ico-stutus .ico {
+		width:24px;
+		height:24px;
+	}
+	
+	.time-home{
+		font-size: 34px;
+	}
+	
+	.{{HEADER}} {
+		background: 0 !important;
+		border: 0 !important;
+		color: #aeadaf!important;
+	}
+	
+	.mini-title {
+		font-size: 12px;
+		text-align:left;
+		padding: 7px;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: #aeadaf!important;
+	}
+	
+	.top-menu{
+		background: #fbf9f9 !important;
+		width: 100%!important;
+		padding: 3px;
+		color: #aeadaf!important;
+	}
+	
+	.top-menu .link {
+		width: 45px !important;
+		height: 45px !important;
+		margin: 0 6px 0 6px!important;
+		color: #aeadaf!important;
+	}
+}
+
+
+
+
+
+
+
+
 
 
 
