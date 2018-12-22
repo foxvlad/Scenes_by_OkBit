@@ -382,7 +382,7 @@ scenes_element_okbit -
  scenes_element_okbit: TITLE varchar(100) NOT NULL DEFAULT ''
  scenes_element_okbit: POSITION varchar(100) NOT NULL DEFAULT ''
  scenes_element_okbit: VALUE varchar(255) NOT NULL DEFAULT ''
- scenes_element_okbit: HTML varchar(255) NOT NULL DEFAULT ''
+ scenes_element_okbit: HTML varchar(1000) NOT NULL DEFAULT ''
  scenes_element_okbit: TEXTAREA varchar(255) NOT NULL DEFAULT ''
  scenes_element_okbit: TYPE varchar(255) NOT NULL DEFAULT ''
  scenes_element_okbit: SCENE_LINK varchar(100) NOT NULL DEFAULT ''
