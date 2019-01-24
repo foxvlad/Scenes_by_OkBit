@@ -149,12 +149,11 @@
 		[#endif ERR#]
 		
 		<fieldset>
-
-
-
+	
+			[#if TYPE_SCENE=="home"#]
 
 			<div class="form-group">
-				<label class="control-label">Изображение в центре сцены</label>
+				<label class="control-label">Изображение сцены</label>
 				<div class="col-lg-4">
 					<input class="form-control" type="text" name="home_img" id="home_img" value="[#HOME_IMG#]" onclick="openFileBrowser('home_img');" size="45">
 				</div>
@@ -169,6 +168,44 @@
 						<textarea rows="4" cols="45" name="addition" >[#ADDITION#]</textarea>
 				</div>
 			</div>
+			
+			
+			
+			[#endif TYPE_SCENE#]
+			
+			
+			[#if TYPE_SCENE=="room"#]
+
+			<div class="form-group">
+				<label class="control-label">Изображение сцены</label>
+				<div class="col-lg-4">
+					<input class="form-control" type="text" name="home_img" id="home_img" value="[#HOME_IMG#]" onclick="openFileBrowser('home_img');" size="45">
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="col-lg-3 control-label">
+					Главная сцена:
+				</label>
+				<div class="col-lg-4 ">
+					<select name="home_scene" id="home_scene" class="form-control">
+						<option value='0'></option>
+						[#HOME_SCENE#]
+					</select>
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="col-lg-3 control-label">
+					Копировать меню:
+				</label>
+				<div class="col-lg-4 ">			
+					<input type="checkbox" name="clone_menu" id="clone_menu" [#if CLONE_MENU=="1"#] checked [#endif CLONE_MENU#] value="1">
+				</div>
+			</div>
+			
+			[#endif TYPE_SCENE#]
+			
 	
 	
 			<div class="form-group">

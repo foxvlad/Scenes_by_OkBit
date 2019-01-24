@@ -377,6 +377,9 @@ scenes_element_okbit -
  scenes_okbit: TEMPLATE_CSS varchar(255) NOT NULL DEFAULT ''
  scenes_okbit: ADDITION varchar(255) NOT NULL DEFAULT ''
  scenes_okbit: HOME_IMG varchar(255) NOT NULL DEFAULT ''
+ scenes_okbit: TYPE_SCENE varchar(255) NOT NULL DEFAULT ''
+ scenes_okbit: HOME_SCENE varchar(255) NOT NULL DEFAULT ''
+ scenes_okbit: CLONE_MENU varchar(255) NOT NULL DEFAULT ''
  scenes_okbit: PRIORITY int(10) NOT NULL DEFAULT '0'
  scenes_element_okbit: ID int(10) unsigned NOT NULL auto_increment
  scenes_element_okbit: TITLE varchar(100) NOT NULL DEFAULT ''
@@ -387,6 +390,8 @@ scenes_element_okbit -
  scenes_element_okbit: TYPE varchar(255) NOT NULL DEFAULT ''
  scenes_element_okbit: SCENE_LINK varchar(100) NOT NULL DEFAULT ''
  scenes_element_okbit: ICO varchar(255) NOT NULL DEFAULT ''
+ scenes_element_okbit: SHOW1 varchar(255) NOT NULL DEFAULT ''
+ scenes_element_okbit: SHOW2 varchar(255) NOT NULL DEFAULT ''
  scenes_element_okbit: PARENT_ID int(10) NOT NULL DEFAULT '0'
  scenes_element_okbit: LINKED_OBJECT varchar(100) NOT NULL DEFAULT ''
  scenes_element_okbit: LINKED_PROPERTY varchar(100) NOT NULL DEFAULT ''

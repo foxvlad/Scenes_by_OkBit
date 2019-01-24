@@ -1,0 +1,1729 @@
+
+
+
+
+@font-face {
+    font-family: okbit; /* Гарнитура шрифта */
+    src: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/css/font/IstokWeb-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+
+h4, span, div, p, text{
+	font-family: okbit!important;
+}
+
+
+
+body {
+	background: #f1eff6!important;
+	color: #aeadaf!important;
+	color: #b1b1b1 !important;
+	font-size: 20px!important;
+	text-align: center!important;
+	padding: 0px!important;
+}
+
+table {
+	width:100%!important;
+}
+
+.top-title {
+	float:left;
+	font-size: 19px;
+	text-align:left;
+	margin: 18px 0  0 20px;
+	font-weight: bold;
+	color: #aeadaf!important;
+}
+
+.top-menu{
+	float:right;
+	font-size:16px;
+	margin: 0px!important;
+}
+
+.top-menu ul li{
+	float:left;
+	margin:5px;
+}
+
+.top-menu .link{
+	width:50px;
+	height:50px;
+	border-radius: 4px;
+	background-size: cover;
+	margin: 0 7px 0 7px;
+}
+
+.top-menu .link:active{
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)   
+	inset;box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)  
+	inset; 
+	  -moz-transform: translatey(3px); /* Для Firefox */ 
+	  -ms-transform: translatey(3px); /* Для IE */ 
+	  -webkit-transform: translatey(3px); /* Для Safari, Chrome, iOS */ 
+	  -o-transform:translatey(3px); /* Для Opera */ 
+	transform: translatey(3px);
+	border: 2px solid #b1b1b1;
+}
+
+.top-menu .link-ico-1{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-cold.png);
+}
+
+.top-menu .link-ico-2{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-lamp.png);
+}
+
+.top-menu .link-ico-3{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-note.png);
+}
+
+.top-menu .link-ico-4{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-cam.png);
+}
+
+.top-menu .link-ico-5{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-shit.png);
+}
+
+.top-menu .link-ico-6{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-setting.png);
+}
+
+.top-menu .link-ico-7{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-gradus.png);
+}
+
+.top-menu .link-ico-8{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-plan.png);
+}
+
+.top-menu .link-ico-9{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-shit-poj.png);
+}
+
+.top-menu .link-ico-10{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-shit-ohr.png);
+}
+
+.top-menu .link-ico-11{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-graf.png);
+}
+
+
+.top-menu .link-ico-12{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-in-sys.png);
+}
+
+
+.left-menu .title {
+	color:#aeadaf;
+	width:100%;
+	font-size: 12px;
+	text-align:left;
+	padding: 7px;
+	font-weight: bold;
+	text-transform: uppercase;
+	border-bottom: 2px solid #d7d7d7  !important;
+}
+
+
+.left-menu{
+	float:right;
+	font-size:16px;
+	width:100%;
+}
+
+.left-link{
+	width:100%;
+	height: 40px;
+	background: #fbf9f9;
+	padding: 6px;
+	padding-top: 4px;
+	font-weight: bold;
+	border-bottom: 2px solid #d7d7d7  !important;
+}
+
+.left-link span{
+	font-size: 14px;
+	margin: 6px 0 0 8px;
+	float:left;
+	font-weight: bold;
+	
+}
+
+A .left-link {
+	color: #777;
+	font-size: 16px!important;
+}
+
+A, A:hover {
+	text-decoration: none!important;
+}
+
+.left-menu .left-link:active{
+	background: #c8c8d087!important;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)   
+	inset;box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)  
+	inset; 
+	  -moz-transform: translatey(3px); /* Для Firefox */ 
+	  -ms-transform: translatey(3px); /* Для IE */ 
+	  -webkit-transform: translatey(3px); /* Для Safari, Chrome, iOS */ 
+	  -o-transform:translatey(3px); /* Для Opera */ 
+	transform: translatey(3px); 
+}
+
+
+.left-menu ul, .right-menu ul{
+	margin: 0px;
+}
+
+.left-menu .link-ico{
+	float:left;
+	width:30px;
+	height: 30px;
+	background-size: cover;
+}
+
+.left-menu .text-html{
+	width:100%;
+	color:#777;
+	background: #fbf9f9;
+	padding: 7px;
+	padding-top:4px;
+	font-weight: bold;
+	border-bottom: 2px solid #d7d7d7  !important;
+}
+
+.left-menu .left-link:active{
+	background: #c8c8d087!important;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)   
+	inset;box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)  
+	inset; 
+	  -moz-transform: translatey(3px); /* Для Firefox */ 
+	  -ms-transform: translatey(3px); /* Для IE */ 
+	  -webkit-transform: translatey(3px); /* Для Safari, Chrome, iOS */ 
+	  -o-transform:translatey(3px); /* Для Opera */ 
+	transform: translatey(3px); 
+}
+
+.left-menu .link-ico-1{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-spal.png);
+}
+
+.left-menu .link-ico-2{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-kuh.png);
+}
+
+.left-menu .link-ico-3{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-zal.png);
+}
+
+.left-menu .link-ico-4{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-vanna.png);
+}
+
+.left-menu .link-ico-5{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-dets.png);
+}
+
+.left-menu .link-ico-6{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-stol.png);
+}
+
+.left-menu .link-ico-7{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-lodj.png);
+}
+
+.left-menu .link-ico-8{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-ubor.png);
+}
+
+.left-menu .link-ico-9{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-kubin.png);
+}
+
+.left-menu .link-ico-10{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-prih.png);
+}
+
+.left-menu .link-ico-11{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-hoz.png);
+}
+
+.left-menu .link-ico-12{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-hoz2.png);
+}
+
+.left-menu .link-ico-13{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-garaj.png);
+}
+
+
+.left-arrow{
+	margin: 4px 2px 0 0;
+	float:right;
+	width:10px;
+	height: 15px;
+	background-size: cover;
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/sRight_b.png);
+}
+
+
+.time-home {
+	font-size: 58px;
+	text-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+	color: #fff;
+}
+
+
+.img-home {
+	background-image: url({{HOME_IMG}});
+	border: 0px solid #fff;
+	border-radius: 10px;
+	width:calc(100%);
+	margin: 0px;
+	 -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	height: 350px;
+}
+
+.in-home-1 {
+	width:calc(100%);
+	height:230px;
+}
+
+.ico-stutus{
+	float:right;
+	width: 120px;
+	margin: 15px;
+}
+
+.ico-stutus .ico {
+	float:right;
+	width:29px;
+	height:29px;
+	background-size: cover;
+	margin: 0 4px 0 4px;
+}
+
+.stutus-sec-green {
+		background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/state_sec_g.png);	
+}
+
+.stutus-sec-red {
+		background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/state_sec_r.png);	
+}
+
+.stutus-sec-yellow {
+		background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/state_sec_y.png);	
+}
+
+
+.stutus-com-green {
+		background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/state_com_g.png);	
+}
+
+.stutus-com-red {
+		background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/state_com_r.png);	
+}
+
+.stutus-com-yellow {
+		background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/state_com_y.png);	
+}
+
+
+.stutus-sys-green {
+		background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/state_sys_g.png);	
+}
+
+.stutus-sys-red {
+		background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/state_sys_r.png);	
+}
+
+.stutus-sys-yellow {
+		background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/state_sys_y.png);	
+}
+
+.in-home-2 {
+	width:calc(100%);
+	height:120px;
+	margin: 0 auto;
+	border-radius: 0 0 10px 10px;
+	background: linear-gradient(to top, rgba(127,127,127,0), rgba(127,127,127,0.8));
+}
+
+.home-addition{
+	padding: 0px;
+	margin-top:-10px;
+	font-size: 22px;
+	color:#ddd;
+	text-shadow: -1px -1px 0 #000,1px -1px 0 #000,-1px 1px 0 #000,1px 1px 0 #000;
+}
+
+.center-menu {
+	padding-top:10px;
+}
+
+
+.center-menu .link-ico-out {
+	width:90px;
+	height: 90px;
+	text-align:center;
+	float:left;
+	margin-bottom: 10px;
+}
+
+
+.center-menu .link-ico{
+	margin: 0 auto;
+	width:60px;
+	height: 60px;
+	padding: 5px;
+	border-radius: 50%;
+	cursor: pointer
+}
+
+.center-menu .link-ico:active{
+	background: #c8c8d087!important;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)   
+	inset;box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)  
+	inset; 
+	  -moz-transform: translatey(3px); /* Для Firefox */ 
+	  -ms-transform: translatey(3px); /* Для IE */ 
+	  -webkit-transform: translatey(3px); /* Для Safari, Chrome, iOS */ 
+	  -o-transform:translatey(3px); /* Для Opera */ 
+	transform: translatey(3px); 
+}
+
+.center-menu .link-color-1-0{
+	border: 2px solid #d7a306;
+}
+
+.center-menu .link-color-1-1{
+	border: 2px solid #fbdf8a;
+	background: #d7a306;
+}
+
+.center-menu .link-color-2-0{
+	border: 2px solid #93d556;
+}
+
+.center-menu .link-color-2-1{
+	border: 2px solid #d2fdab;
+	background:#93d556;
+}
+
+.center-menu .link-color-3-0, .center-menu .link-color-9-0{
+	border: 2px solid #7c2443;
+}
+
+.center-menu .link-color-3-1, .center-menu .link-color-9-1{
+	border: 2px solid #c94a77;
+	background:#7c2443;
+}
+
+
+.center-menu .link-color-4-0{
+	border: 2px solid #07a307;
+}
+
+.center-menu .link-color-4-1{
+	border: 2px solid #d8ff94;
+	background:#07a307;
+}
+
+.center-menu .link-color-5-0, .center-menu .link-color-10-0{
+	border: 2px solid #0164b1;
+}
+
+.center-menu .link-color-5-1, .center-menu .link-color-10-1{
+	border: 2px solid #60a8e0;
+	background:#0164b1;
+	
+}
+
+.center-menu .link-color-6-0, .center-menu .link-color-11-0{
+	border: 2px solid #ce0101;
+}
+
+.center-menu .link-color-6-1, .center-menu .link-color-11-1{
+	border: 2px solid #fd8989;
+	background:#ce0101;
+}
+
+.center-menu .link-color-7-0, .center-menu .link-color-8-0{
+	border: 2px solid #dc4701;
+
+}
+
+.center-menu .link-color-7-1, .center-menu .link-color-8-1{
+	border: 2px solid #faa67e;
+	background:#dc4701;
+}
+
+.center-menu .link-ico-in{
+	width:45px;
+	height: 45px;
+	background-size: cover;
+}
+
+.center-menu span {
+	font-size: 12px;
+	padding: 4px;
+	color: #777!important;
+}
+
+.center-menu .link-ico-1-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-lamp-0.png)!important;
+}
+
+.center-menu .link-ico-1-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-lamp-1.png)!important;
+}
+
+.center-menu .link-ico-2-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-eco-0.png)!important;
+}
+
+.center-menu .link-ico-2-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-eco-1.png)!important;
+}
+
+.center-menu .link-ico-3-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-luna-0.png)!important;
+}
+
+.center-menu .link-ico-3-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-luna-1.png)!important;
+}
+
+.center-menu .link-ico-4-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-sun-0.png)!important;
+}
+
+.center-menu .link-ico-4-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-sun-1.png)!important;
+}
+
+.center-menu .link-ico-5-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-wather-0.png)!important;
+}
+
+.center-menu .link-ico-5-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-wather-1.png)!important;
+}
+
+.center-menu .link-ico-6-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-zam-0.png)!important;
+}
+
+.center-menu .link-ico-6-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-zam-1.png)!important;
+}
+
+.center-menu .link-ico-7-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-tv-0.png)!important;
+}
+
+.center-menu .link-ico-7-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-tv-1.png)!important;
+}
+
+
+.center-menu .link-ico-8-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-smotr-0.png)!important;
+}
+
+.center-menu .link-ico-8-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-smotr-1.png)!important;
+}
+
+.center-menu .link-ico-9-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-code-0.png)!important;
+}
+
+.center-menu .link-ico-9-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-code-1.png)!important;
+}
+
+
+.center-menu .link-ico-10-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-pivo-0.png)!important;
+}
+
+.center-menu .link-ico-10-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-pivo-1.png)!important;
+}
+
+.center-menu .link-ico-11-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-party-0.png)!important;
+}
+
+.center-menu .link-ico-11-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-party-1.png)!important;
+}
+
+.right-menu{
+	float:right;
+	font-size:16px;
+	width:100%;
+}
+
+.right-menu .title {
+	width:100%;
+	font-size: 12px;
+	text-align:left;
+	padding: 7px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color:#aeadaf;
+	border-bottom: 2px solid #d7d7d7  !important;
+}
+
+.right-menu .text-html{
+	width:100%;
+	color:#777;
+	background: #fbf9f9;
+	padding: 6px;
+	padding-top: 4px;
+	margin-bottom:2px;
+	border-bottom: 2px solid #d7d7d7  !important;
+}
+
+
+
+
+.{{HEADER}} { /* HEADER */
+	position: relative !important;
+	top: auto !important;
+	left : auto !important;
+	z-index : auto !important;
+	width: calc(100% - 2px) !important;
+	margin: 1px!important;
+	padding:0px !important;
+	font-size:18px!important;
+	height:70px !important;
+	background:#f5f5f7 !important;
+	border: 0px !important;
+	border-bottom: 2px solid #dadada !important;
+}
+
+
+/* CSS Движение вниз */
+
+.{{HEADER}} { /* HEADER */
+    animation-name: slideDown;
+    -webkit-animation-name: slideDown;  
+ 
+    animation-duration: 2s; 
+    -webkit-animation-duration: 2s;
+ 
+    animation-timing-function: ease;    
+    -webkit-animation-timing-function: ease;    
+ 
+    visibility: visible !important;                     
+}
+
+
+
+.{{LEFT}} {	/* LEFT */
+	position: relative !important;
+	top: auto !important;
+	left : auto !important;
+	z-index : auto !important;
+	padding:0px  !important;
+	font-size: 18px !important;
+	width:23%  !important;
+	float:left  !important;
+	height:560px  !important;
+	text-align:left  !important;
+	border: 0px !important;
+	border-right: 2px solid #dadada  !important;
+	background : #f1f0f6 !important;
+}
+
+
+/* CSS Движение вправо */
+
+.{{LEFT}} { /* LEFT */
+    animation-name: slideRight;
+    -webkit-animation-name: slideRight; 
+ 
+    animation-duration: 2s; 
+    -webkit-animation-duration: 2s;
+ 
+    animation-timing-function: ease-in-out; 
+    -webkit-animation-timing-function: ease-in-out;     
+ 
+    visibility: visible !important; 
+}
+
+.{{CENTER}} { /* CENTER */	
+	/*border: 1px solid #666;*/	
+	margin: 15px!important;
+	padding:0 10px 0 10px;
+	position: relative !important;
+	top: auto !important;
+	left : auto !important;
+	z-index : auto !important;
+	font-size: 16px !important;
+	width:calc(54% - 35px);
+	float:left  !important;
+	height:550px  !important;
+	text-align:center !important;
+	background : 0 !important;
+	border: 0px !important;
+}
+
+/* из прозрачного к видемому */
+
+.{{CENTER}}{ /* CENTER */		
+	-webkit-animation-duration: 2s;
+	animation-duration: 2s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+
+.{{RIGHT}} { /* RIGHT */	
+	position: relative !important;
+	top: auto !important;
+	left : auto !important;
+	z-index : auto !important;
+	padding: 0px  !important;
+	font-size: 18px !important;
+	width:23%  !important;
+	float:left  !important;
+	height:560px  !important;
+	text-align:left  !important;
+	border: 0px !important;
+	border-left: 2px solid #dadada  !important;
+	background : #f1f0f6 !important;
+}
+
+/* CSS Движение влево */
+
+.{{RIGHT}}{ /* RIGHT */
+    animation-name: slideLeft;
+    -webkit-animation-name: slideLeft; 
+ 
+    animation-duration: 2s; 
+    -webkit-animation-duration: 2s;
+ 
+    animation-timing-function: ease-in-out; 
+    -webkit-animation-timing-function: ease-in-out;     
+ 
+    visibility: visible !important; 
+}
+
+
+
+/* CSS Движение влево */
+
+.slideLeft{
+    animation-name: slideLeft;
+    -webkit-animation-name: slideLeft; 
+ 
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+ 
+    animation-timing-function: ease-in-out; 
+    -webkit-animation-timing-function: ease-in-out;     
+ 
+    visibility: visible !important; 
+}
+ 
+@keyframes slideLeft {
+    0% {
+        transform: translateX(150%);
+    }
+    50%{
+        transform: translateX(-8%);
+    }
+    65%{
+        transform: translateX(4%);
+    }
+    80%{
+        transform: translateX(-4%);
+    }
+    95%{
+        transform: translateX(2%);
+    }           
+    100% {
+        transform: translateX(0%);
+    }
+}
+ 
+@-webkit-keyframes slideLeft {
+    0% {
+        -webkit-transform: translateX(150%);
+    }
+    50%{
+        -webkit-transform: translateX(-8%);
+    }
+    65%{
+        -webkit-transform: translateX(4%);
+    }
+    80%{
+        -webkit-transform: translateX(-4%);
+    }
+    95%{
+        -webkit-transform: translateX(2%);
+    }           
+    100% {
+        -webkit-transform: translateX(0%);
+    }
+}
+
+/* CSS Движение вправо */
+
+.slideRight{
+    animation-name: slideRight;
+    -webkit-animation-name: slideRight; 
+ 
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+ 
+    animation-timing-function: ease-in-out; 
+    -webkit-animation-timing-function: ease-in-out;     
+ 
+    visibility: visible !important; 
+}
+ 
+@keyframes slideRight {
+    0% {
+        transform: translateX(-150%);
+    }
+    50%{
+        transform: translateX(8%);
+    }
+    65%{
+        transform: translateX(-4%);
+    }
+    80%{
+        transform: translateX(4%);
+    }
+    95%{
+        transform: translateX(-2%);
+    }           
+    100% {
+        transform: translateX(0%);
+    }   
+}
+ 
+@-webkit-keyframes slideRight {
+    0% {
+        -webkit-transform: translateX(-150%);
+    }
+    50%{
+        -webkit-transform: translateX(8%);
+    }
+    65%{
+        -webkit-transform: translateX(-4%);
+    }
+    80%{
+        -webkit-transform: translateX(4%);
+    }
+    95%{
+        -webkit-transform: translateX(-2%);
+    }           
+    100% {
+        -webkit-transform: translateX(0%);
+    }
+}
+
+/* CSS Движение вниз */
+
+.slideDown{
+    animation-name: slideDown;
+    -webkit-animation-name: slideDown;  
+ 
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+ 
+    animation-timing-function: ease;    
+    -webkit-animation-timing-function: ease;    
+ 
+    visibility: visible !important;                     
+}
+ 
+@keyframes slideDown {
+    0% {
+        transform: translateY(-100%);
+    }
+    50%{
+        transform: translateY(8%);
+    }
+    65%{
+        transform: translateY(-4%);
+    }
+    80%{
+        transform: translateY(4%);
+    }
+    95%{
+        transform: translateY(-2%);
+    }           
+    100% {
+        transform: translateY(0%);
+    }       
+}
+ 
+@-webkit-keyframes slideDown {
+    0% {
+        -webkit-transform: translateY(-100%);
+    }
+    50%{
+        -webkit-transform: translateY(8%);
+    }
+    65%{
+        -webkit-transform: translateY(-4%);
+    }
+    80%{
+        -webkit-transform: translateY(4%);
+    }
+    95%{
+        -webkit-transform: translateY(-2%);
+    }           
+    100% {
+        -webkit-transform: translateY(0%);
+    }   
+}
+
+/* CSS Движение вверх */
+
+.slideUp{
+    animation-name: slideUp;
+    -webkit-animation-name: slideUp;    
+ 
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+ 
+    animation-timing-function: ease;    
+    -webkit-animation-timing-function: ease;
+ 
+    visibility: visible !important;         
+}
+ 
+@keyframes slideUp {
+    0% {
+        transform: translateY(100%);
+    }
+    50%{
+        transform: translateY(-8%);
+    }
+    65%{
+        transform: translateY(4%);
+    }
+    80%{
+        transform: translateY(-4%);
+    }
+    95%{
+        transform: translateY(2%);
+    }           
+    100% {
+        transform: translateY(0%);
+    }   
+}
+ 
+@-webkit-keyframes slideUp {
+    0% {
+        -webkit-transform: translateY(100%);
+    }
+    50%{
+        -webkit-transform: translateY(-8%);
+    }
+    65%{
+        -webkit-transform: translateY(4%);
+    }
+    80%{
+        -webkit-transform: translateY(-4%);
+    }
+    95%{
+        -webkit-transform: translateY(2%);
+    }           
+    100% {
+        -webkit-transform: translateY(0%);
+    }   
+}
+
+/* CSS Движение вверх и расширение */
+
+.slideExpandUp{
+    animation-name: slideExpandUp;
+    -webkit-animation-name: slideExpandUp;  
+ 
+    animation-duration: 3s; 
+    -webkit-animation-duration: 3s;
+ 
+    animation-timing-function: ease-out;    
+    -webkit-animation-timing-function: ease -out;
+ 
+    visibility: visible !important; 
+}
+ 
+@keyframes slideExpandUp {
+    0% {
+        transform: translateY(100%) scaleX(0.5);
+    }
+    30%{
+        transform: translateY(-8%) scaleX(0.5);
+    }   
+    40%{
+        transform: translateY(2%) scaleX(0.5);
+    }
+    50%{
+        transform: translateY(0%) scaleX(1.1);
+    }
+    60%{
+        transform: translateY(0%) scaleX(0.9);      
+    }
+    70% {
+        transform: translateY(0%) scaleX(1.05);
+    }           
+    80%{
+        transform: translateY(0%) scaleX(0.95);     
+    }
+    90% {
+        transform: translateY(0%) scaleX(1.02);
+    }   
+    100%{
+        transform: translateY(0%) scaleX(1);        
+    }
+}
+ 
+@-webkit-keyframes slideExpandUp {
+    0% {
+        -webkit-transform: translateY(100%) scaleX(0.5);
+    }
+    30%{
+        -webkit-transform: translateY(-8%) scaleX(0.5);
+    }   
+    40%{
+        -webkit-transform: translateY(2%) scaleX(0.5);
+    }
+    50%{
+        -webkit-transform: translateY(0%) scaleX(1.1);
+    }
+    60%{
+        -webkit-transform: translateY(0%) scaleX(0.9);      
+    }
+    70% {
+        -webkit-transform: translateY(0%) scaleX(1.05);
+    }           
+    80%{
+        -webkit-transform: translateY(0%) scaleX(0.95);     
+    }
+    90% {
+        -webkit-transform: translateY(0%) scaleX(1.02);
+    }   
+    100%{
+        -webkit-transform: translateY(0%) scaleX(1);        
+    }
+}
+
+/* CSS Движение вниз и расширение */
+
+.expandUp{
+    animation-name: expandUp;
+    -webkit-animation-name: expandUp;   
+ 
+    animation-duration: 0.7s;   
+    -webkit-animation-duration: 0.7s;
+ 
+    animation-timing-function: ease;    
+    -webkit-animation-timing-function: ease;        
+ 
+    visibility: visible !important; 
+}
+ 
+@keyframes expandUp {
+    0% {
+        transform: translateY(100%) scale(0.6) scaleY(0.5);
+    }
+    60%{
+        transform: translateY(-7%) scaleY(1.12);
+    }
+    75%{
+        transform: translateY(3%);
+    }   
+    100% {
+        transform: translateY(0%) scale(1) scaleY(1);
+    }   
+}
+ 
+@-webkit-keyframes expandUp {
+    0% {
+        -webkit-transform: translateY(100%) scale(0.6) scaleY(0.5);
+    }
+    60%{
+        -webkit-transform: translateY(-7%) scaleY(1.12);
+    }
+    75%{
+        -webkit-transform: translateY(3%);
+    }   
+    100% {
+        -webkit-transform: translateY(0%) scale(1) scaleY(1);
+    }   
+}
+
+/* CSS анимация появление увеличение */
+
+.fadeIn{
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn; 
+ 
+    animation-duration: 2s; 
+    -webkit-animation-duration: 2s;
+ 
+    animation-timing-function: ease-in-out; 
+    -webkit-animation-timing-function: ease-in-out;     
+ 
+    visibility: visible !important; 
+}
+ 
+@keyframes fadeIn {
+    0% {
+        transform: scale(0);
+        opacity: 0.0;       
+    }
+    60% {
+        transform: scale(1.1);  
+    }
+    80% {
+        transform: scale(0.9);
+        opacity: 1; 
+    }   
+    100% {
+        transform: scale(1);
+        opacity: 1; 
+    }       
+}
+ 
+@-webkit-keyframes fadeIn {
+    0% {
+        -webkit-transform: scale(0);
+        opacity: 0.0;       
+    }
+    60% {
+        -webkit-transform: scale(1.1);
+    }
+    80% {
+        -webkit-transform: scale(0.9);
+        opacity: 1; 
+    }   
+    100% {
+        -webkit-transform: scale(1);
+        opacity: 1; 
+    }       
+}
+
+/*CSS анимация появление уменьшение */
+
+.expandOpen{
+    animation-name: expandOpen;
+    -webkit-animation-name: expandOpen; 
+ 
+    animation-duration: 2s; 
+    -webkit-animation-duration: 2s;
+ 
+    animation-timing-function: ease-out;    
+    -webkit-animation-timing-function: ease-out;    
+ 
+    visibility: visible !important; 
+}
+ 
+@keyframes expandOpen {
+    0% {
+        transform: scale(1.8);      
+    }
+    50% {
+        transform: scale(0.95);
+    }   
+    80% {
+        transform: scale(1.05);
+    }
+    90% {
+        transform: scale(0.98);
+    }   
+    100% {
+        transform: scale(1);
+    }           
+}
+ 
+@-webkit-keyframes expandOpen {
+    0% {
+        -webkit-transform: scale(1.8);      
+    }
+    50% {
+        -webkit-transform: scale(0.95);
+    }   
+    80% {
+        -webkit-transform: scale(1.05);
+    }
+    90% {
+        -webkit-transform: scale(0.98);
+    }   
+    100% {
+        -webkit-transform: scale(1);
+    }                   
+}
+
+/*CSS анимация появление расшатывание */
+
+.bigEntrance{
+    animation-name: bigEntrance;
+    -webkit-animation-name: bigEntrance;    
+ 
+    animation-duration: 2s; 
+    -webkit-animation-duration: 2s;
+ 
+    animation-timing-function: ease-out;    
+    -webkit-animation-timing-function: ease-out;    
+ 
+    visibility: visible !important;         
+}
+ 
+@keyframes bigEntrance {
+    0% {
+        transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
+        opacity: 0.2;
+    }
+    30% {
+        transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);        
+        opacity: 1;
+    }
+    45% {
+        transform: scale(0.98) rotate(1deg) translateX(0%) translateY(0%);
+        opacity: 1;
+    }
+    60% {
+        transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);     
+        opacity: 1;
+    }   
+    75% {
+        transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
+        opacity: 1;
+    }
+    90% {
+        transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);      
+        opacity: 1;
+    }   
+    100% {
+        transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
+        opacity: 1;
+    }       
+}
+ 
+@-webkit-keyframes bigEntrance {
+    0% {
+        -webkit-transform: scale(0.3) rotate(6deg) translateX(-30%) translateY(30%);
+        opacity: 0.2;
+    }
+    30% {
+        -webkit-transform: scale(1.03) rotate(-2deg) translateX(2%) translateY(-2%);        
+        opacity: 1;
+    }
+    45% {
+        -webkit-transform: scale(0.98) rotate(1deg) translateX(0%) translateY(0%);
+        opacity: 1;
+    }
+    60% {
+        -webkit-transform: scale(1.01) rotate(-1deg) translateX(0%) translateY(0%);     
+        opacity: 1;
+    }   
+    75% {
+        -webkit-transform: scale(0.99) rotate(1deg) translateX(0%) translateY(0%);
+        opacity: 1;
+    }
+    90% {
+        -webkit-transform: scale(1.01) rotate(0deg) translateX(0%) translateY(0%);      
+        opacity: 1;
+    }   
+    100% {
+        -webkit-transform: scale(1) rotate(0deg) translateX(0%) translateY(0%);
+        opacity: 1;
+    }               
+}
+
+/*CSS анимация качание */
+
+.hatch{
+    animation-name: hatch;
+    -webkit-animation-name: hatch;  
+ 
+    animation-duration: 2s; 
+    -webkit-animation-duration: 2s;
+ 
+    animation-timing-function: ease-in-out; 
+    -webkit-animation-timing-function: ease-in-out;
+ 
+    transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%; 
+ 
+    visibility: visible !important;     
+}
+ 
+@keyframes hatch {
+    0% {
+        transform: rotate(0deg) scaleY(0.6);
+    }
+    20% {
+        transform: rotate(-2deg) scaleY(1.05);
+    }
+    35% {
+        transform: rotate(2deg) scaleY(1);
+    }
+    50% {
+        transform: rotate(-2deg);
+    }   
+    65% {
+        transform: rotate(1deg);
+    }   
+    80% {
+        transform: rotate(-1deg);
+    }       
+    100% {
+        transform: rotate(0deg);
+    }                                   
+}
+ 
+@-webkit-keyframes hatch {
+    0% {
+        -webkit-transform: rotate(0deg) scaleY(0.6);
+    }
+    20% {
+        -webkit-transform: rotate(-2deg) scaleY(1.05);
+    }
+    35% {
+        -webkit-transform: rotate(2deg) scaleY(1);
+    }
+    50% {
+        -webkit-transform: rotate(-2deg);
+    }   
+    65% {
+        -webkit-transform: rotate(1deg);
+    }   
+    80% {
+        -webkit-transform: rotate(-1deg);
+    }       
+    100% {
+        -webkit-transform: rotate(0deg);
+    }       
+}
+
+/*CSS анимация прыжок падение */
+
+.bounce{
+    animation-name: bounce;
+    -webkit-animation-name: bounce; 
+ 
+    animation-duration: 1.6s;   
+    -webkit-animation-duration: 1.6s;
+ 
+    animation-timing-function: ease;    
+    -webkit-animation-timing-function: ease;    
+     
+    transform-origin: 50% 100%;
+    -ms-transform-origin: 50% 100%;
+    -webkit-transform-origin: 50% 100%;     
+}
+ 
+@keyframes bounce {
+    0% {
+        transform: translateY(0%) scaleY(0.6);
+    }
+    60%{
+        transform: translateY(-100%) scaleY(1.1);
+    }
+    70%{
+        transform: translateY(0%) scaleY(0.95) scaleX(1.05);
+    }
+    80%{
+        transform: translateY(0%) scaleY(1.05) scaleX(1);
+    }   
+    90%{
+        transform: translateY(0%) scaleY(0.95) scaleX(1);
+    }               
+    100%{
+        transform: translateY(0%) scaleY(1) scaleX(1);
+    }   
+}
+ 
+@-webkit-keyframes bounce {
+    0% {
+        -webkit-transform: translateY(0%) scaleY(0.6);
+    }
+    60%{
+        -webkit-transform: translateY(-100%) scaleY(1.1);
+    }
+    70%{
+        -webkit-transform: translateY(0%) scaleY(0.95) scaleX(1.05);
+    }
+    80%{
+        -webkit-transform: translateY(0%) scaleY(1.05) scaleX(1);
+    }   
+    90%{
+        -webkit-transform: translateY(0%) scaleY(0.95) scaleX(1);
+    }               
+    100%{
+        -webkit-transform: translateY(0%) scaleY(1) scaleX(1);
+    }       
+}
+
+/*CSS без прерывная пульсация */
+
+.pulse{
+    animation-name: pulse;
+    -webkit-animation-name: pulse;  
+ 
+    animation-duration: 1.5s;   
+    -webkit-animation-duration: 1.5s;
+ 
+    animation-iteration-count: infinite;
+    -webkit-animation-iteration-count: infinite;
+}
+ 
+@keyframes pulse {
+    0% {
+        transform: scale(0.9);
+        opacity: 0.7;       
+    }
+    50% {
+        transform: scale(1);
+        opacity: 1; 
+    }   
+    100% {
+        transform: scale(0.9);
+        opacity: 0.7;   
+    }           
+}
+ 
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(0.95);
+        opacity: 0.7;       
+    }
+    50% {
+        -webkit-transform: scale(1);
+        opacity: 1; 
+    }   
+    100% {
+        -webkit-transform: scale(0.95);
+        opacity: 0.7;   
+    }           
+}
+
+/*CSS рост справа налево */
+
+.stretchLeft{
+    animation-name: stretchLeft;
+    -webkit-animation-name: stretchLeft;    
+ 
+    animation-duration: 3s; 
+    -webkit-animation-duration: 3s;
+ 
+    animation-timing-function: ease-out;    
+    -webkit-animation-timing-function: ease-out;    
+ 
+    transform-origin: 100% 0%;
+    -ms-transform-origin: 100% 0%;
+    -webkit-transform-origin: 100% 0%; 
+}
+ 
+@keyframes stretchLeft {
+    0% {
+        transform: scaleX(0.3);
+    }
+    40% {
+        transform: scaleX(1.02);
+    }
+    60% {
+        transform: scaleX(0.98);
+    }
+    80% {
+        transform: scaleX(1.01);
+    }
+    100% {
+        transform: scaleX(0.98);
+    }               
+    80% {
+        transform: scaleX(1.01);
+    }
+    100% {
+        transform: scaleX(1);
+    }                           
+}
+ 
+@-webkit-keyframes stretchLeft {
+    0% {
+        -webkit-transform: scaleX(0.3);
+    }
+    40% {
+        -webkit-transform: scaleX(1.02);
+    }
+    60% {
+        -webkit-transform: scaleX(0.98);
+    }
+    80% {
+        -webkit-transform: scaleX(1.01);
+    }
+    100% {
+        -webkit-transform: scaleX(0.98);
+    }               
+    80% {
+        -webkit-transform: scaleX(1.01);
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+    }       
+}
+
+/*CSS рост слева направо */
+
+.stretchRight{
+    animation-name: stretchRight;
+    -webkit-animation-name: stretchRight;   
+ 
+    animation-duration: 1.5s;   
+    -webkit-animation-duration: 1.5s;
+ 
+    animation-timing-function: ease-out;    
+    -webkit-animation-timing-function: ease-out;    
+ 
+    transform-origin: 0% 0%;
+    -ms-transform-origin: 0% 0%;
+    -webkit-transform-origin: 0% 0%;        
+}
+ 
+@keyframes stretchRight {
+    0% {
+        transform: scaleX(0.3);
+    }
+    40% {
+        transform: scaleX(1.02);
+    }
+    60% {
+        transform: scaleX(0.98);
+    }
+    80% {
+        transform: scaleX(1.01);
+    }
+    100% {
+        transform: scaleX(0.98);
+    }               
+    80% {
+        transform: scaleX(1.01);
+    }
+    100% {
+        transform: scaleX(1);
+    }                           
+}
+ 
+@-webkit-keyframes stretchRight {
+    0% {
+        -webkit-transform: scaleX(0.3);
+    }
+    40% {
+        -webkit-transform: scaleX(1.02);
+    }
+    60% {
+        -webkit-transform: scaleX(0.98);
+    }
+    80% {
+        -webkit-transform: scaleX(1.01);
+    }
+    100% {
+        -webkit-transform: scaleX(0.98);
+    }               
+    80% {
+        -webkit-transform: scaleX(1.01);
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+    }       
+}
+
+/* из прозрачного к видемому */
+
+.fadeIn{
+
+	
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+
+/* Описываем анимацию свойства opacity */
+ 
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+
+
+
+@media (min-width: 900px) {
+	
+	html {
+		overflow:  hidden; /* скрываем полосы прокрутки */
+	}
+	
+	.small-title, .mini-title {
+		display: none;
+	}
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 700px) {
+	#scene_background_{{ID}} {
+		display: flex!important;
+		flex-flow: wrap!important;
+	}
+	
+	.{{HEADER}}, .{{LEFT}}, .{{CENTER}}, .{{RIGHT}} { 
+		width: 100%!important;
+		height : auto !important;
+	}
+		
+	.{{HEADER}} {order: 2!important;}
+	.{{LEFT}} {order: 1!important;}
+	.{{CENTER}} {order: 0!important;}
+	.{{RIGHT}} {order: 3!important;}
+	
+	
+	.{{CENTER}} {
+		padding: 0px!important;
+		margin: 0px!important;
+		background: #fbf9f9 !important;
+	}
+	
+	.img-home {
+		height: 200px;
+		padding:0px;
+		margin: 0px;
+		border-radius: 0!important;
+	}
+
+	.in-home-1 {
+		height:130px;
+	}
+
+	.in-home-2 {
+		height:70px;
+		margin: 0 auto; 
+	}
+	
+	.home-addition {
+		font-size: 16px;
+	}
+	
+	.top-title {
+		display: none;
+	}
+	
+	.small-title {
+		color: #aeadaf!important;
+		height:30px;
+		padding-top:5px;
+		font-size: 16px;
+		font-weight: bold;
+	}
+	
+	.center-menu .link-ico-out {
+		width:85px;
+		margin-bottom: 5px;
+	}
+	
+	.in-home-1 img {
+		width: 90px;
+	}
+	
+	.ico-stutus{
+		margin: 10px;
+	}
+	
+	.ico-stutus .ico {
+		width:24px;
+		height:24px;
+	}
+	
+	.time-home{
+		font-size: 34px;
+	}
+	
+	.{{HEADER}} {
+		background: 0 !important;
+		border: 0 !important;
+		color: #aeadaf!important;
+	}
+	
+	.mini-title {
+		font-size: 12px;
+		text-align:left;
+		padding: 7px;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: #aeadaf!important;
+	}
+	
+	.top-menu{
+		background: #fbf9f9 !important;
+		width: 100%!important;
+		padding: 3px;
+		color: #aeadaf!important;
+	}
+	
+	.top-menu .link {
+		width: 45px !important;
+		height: 45px !important;
+		margin: 0 6px 0 6px!important;
+		color: #aeadaf!important;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

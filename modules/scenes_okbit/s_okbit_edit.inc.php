@@ -68,6 +68,13 @@ if ($this->mode == 'update') {
 		global $addition;
 		$rec['ADDITION'] = $addition;
 		
+		global $home_scene;
+		$rec['HOME_SCENE'] = $home_scene;
+		
+		global $clone_menu;
+		$rec['CLONE_MENU'] = $clone_menu;
+		
+		
 		$ok = 1;
 	}
 	
@@ -242,13 +249,35 @@ $filelist = array();
 				}
 				else $text_css = $text_css.'<option value='.$temp_rec.' >'.$temp_rec.'</option>'; 
 			}
-		}	
+			
+		}		
 	}
+	
+	$res_all = SQLSelect("SELECT * FROM scenes ORDER BY PRIORITY DESC");
+		for($i=0; $i < count($res_all) ;$i++){
+			if($res_all[$i]['ID'] == $rec['HOME_SCENE']) $all_scenes = $all_scenes.'<option value="'.$res_all[$i]['ID'].'" selected>'.$res_all[$i]['TITLE'].'</option>';
+			else $all_scenes = $all_scenes.'<option value="'.$res_all[$i]['ID'].'">'.$res_all[$i]['TITLE'].'</option>';
+		}
+	
+	$rec['HOME_SCENE'] = $all_scenes;
+	
+	
+	$xml = simplexml_load_file('./templates/scenes_okbit/sc_templates/'.$rec['TEMPLATE'].'/templateDetails.xml');
+	
+	$rec['TYPE_SCENE']='';
+		
+	foreach ($xml as $type) {		
+		$temp_type = $type->nameType;
+		if ($temp_type) $rec['TYPE_SCENE'] = $temp_type;
+	}
+	
 	
 	
 
 	$rec['TEMPLATE_SEARH'] = $text_html;
 	$rec['TEMPLATE_CSS'] = $text_css;
+	
+	
 	
 	$rec['TEMPLATE_IMG'] = '/templates/scenes_okbit/sc_templates/'.$rec['TEMPLATE'].'/images/'.$temp_img.'.png';
 }

@@ -52,7 +52,7 @@
 			
 			//DebMes(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>", 'scenes_okbit');
 			
-
+			$res_pos = array();
 			
 			foreach ($xml as $position) {		
 				

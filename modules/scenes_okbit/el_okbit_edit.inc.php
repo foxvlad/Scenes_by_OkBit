@@ -55,6 +55,12 @@ if ($this->mode == 'update') {
 		global $textarea;
 		$rec['TEXTAREA'] = $textarea;
 		
+		global $link_show;
+		$rec['SHOW1'] = $link_show;
+		
+		global $right_show;
+		$rec['SHOW2'] = $right_show;
+		
 				
 		global $linked_object;
 		$rec['LINKED_OBJECT'] = trim($linked_object);
@@ -82,6 +88,8 @@ if ($this->mode == 'update') {
 		$contents = str_replace('{{TITLE}}',$rec['TITLE'],$contents);
 		$contents = str_replace('{{TEXTAREA}}',$rec['TEXTAREA'],$contents);
 		$contents = str_replace('{{ELEMENT_ID}}',$rec['ID'],$contents);
+		$contents = str_replace('{{CENTER_SHOW}}',$rec['SHOW1'],$contents);
+		$contents = str_replace('{{RIGHT_SHOW}}',$rec['SHOW2'],$contents);
 		$contents = str_replace('{{OBJECT}}',$rec['LINKED_OBJECT'],$contents);
 		$contents = str_replace('{{METOD}}',$rec['LINKED_METHOD'],$contents);
 		$contents = str_replace('{{LINKED_PROPERTY}}',$rec['LINKED_OBJECT'].'.'.$rec['LINKED_PROPERTY'],$contents);
@@ -124,7 +132,8 @@ if ($this->mode == 'update') {
 			}
 
 
-		}	
+		}
+
 
 	foreach ($xml as $ico) { //вывыд иконок ссылок полученым из xml файла
 		$ico_val = $ico->filesIco;
@@ -142,6 +151,8 @@ if ($this->mode == 'update') {
 	
 	$rec['SCENE_LINK'] = $all_scenes;
 	
+	$rec['LINK_SHOW'] = $rec['SHOW1'];
+	
 }
 
 		
@@ -150,7 +161,7 @@ if ($this->mode == 'update') {
 	}
 
 		
-		
+	$rec['TEMPLATE'] = $res['TEMPLATE'];	
 	
 	$rec['POSIT'] = $pos_el;
 

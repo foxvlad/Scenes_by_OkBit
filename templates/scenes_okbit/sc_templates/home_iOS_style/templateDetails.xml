@@ -1,5 +1,8 @@
 <?xml version='1.0'?>
 <templates>
+	<type>
+		<nameType>home</nameType>
+	</type>>
 	<css>
 		<name>light</name>
 		<img_ico>thumbnail2</img_ico>

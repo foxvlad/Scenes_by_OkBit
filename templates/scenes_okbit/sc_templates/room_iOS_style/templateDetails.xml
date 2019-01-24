@@ -1,0 +1,205 @@
+<?xml version='1.0'?>
+<templates>
+	<type>
+		<nameType>room</nameType>
+	</type>
+	<css>
+		<name>light</name>
+		<img_ico>thumbnail2</img_ico>
+		<files>light</files>
+	</css>
+	<css>
+		<name>dark</name>
+		<img_ico>thumbnail1</img_ico>
+		<files>dark</files>	
+	</css>
+	<position>
+		<namePosition>HEADER</namePosition>
+		<positionFile>header</positionFile>
+		<priority>100</priority>		
+	</position>
+	<position>
+		<namePosition>LEFT</namePosition>
+		<positionFile>left</positionFile>
+		<priority>90</priority>
+	</position>
+	<position>
+		<namePosition>CENTER1</namePosition>
+		<positionFile>center1</positionFile>
+		<priority>88</priority>
+	</position>
+	<position>
+		<namePosition>CENTER2</namePosition>
+		<positionFile>center2</positionFile>
+		<priority>87</priority>
+	</position>
+	<position>
+		<namePosition>CENTER3</namePosition>
+		<positionFile>center3</positionFile>
+		<priority>86</priority>
+	</position>
+	<position>
+		<namePosition>CENTER4</namePosition>
+		<positionFile>center4</positionFile>
+		<priority>85</priority>
+	</position>
+	<position>
+		<namePosition>CENTER5</namePosition>
+		<positionFile>center5</positionFile>
+		<priority>84</priority>
+	</position>
+	<position>
+		<namePosition>RIGHT1</namePosition>
+		<positionFile>right1</positionFile>
+		<priority>77</priority>
+	</position>
+	<position>
+		<namePosition>RIGHT2</namePosition>
+		<positionFile>right2</positionFile>
+		<priority>76</priority>
+	</position>
+	<position>
+		<namePosition>RIGHT3</namePosition>
+		<positionFile>right3</positionFile>
+		<priority>75</priority>
+	</position>
+	<position>
+		<namePosition>RIGHT4</namePosition>
+		<positionFile>right4</positionFile>
+		<priority>75</priority>
+	</position>	
+	<elements pos="HEADER">
+		<nameElements>ico_link</nameElements>
+		<titleElements>Ссылка иконка</titleElements>
+	</elements>
+	<elements pos="LEFT">
+		<nameElements>title</nameElements>
+		<titleElements>Заголовок</titleElements>
+	</elements>
+	<elements pos="LEFT">
+		<nameElements>html</nameElements>
+		<titleElements>Произвольный html</titleElements>
+	</elements>
+	<elements pos="LEFT">
+		<nameElements>link_show</nameElements>
+		<titleElements>Показ элемента</titleElements>
+	</elements>
+	<elements pos="CENTER1">
+		<nameElements>switch_ico</nameElements>
+		<titleElements>Выключатель иконка</titleElements>
+	</elements>
+	<elements pos="CENTER1">
+		<nameElements>button_ico</nameElements>
+		<titleElements>Кнопка иконка</titleElements>
+	</elements>
+	<elements pos="RIGHT1">
+		<nameElements>title</nameElements>
+		<titleElements>Заголовок</titleElements>
+	</elements>
+	<elements pos="RIGHT1">
+		<nameElements>html</nameElements>
+		<titleElements>Произвольный html</titleElements>
+	</elements>
+	<ico pos="HEADER">
+		<filesIco id="1">top-cold</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="2">top-lamp</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="3">top-note</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="4">top-cam</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="5">top-shit</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="6">top-setting</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="7">top-gradus</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="8">top-plan</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="9">top-shit-poj</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="10">top-shit-ohr</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="11">top-graf</filesIco>
+	</ico>
+	<ico pos="HEADER">
+		<filesIco id="12">top-in-sys</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="1">left-show-list</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="2">left-show-tv</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="3">left-show-radio</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="4">left-show-media</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="5">left-show-bud</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="6">left-show-lamp</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="7">left-show-climat</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="8">left-show-muzc</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="9">left-show-vent</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="10">left-show-volt</filesIco>
+	</ico>
+	<ico pos="LEFT">
+		<filesIco id="11">left-show-gradus</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="1">script-lamp-0</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="2">script-eco-0</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="3">script-luna-0</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="4">script-sun-0</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="5">script-wather-0</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="6">script-zam-0</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="7">script-tv-0</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="8">script-smotr-0</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="9">script-code-0</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="10">script-pivo-0</filesIco>
+	</ico>
+	<ico pos="CENTER">
+		<filesIco id="11">script-party-0</filesIco>
+	</ico>
+</templates>
