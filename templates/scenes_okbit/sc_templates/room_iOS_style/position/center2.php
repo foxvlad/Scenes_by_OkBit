@@ -7,10 +7,11 @@
 <!-- вывод сценариев -->
 <div class="center-menu">
 	{{CENTER2}}
-		<div class="time-home">
-			%ThisComputer.timeNow%
-		</div>
-	<div style="font-size:300px;">
+
+	<div style="font-size:100px;">
+		%pultTV.satus%
+	</div>	
+	<div style="font-size:200px;">
 		2
 	</div>
 </div>

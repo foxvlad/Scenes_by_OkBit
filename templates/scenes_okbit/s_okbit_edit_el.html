@@ -85,14 +85,14 @@
 					[#if TYPE == "button_ico"#]Кнопка[#endif TYPE#]
 					[#if TYPE == "switch_ico"#]Выключатель[#endif TYPE#]
 					[#if TYPE == "link_show"#]Показ элемента[#endif TYPE#]
+					[#if TYPE == "tv_console"#]Пульт управления ТВ[#endif TYPE#]
 				[#endif ID#]
 					
 				</div>
 			</div>
 			
 			[#if ID!=""#]			
-					[#ELEMENTS#]
-					
+					[#ELEMENTS#]					
 					[#if TYPE =="ico_link" || TYPE =="link_ico"#]
 						[#inc elements/ico_link.html#]
 					[#endif TYPE#]
@@ -107,6 +107,9 @@
 					[#endif TYPE#]	
 					[#if TYPE =="link_show"#]
 						[#inc elements/link_show.html#]
+					[#endif TYPE#]
+					[#if TYPE =="tv_console"#]
+						[#inc elements/tv_console.html#]
 					[#endif TYPE#]
 			[#endif ID#]
 		

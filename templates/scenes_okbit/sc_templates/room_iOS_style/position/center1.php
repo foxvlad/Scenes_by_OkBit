@@ -8,9 +8,6 @@
 <div class="center-menu">
 	{{CENTER1}}
 	
-		<div class="time-home">
-			%ThisComputer.timeNow%
-		</div>
 	<div style="font-size:300px;">
 		1
 	</div>

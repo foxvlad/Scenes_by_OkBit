@@ -100,106 +100,71 @@
 		<nameElements>html</nameElements>
 		<titleElements>Произвольный html</titleElements>
 	</elements>
-	<ico pos="HEADER">
-		<filesIco id="1">top-cold</filesIco>
+	<elements pos="RIGHT1">
+		<nameElements>tv_console</nameElements>
+		<titleElements>ТВ пульт</titleElements>
+	</elements>
+	<elements pos="RIGHT2">
+		<nameElements>title</nameElements>
+		<titleElements>Заголовок</titleElements>
+	</elements>
+	<elements pos="RIGHT2">
+		<nameElements>html</nameElements>
+		<titleElements>Произвольный html</titleElements>
+	</elements>
+	<elements pos="RIGHT2">
+		<nameElements>tv_console</nameElements>
+		<titleElements>ТВ пульт</titleElements>
+	</elements>
+	<ico ico_pos="HEADER" element="ico_link">
+		<filesIco id="1">top-cold		</filesIco>
+		<filesIco id="2">top-lamp		</filesIco>
+		<filesIco id="3">top-note		</filesIco>
+		<filesIco id="4">top-cam		</filesIco>
+		<filesIco id="5">top-shit		</filesIco>
+		<filesIco id="6">top-setting	</filesIco>
+		<filesIco id="7">top-gradus		</filesIco>
+		<filesIco id="8">top-plan		</filesIco>
+		<filesIco id="9">top-shit-poj	</filesIco>
+		<filesIco id="10">top-shit-ohr	</filesIco>
+		<filesIco id="11">top-graf		</filesIco>
+		<filesIco id="12">top-in-sys	</filesIco>
 	</ico>
-	<ico pos="HEADER">
-		<filesIco id="2">top-lamp</filesIco>
+	<ico ico_pos="LEFT" element="link_show">
+		<filesIco id="1">left-show-list		</filesIco>
+		<filesIco id="2">left-show-tv		</filesIco>
+		<filesIco id="3">left-show-radio	</filesIco>
+		<filesIco id="4">left-show-media	</filesIco>
+		<filesIco id="5">left-show-bud		</filesIco>
+		<filesIco id="6">left-show-lamp		</filesIco>
+		<filesIco id="7">left-show-climat	</filesIco>
+		<filesIco id="8">left-show-muzc		</filesIco>
+		<filesIco id="9">left-show-vent		</filesIco>
+		<filesIco id="10">left-show-volt	</filesIco>
+		<filesIco id="11">left-show-gradus	</filesIco>
 	</ico>
-	<ico pos="HEADER">
-		<filesIco id="3">top-note</filesIco>
+	<ico ico_pos="CENTER1" element="switch_ico">
+		<filesIco id="1">script-lamp-0		</filesIco>
+		<filesIco id="2">script-eco-0		</filesIco>
+		<filesIco id="3">script-luna-0		</filesIco>
+		<filesIco id="4">script-sun-0		</filesIco>
+		<filesIco id="5">script-wather-0	</filesIco>
+		<filesIco id="6">script-zam-0		</filesIco>
+		<filesIco id="7">script-tv-0		</filesIco>
+		<filesIco id="8">script-smotr-0		</filesIco>
+		<filesIco id="9">script-code-0		</filesIco>
+		<filesIco id="10">script-pivo-0		</filesIco>
 	</ico>
-	<ico pos="HEADER">
-		<filesIco id="4">top-cam</filesIco>
+	
+	<ico ico_pos="CENTER1" element="button_ico">
+		<filesIco id="1">room-hoz			</filesIco>
+		<filesIco id="2">left-show-climat	</filesIco>
+		<filesIco id="3">left-show-muzc		</filesIco>
+		<filesIco id="4">left-show-vent		</filesIco>
+		<filesIco id="5">left-show-volt		</filesIco>
+		<filesIco id="6">left-show-gradus	</filesIco>
 	</ico>
-	<ico pos="HEADER">
-		<filesIco id="5">top-shit</filesIco>
-	</ico>
-	<ico pos="HEADER">
-		<filesIco id="6">top-setting</filesIco>
-	</ico>
-	<ico pos="HEADER">
-		<filesIco id="7">top-gradus</filesIco>
-	</ico>
-	<ico pos="HEADER">
-		<filesIco id="8">top-plan</filesIco>
-	</ico>
-	<ico pos="HEADER">
-		<filesIco id="9">top-shit-poj</filesIco>
-	</ico>
-	<ico pos="HEADER">
-		<filesIco id="10">top-shit-ohr</filesIco>
-	</ico>
-	<ico pos="HEADER">
-		<filesIco id="11">top-graf</filesIco>
-	</ico>
-	<ico pos="HEADER">
-		<filesIco id="12">top-in-sys</filesIco>
-	</ico>
-	<ico pos="LEFT">
-		<filesIco id="1">left-show-list</filesIco>
-	</ico>
-	<ico pos="LEFT">
-		<filesIco id="2">left-show-tv</filesIco>
-	</ico>
-	<ico pos="LEFT">
-		<filesIco id="3">left-show-radio</filesIco>
-	</ico>
-	<ico pos="LEFT">
-		<filesIco id="4">left-show-media</filesIco>
-	</ico>
-	<ico pos="LEFT">
-		<filesIco id="5">left-show-bud</filesIco>
-	</ico>
-	<ico pos="LEFT">
-		<filesIco id="6">left-show-lamp</filesIco>
-	</ico>
-	<ico pos="LEFT">
-		<filesIco id="7">left-show-climat</filesIco>
-	</ico>
-	<ico pos="LEFT">
-		<filesIco id="8">left-show-muzc</filesIco>
-	</ico>
-	<ico pos="LEFT">
-		<filesIco id="9">left-show-vent</filesIco>
-	</ico>
-	<ico pos="LEFT">
-		<filesIco id="10">left-show-volt</filesIco>
-	</ico>
-	<ico pos="LEFT">
-		<filesIco id="11">left-show-gradus</filesIco>
-	</ico>
-	<ico pos="CENTER">
-		<filesIco id="1">script-lamp-0</filesIco>
-	</ico>
-	<ico pos="CENTER">
-		<filesIco id="2">script-eco-0</filesIco>
-	</ico>
-	<ico pos="CENTER">
-		<filesIco id="3">script-luna-0</filesIco>
-	</ico>
-	<ico pos="CENTER">
-		<filesIco id="4">script-sun-0</filesIco>
-	</ico>
-	<ico pos="CENTER">
-		<filesIco id="5">script-wather-0</filesIco>
-	</ico>
-	<ico pos="CENTER">
-		<filesIco id="6">script-zam-0</filesIco>
-	</ico>
-	<ico pos="CENTER">
-		<filesIco id="7">script-tv-0</filesIco>
-	</ico>
-	<ico pos="CENTER">
-		<filesIco id="8">script-smotr-0</filesIco>
-	</ico>
-	<ico pos="CENTER">
-		<filesIco id="9">script-code-0</filesIco>
-	</ico>
-	<ico pos="CENTER">
-		<filesIco id="10">script-pivo-0</filesIco>
-	</ico>
-	<ico pos="CENTER">
-		<filesIco id="11">script-party-0</filesIco>
-	</ico>
+	
+	
+	
 </templates>

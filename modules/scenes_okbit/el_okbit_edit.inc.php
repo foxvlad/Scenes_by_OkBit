@@ -134,17 +134,18 @@ if ($this->mode == 'update') {
 
 		}
 
-
-	foreach ($xml as $ico) { //вывыд иконок ссылок полученым из xml файла
-		$ico_val = $ico->filesIco;
-		$ico_id = $ico_val['id'];
-		$ico_pos = $ico['pos'];
-		if($ico_val && $ico_pos == $rec['POSITION']){
-			if ($ico_id == $rec['ICO'])$checked='checked';
-			else $checked='';
-			$img = $img . '<input name="ico" type="radio" id="'.$ico_val.'" value="'.$ico_id.'" '.$checked.'><label for="'.$ico_val.'"><img src="/templates/scenes_okbit/sc_templates/'.$res['TEMPLATE'].'/images/ico/'.$ico_val .'.png"></label>';
+	
+	foreach ($xml as $ico) { //вывыд иконок ссылок полученым из xml файла в зависимости от позиции и типа элемента
+		if($ico['ico_pos'] == $rec['POSITION'] && $ico['element'] == $rec['TYPE']){
+			foreach ($ico as $filesIco) {
+				if ($filesIco['id'] == $rec['ICO'])$checked='checked';
+				else $checked='';			
+				$img = $img . '<input name="ico" type="radio" id="'.$filesIco.'" value="'.$filesIco['id'].'" '.$checked.'><label for="'.$filesIco.'"><img src="/templates/scenes_okbit/sc_templates/'.$res['TEMPLATE'].'/images/ico/'.$filesIco .'.png"></label>';
+				
+			}
 		}
-	}	
+	}		
+	
 	
 	
 	$rec['ICO_IMG'] = $img;
