@@ -85,12 +85,44 @@
 		<titleElements>Показ элемента</titleElements>
 	</elements>
 	<elements pos="CENTER1">
-		<nameElements>switch_ico</nameElements>
-		<titleElements>Выключатель иконка</titleElements>
+		<nameElements>title</nameElements>
+		<titleElements>Заголовок</titleElements>
 	</elements>
 	<elements pos="CENTER1">
-		<nameElements>button_ico</nameElements>
-		<titleElements>Кнопка иконка</titleElements>
+		<nameElements>zero</nameElements>
+		<titleElements>Отступ</titleElements>
+	</elements>
+	<elements pos="CENTER1">
+		<nameElements>html</nameElements>
+		<titleElements>Произвольный html</titleElements>
+	</elements>
+	<elements pos="CENTER1">
+		<nameElements>switch</nameElements>
+		<titleElements>Выключатель</titleElements>
+	</elements>
+	<elements pos="CENTER1">
+		<nameElements>dimmer</nameElements>
+		<titleElements>Диммер</titleElements>
+	</elements>
+	<elements pos="CENTER1">
+		<nameElements>temp</nameElements>
+		<titleElements>Регулятор температуры</titleElements>
+	</elements>
+	<elements pos="CENTER1">
+		<nameElements>time</nameElements>
+		<titleElements>Установка времени</titleElements>
+	</elements>
+	<elements pos="CENTER1">
+		<nameElements>list</nameElements>
+		<titleElements>Выпадающий список</titleElements>
+	</elements>
+	<elements pos="CENTER1">
+		<nameElements>rgb</nameElements>
+		<titleElements>RGB-селектор</titleElements>
+	</elements>
+	<elements pos="CENTER1">
+		<nameElements>favorit_list</nameElements>
+		<titleElements>Избранные каналы</titleElements>
 	</elements>
 	<elements pos="RIGHT1">
 		<nameElements>title</nameElements>
@@ -143,12 +175,12 @@
 		<filesIco id="10">left-show-volt	</filesIco>
 		<filesIco id="11">left-show-gradus	</filesIco>
 	</ico>
-	<ico ico_pos="CENTER1" element="switch_ico">
-		<filesIco id="1">script-lamp-0		</filesIco>
-		<filesIco id="2">script-eco-0		</filesIco>
-		<filesIco id="3">script-luna-0		</filesIco>
-		<filesIco id="4">script-sun-0		</filesIco>
-		<filesIco id="5">script-wather-0	</filesIco>
+	<ico ico_pos="CENTER1" element="switch">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">radioSwitch	</filesIco>
 		<filesIco id="6">script-zam-0		</filesIco>
 		<filesIco id="7">script-tv-0		</filesIco>
 		<filesIco id="8">script-smotr-0		</filesIco>

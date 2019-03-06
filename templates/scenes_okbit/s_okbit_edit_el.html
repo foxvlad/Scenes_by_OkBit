@@ -83,9 +83,10 @@
 					[#if TYPE =="title"#]Заголовок[#endif TYPE#]
 					[#if TYPE == "html"#]HTML[#endif TYPE#]
 					[#if TYPE == "button_ico"#]Кнопка[#endif TYPE#]
-					[#if TYPE == "switch_ico"#]Выключатель[#endif TYPE#]
+					[#if TYPE == "switch_ico" || TYPE == "switch"#]Выключатель[#endif TYPE#]
 					[#if TYPE == "link_show"#]Показ элемента[#endif TYPE#]
 					[#if TYPE == "tv_console"#]Пульт управления ТВ[#endif TYPE#]
+					[#if TYPE == "zero"#]Отступ[#endif TYPE#]
 				[#endif ID#]
 					
 				</div>
@@ -102,7 +103,7 @@
 					[#if TYPE =="button_ico"#]
 						[#inc elements/button_ico.html#]
 					[#endif TYPE#]
-					[#if TYPE =="switch_ico"#]
+					[#if TYPE =="switch_ico" || TYPE =="switch"#]
 						[#inc elements/switch_ico.html#]
 					[#endif TYPE#]	
 					[#if TYPE =="link_show"#]
