@@ -92,6 +92,7 @@ if ($this->mode == 'update') {
 		$contents = str_replace('{{RIGHT_SHOW}}',$rec['SHOW2'],$contents);
 		$contents = str_replace('{{OBJECT}}',$rec['LINKED_OBJECT'],$contents);
 		$contents = str_replace('{{METOD}}',$rec['LINKED_METHOD'],$contents);
+		$contents = str_replace('{{PROPERTY}}',$rec['LINKED_PROPERTY'],$contents);
 		$contents = str_replace('{{LINKED_PROPERTY}}',$rec['LINKED_OBJECT'].'.'.$rec['LINKED_PROPERTY'],$contents);
 		$rec['HTML'] = $contents;
 		

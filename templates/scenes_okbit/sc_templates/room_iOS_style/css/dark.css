@@ -347,7 +347,16 @@ A, A:hover {
 }
 
 .center-menu {
-	padding-top:10px;
+	padding-top:4px;
+}
+
+.center-menu .title {
+	width:100%;
+	font-size: 12px;
+	text-align:left;
+	padding: 0px;
+	font-weight: bold;
+	text-transform: uppercase; 
 }
 
 
@@ -616,7 +625,7 @@ A, A:hover {
 
 .{{CENTER1}}, .{{CENTER2}}, .{{CENTER3}}, .{{CENTER4}}, .{{CENTER5}}, .center-v { /* CENTER */	
 	/*border: 1px solid #666;*/	
-	margin: 15px!important;
+	margin: 5px 15px!important;
 	padding:0 10px 0 10px;
 	position: relative !important;
 	top: auto !important;
@@ -1676,7 +1685,60 @@ A, A:hover {
 
 
 
+/* Далее идет оформление чекбокса в современных браузерах, а также IE9 и выше.
+Благодаря тому, что старые браузеры не поддерживают селекторы :not и :checked,
+в них все нижеследующие стили не сработают. */
 
+/* Прячем оригинальный чекбокс. */
+.checkbox:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.checkbox:not(checked) + label {
+  position: relative; /* будем позиционировать псевдочекбокс относительно label */
+  padding: 0 0 0 60px; /* оставляем слева от label место под псевдочекбокс */
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.checkbox:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 60px;
+  height: 30px;
+  border-radius: 18px;
+  background: #7c7f84;
+  border: 1px solid #2e323a; /* задаём границу */
+ 
+}
+/* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
+.checkbox:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  width: 26px;
+  height: 26px;
+  border-radius: 18px;
+  background: #FFF;
+  transition: all .2s; /* анимация, чтобы чекбокс переключался плавно */
+}
+/* Меняем фон чекбокса, когда он включен. */
+.checkbox:checked + label:before {
+  background: #36b736;
+  border: 1px solid #034203; /* задаём границу */
+}
+/* Сдвигаем переключатель чекбокса, когда он включен. */
+.checkbox:checked + label:after {
+  left: 33px;
+}
+
+.checkStyle {
+	width:64px;
+	height:16px;
+	margin:3px;
+	float:right;	
+}
 
 
 

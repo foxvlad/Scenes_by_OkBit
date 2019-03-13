@@ -97,7 +97,7 @@
 		<titleElements>Произвольный html</titleElements>
 	</elements>
 	<elements pos="CENTER1">
-		<nameElements>switch</nameElements>
+		<nameElements>switch_cent</nameElements>
 		<titleElements>Выключатель</titleElements>
 	</elements>
 	<elements pos="CENTER1">
@@ -175,7 +175,7 @@
 		<filesIco id="10">left-show-volt	</filesIco>
 		<filesIco id="11">left-show-gradus	</filesIco>
 	</ico>
-	<ico ico_pos="CENTER1" element="switch">
+	<ico ico_pos="CENTER1" element="switch_cent">
 		<filesIco id="1">left-show-lamp		</filesIco>
 		<filesIco id="2">budSet				</filesIco>
 		<filesIco id="3">ventRoom			</filesIco>
