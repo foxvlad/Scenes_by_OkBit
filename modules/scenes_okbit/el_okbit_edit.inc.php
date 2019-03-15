@@ -61,6 +61,12 @@ if ($this->mode == 'update') {
 		global $right_show;
 		$rec['SHOW2'] = $right_show;
 		
+		
+		global $img_fav;		
+		if ($img_fav != '') {
+			$rec['TEXTAREA'] = $img_fav;
+		}	
+		
 				
 		global $linked_object;
 		$rec['LINKED_OBJECT'] = trim($linked_object);
@@ -94,6 +100,7 @@ if ($this->mode == 'update') {
 		$contents = str_replace('{{METOD}}',$rec['LINKED_METHOD'],$contents);
 		$contents = str_replace('{{PROPERTY}}',$rec['LINKED_PROPERTY'],$contents);
 		$contents = str_replace('{{LINKED_PROPERTY}}',$rec['LINKED_OBJECT'].'.'.$rec['LINKED_PROPERTY'],$contents);
+		$contents = str_replace('{{IMG_FAV}}',$rec['TEXTAREA'],$contents);
 		$rec['HTML'] = $contents;
 		
 		
@@ -154,6 +161,8 @@ if ($this->mode == 'update') {
 	$rec['SCENE_LINK'] = $all_scenes;
 	
 	$rec['LINK_SHOW'] = $rec['SHOW1'];
+	
+	$rec['IMG_FAV'] = $rec['TEXTAREA'];
 	
 }
 

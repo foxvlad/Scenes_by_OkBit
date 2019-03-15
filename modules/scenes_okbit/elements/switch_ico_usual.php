@@ -8,10 +8,11 @@
  	}
 
 </script>
-
-<div class="link-ico-out">
-	<div class="link-ico link-color-{{ICO}}-%{{LINKED_PROPERTY}}%" onclick="switch_{{ELEMENT_ID}}()">
-		<div class="link-ico-in link-ico-{{ICO}}-%{{LINKED_PROPERTY}}%"></div>
+<div class="right-menu">
+	<div class="link-ico-out">
+		<div class="link-ico link-color-{{ICO}}-%{{LINKED_PROPERTY}}%" onclick="switch_{{ELEMENT_ID}}()">
+			<div class="link-ico-in link-ico-{{ICO}}-%{{LINKED_PROPERTY}}%"></div>
+		</div>
+		<span>{{TITLE}}</span>
 	</div>
-	<span>{{TITLE}}</span>
 </div>

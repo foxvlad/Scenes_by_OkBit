@@ -430,10 +430,213 @@ A, A:hover {
 }
 
 
+.right-menu .link-ico{
+	margin: 0 auto;
+	width:60px;
+	height: 60px;
+	padding: 5px;
+	border-radius: 50%;
+	cursor: pointer
+}
+
+.right-menu .link-ico:active{
+	background: #c8c8d087!important;
+	box-shadow: 0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)   
+	inset;box-shadow:0 1px 0 rgba(255, 255, 255, .5) inset, 0 -1px 0 rgba(255, 255, 255, .1)  
+	inset; 
+	  -moz-transform: translatey(3px); /* Для Firefox */ 
+	  -ms-transform: translatey(3px); /* Для IE */ 
+	  -webkit-transform: translatey(3px); /* Для Safari, Chrome, iOS */ 
+	  -o-transform:translatey(3px); /* Для Opera */ 
+	transform: translatey(3px); 
+}
+
+.right-menu .link-color-1-0{
+	border: 2px solid #d7a306;
+}
+
+.right-menu .link-color-1-1{
+	border: 2px solid #fbdf8a;
+	background: #d7a306;
+}
+
+.right-menu .link-color-2-0{
+	border: 2px solid #93d556;
+}
+
+.right-menu .link-color-2-1{
+	border: 2px solid #d2fdab;
+	background:#93d556;
+}
+
+.right-menu .link-color-3-0, .right-menu .link-color-9-0{
+	border: 2px solid #7c2443;
+}
+
+.right-menu .link-color-3-1, .right-menu .link-color-9-1{
+	border: 2px solid #c94a77;
+	background:#7c2443;
+}
+
+
+.right-menu .link-color-4-0{
+	border: 2px solid #07a307;
+}
+
+.right-menu .link-color-4-1{
+	border: 2px solid #d8ff94;
+	background:#07a307;
+}
+
+.right-menu .link-color-5-0, .right-menu .link-color-10-0{
+	border: 2px solid #0164b1;
+}
+
+.right-menu .link-color-5-1, .right-menu .link-color-10-1{
+	border: 2px solid #60a8e0;
+	background:#0164b1;
+	
+}
+
+.right-menu .link-color-6-0, .right-menu .link-color-11-0{
+	border: 2px solid #ce0101;
+}
+
+.right-menu .link-color-6-1, .right-menu .link-color-11-1{
+	border: 2px solid #fd8989;
+	background:#ce0101;
+}
+
+.right-menu .link-color-7-0, .right-menu .link-color-8-0{
+	border: 2px solid #dc4701;
+
+}
+
+.right-menu .link-color-7-1, .right-menu .link-color-8-1{
+	border: 2px solid #faa67e;
+	background:#dc4701;
+}
+
+.right-menu .link-ico-out {
+	width:90px;
+	height: 90px;
+	text-align:center;
+	float:left;
+	margin-bottom: 10px;
+}
+
+.right-menu .link-ico-in{
+	width:45px;
+	height: 45px;
+	background-size: cover;
+}
+
+.right-menu span {
+	font-size: 12px;
+	padding: 4px;
+}
+
+.right-menu .link-ico-1-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-lamp-0.png)!important;
+}
+
+.right-menu .link-ico-1-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-lamp-1.png)!important;
+}
+
+.right-menu .link-ico-2-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-eco-0.png)!important;
+}
+
+.right-menu .link-ico-2-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-eco-1.png)!important;
+}
+
+.right-menu .link-ico-3-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-luna-0.png)!important;
+}
+
+.right-menu .link-ico-3-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-luna-1.png)!important;
+}
+
+.right-menu .link-ico-4-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-sun-0.png)!important;
+}
+
+.right-menu .link-ico-4-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-sun-1.png)!important;
+}
+
+.right-menu .link-ico-5-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-wather-0.png)!important;
+}
+
+.right-menu .link-ico-5-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-wather-1.png)!important;
+}
+
+.right-menu .link-ico-6-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-zam-0.png)!important;
+}
+
+.right-menu .link-ico-6-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-zam-1.png)!important;
+}
+
+.right-menu .link-ico-7-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-tv-0.png)!important;
+}
+
+.right-menu .link-ico-7-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-tv-1.png)!important;
+}
+
+
+.right-menu .link-ico-8-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-smotr-0.png)!important;
+}
+
+.right-menu .link-ico-8-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-smotr-1.png)!important;
+}
+
+.right-menu .link-ico-9-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-code-0.png)!important;
+}
+
+.right-menu .link-ico-9-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-code-1.png)!important;
+}
+
+
+.right-menu .link-ico-10-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-pivo-0.png)!important;
+}
+
+.right-menu .link-ico-10-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-pivo-1.png)!important;
+}
+
+.right-menu .link-ico-11-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-party-0.png)!important;
+}
+
+.right-menu .link-ico-11-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-party-1.png)!important;
+}
+
+
+
 .right-menu{
 	float:right;
 	font-size:16px;
 	width:100%;
+}
+
+.right-menu li{
+	margin: 4px 8px;
+	float:left;
 }
 
 .right-menu .title {
@@ -478,7 +681,7 @@ A, A:hover {
 
 .pult{
 	width: 220px;
-	margin: 0px auto;
+	margin: 0px auto!important;
 }
 
 
@@ -556,6 +759,50 @@ A, A:hover {
 
 .gude img{
 	margin: 5px;	
+}
+
+.img_fav {
+	width:70px; 
+	height:70px; 
+	float:left; 
+	background:#fff; 
+	margin: 6px 18px;
+	border-radius: 50%;
+	border: 2px solid #c5c3c2;
+}
+
+.img_fav img {
+	width:66px; 
+	height:66px; 
+	border-radius: 50%;
+	padding: 5px;
+}
+
+.img_fav img:active{
+	padding: 7px;
+	background:#00b934;
+}
+
+
+.img_fav_tv {
+	width:80px; 
+	height:60px; 
+	float:left; 
+	background:#fff; 
+	margin: 6px 13px;
+	border-radius: 18px;
+}
+
+.img_fav_tv img {
+	width:80px; 
+	height:60px; 
+	border-radius: 18px;
+	padding: 5px;
+}
+
+.img_fav_tv img:active{
+	padding: 7px;
+	background:#00b934;
 }
 
 
@@ -1741,7 +1988,37 @@ A, A:hover {
 }
 
 
+.range{
+	margin: 14px 5px;
+    -webkit-appearance: none;
+    border-radius:2px;
+    width:calc(100% - 50px)!important;
+    height:2px;
+    outline : none;
+    border:0px solid #D4D4D4;
+	background:-webkit-linear-gradient(left ,#36b736 0%,#36b736 0%,#bec1c5 0%, #bec1c5 100%);
+	float:left;
+	
+}
 
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width:22px;
+    height:22px;
+    background:#fff;
+    border-radius:50%;
+    cursor:pointer;
+    transition:.1s;
+	border:1px solid #2e323a;
+}
+
+
+
+.rangeStyle {
+	margin:6px 4px 10px 0px;
+	float:right;
+	font-size: 14px;
+}
 
 
 

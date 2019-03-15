@@ -101,6 +101,10 @@
 		<titleElements>Выключатель</titleElements>
 	</elements>
 	<elements pos="CENTER1">
+		<nameElements>slider</nameElements>
+		<titleElements>Слайдер</titleElements>
+	</elements>
+	<elements pos="CENTER1">
 		<nameElements>dimmer</nameElements>
 		<titleElements>Диммер</titleElements>
 	</elements>
@@ -121,8 +125,28 @@
 		<titleElements>RGB-селектор</titleElements>
 	</elements>
 	<elements pos="CENTER1">
-		<nameElements>favorit_list</nameElements>
+		<nameElements>favorite_radio</nameElements>
+		<titleElements>Избранные радиостанции</titleElements>
+	</elements>
+	<elements pos="CENTER2">
+		<nameElements>title</nameElements>
+		<titleElements>Заголовок</titleElements>
+	</elements>
+	<elements pos="CENTER2">
+		<nameElements>html</nameElements>
+		<titleElements>Произвольный html</titleElements>
+	</elements>
+	<elements pos="CENTER2">
+		<nameElements>favorite_tv</nameElements>
 		<titleElements>Избранные каналы</titleElements>
+	</elements>
+	<elements pos="CENTER3">
+		<nameElements>title</nameElements>
+		<titleElements>Заголовок</titleElements>
+	</elements>
+	<elements pos="CENTER3">
+		<nameElements>favorite_radio</nameElements>
+		<titleElements>Избранные радиостанции</titleElements>
 	</elements>
 	<elements pos="RIGHT1">
 		<nameElements>title</nameElements>
@@ -131,6 +155,14 @@
 	<elements pos="RIGHT1">
 		<nameElements>html</nameElements>
 		<titleElements>Произвольный html</titleElements>
+	</elements>
+	<elements pos="RIGHT1">
+		<nameElements>switch_ico</nameElements>
+		<titleElements>Выключатель иконка</titleElements>
+	</elements>
+	<elements pos="RIGHT1">
+		<nameElements>button_ico</nameElements>
+		<titleElements>Кнопка иконка</titleElements>
 	</elements>
 	<elements pos="RIGHT1">
 		<nameElements>tv_console</nameElements>
@@ -195,6 +227,33 @@
 		<filesIco id="4">left-show-vent		</filesIco>
 		<filesIco id="5">left-show-volt		</filesIco>
 		<filesIco id="6">left-show-gradus	</filesIco>
+	</ico>
+	
+	<ico ico_pos="RIGHT1" element="button_ico">
+		<filesIco id="1">script-lamp-0</filesIco>
+		<filesIco id="2">script-eco-0</filesIco>
+		<filesIco id="3">script-luna-0</filesIco>
+		<filesIco id="4">script-sun-0</filesIco>
+		<filesIco id="5">script-wather-0</filesIco>
+		<filesIco id="6">script-zam-0</filesIco>
+		<filesIco id="7">script-tv-0</filesIco>
+		<filesIco id="8">script-smotr-0</filesIco>
+		<filesIco id="9">script-code-0</filesIco>
+		<filesIco id="10">script-pivo-0</filesIco>
+		<filesIco id="11">script-party-0</filesIco>
+	</ico>
+	<ico ico_pos="RIGHT1" element="switch_ico">
+		<filesIco id="1">script-lamp-0</filesIco>
+		<filesIco id="2">script-eco-0</filesIco>
+		<filesIco id="3">script-luna-0</filesIco>
+		<filesIco id="4">script-sun-0</filesIco>
+		<filesIco id="5">script-wather-0</filesIco>
+		<filesIco id="6">script-zam-0</filesIco>
+		<filesIco id="7">script-tv-0</filesIco>
+		<filesIco id="8">script-smotr-0</filesIco>
+		<filesIco id="9">script-code-0</filesIco>
+		<filesIco id="10">script-pivo-0</filesIco>
+		<filesIco id="11">script-party-0</filesIco>
 	</ico>
 	
 	
