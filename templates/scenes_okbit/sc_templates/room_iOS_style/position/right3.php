@@ -1,9 +1,5 @@
-<div class="right-menu">
-	{{RIGHT3}}
-	
+<div class="right-menu">	
 	<div class="pult-out">
-		<div style="font-size:300px; text-align: center;">
-			3
-		</div>
+		{{RIGHT3}}
 	</div>
 </div>

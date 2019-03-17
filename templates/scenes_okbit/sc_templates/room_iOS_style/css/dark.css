@@ -370,6 +370,13 @@ A, A:hover {
 	border-radius: 10px;
 }
 
+.full-center {
+	width:100%;
+	margin: auto;
+	height: 40px;
+	margin:2px 0;
+}
+
 .center-menu .link-ico-out {
 	width:90px;
 	height: 90px;
@@ -518,7 +525,7 @@ A, A:hover {
 }
 
 .right-menu .link-ico-out {
-	width:90px;
+	width:80px;
 	height: 90px;
 	text-align:center;
 	float:left;
@@ -804,6 +811,156 @@ A, A:hover {
 	padding: 7px;
 	background:#00b934;
 }
+
+.player {
+	width:calc(100vw/3 - 40px);
+}
+
+
+
+.player-in {
+	width: 300px;
+	margin: 8 auto;
+}
+
+.gray {
+	border: 2px solid #898c94;
+}
+
+.gray:active {
+	border: 2px solid #7eff7e;
+	background-color: #36b736;
+	
+}
+
+
+
+.circleP {
+	float:left;
+	margin: 0 5px;
+	width: 50px!important; /* задаете свои размеры */
+    height: 50px!important;
+    border-radius: 50%;
+    /* не забываем о кроссбраузерности */
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+	cursor: pointer;
+	text-align:center;
+	
+}
+
+
+
+.circleP img {
+	width: 33px!important; 
+	height: 33px!important;
+	margin: 7px 4px;
+}
+
+.radio-container-c{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  width: 100%;
+}
+
+
+.radio-container{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  width: 300px;
+}
+
+.radio-container *{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.radio-container-c *{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.radio-container .radio-btn, .radio-container-c .radio-btn{
+  border-right: 2px solid #fff;
+  overflow: hidden;
+  width: calc(25%);
+  height: 33px;
+}
+
+.radio-container .radio-btn:last-child, .radio-container-c .radio-btn:last-child{
+  border-right: 0px;
+}
+
+.radio-container .radio-btn label, .radio-container-c .radio-btn label{
+  background-color: transparent;
+  font-size: 14px;
+  color: #fff;
+  display: block;
+  text-align: center;
+  padding: 6px 4px;
+  height: 33px;
+}
+
+.radio-container .radio-btn input, .radio-container-c .radio-btn input{display: none;}
+
+.radio-container .radio-btn input:checked + label, .radio-container-c .radio-btn input:checked + label{
+  background-color: #fff;
+  color: #05c605;
+}
+
+.rc1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/power.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 28px 28px;
+}
+
+.rc1 input:checked + label {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/power2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 24px 24px;
+}
+
+.rc2 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/cold.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 28px 28px;
+}
+
+.rc2 input:checked + label {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/cold2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 24px 24px;
+}
+
+.rc3 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/heat.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 28px 28px;
+}
+
+.rc3 input:checked + label {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/heat2.png);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: 24px 24px;
+}
+
 
 
 .{{HEADER}} { /* HEADER */

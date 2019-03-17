@@ -128,6 +128,10 @@
 		<nameElements>favorite_radio</nameElements>
 		<titleElements>Избранные радиостанции</titleElements>
 	</elements>
+	<elements pos="CENTER1">
+		<nameElements>radioc</nameElements>
+		<titleElements>Климат</titleElements>
+	</elements>
 	<elements pos="CENTER2">
 		<nameElements>title</nameElements>
 		<titleElements>Заголовок</titleElements>
@@ -179,6 +183,18 @@
 	<elements pos="RIGHT2">
 		<nameElements>tv_console</nameElements>
 		<titleElements>ТВ пульт</titleElements>
+	</elements>
+	<elements pos="RIGHT3">
+		<nameElements>switch_icor</nameElements>
+		<titleElements>Выключатель к слайдеру</titleElements>
+	</elements>
+	<elements pos="RIGHT3">
+		<nameElements>player</nameElements>
+		<titleElements>Плеер</titleElements>
+	</elements>
+		<elements pos="RIGHT3">
+		<nameElements>radio</nameElements>
+		<titleElements>Переключатель входов</titleElements>
 	</elements>
 	<ico ico_pos="HEADER" element="ico_link">
 		<filesIco id="1">top-cold		</filesIco>
@@ -255,7 +271,6 @@
 		<filesIco id="10">script-pivo-0</filesIco>
 		<filesIco id="11">script-party-0</filesIco>
 	</ico>
-	
 	
 	
 </templates>

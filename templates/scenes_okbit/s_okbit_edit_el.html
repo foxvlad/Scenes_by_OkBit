@@ -91,6 +91,9 @@
 					[#if TYPE == "zero"#]Отступ[#endif TYPE#]
 					[#if TYPE == "favorite_radio"#]Избранные радиостанции[#endif TYPE#]
 					[#if TYPE == "favorite_tv"#]Избранные каналы[#endif TYPE#]
+					[#if TYPE == "player"#]Медеапроигрыватель[#endif TYPE#]
+					[#if TYPE == "radio"#]Переключатель входов[#endif TYPE#]
+					[#if TYPE == "radioc"#]Климат[#endif TYPE#]
 				[#endif ID#]
 					
 				</div>
@@ -128,6 +131,15 @@
 					[#endif TYPE#]
 					[#if TYPE =="favorite_tv"#]
 						[#inc elements/favorite_tv.html#]
+					[#endif TYPE#]
+					[#if TYPE =="player"#]
+						[#inc elements/player.html#]
+					[#endif TYPE#]
+					[#if TYPE =="radio"#]
+						[#inc elements/radio.html#]
+					[#endif TYPE#]
+					[#if TYPE =="radioc"#]
+						[#inc elements/radioc.html#]
 					[#endif TYPE#]
 					
 			[#endif ID#]
