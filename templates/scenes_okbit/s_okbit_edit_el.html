@@ -94,6 +94,7 @@
 					[#if TYPE == "player"#]Медеапроигрыватель[#endif TYPE#]
 					[#if TYPE == "radio"#]Переключатель входов[#endif TYPE#]
 					[#if TYPE == "radioc"#]Климат[#endif TYPE#]
+					[#if TYPE == "info"#]Информер[#endif TYPE#]
 				[#endif ID#]
 					
 				</div>
@@ -140,6 +141,9 @@
 					[#endif TYPE#]
 					[#if TYPE =="radioc"#]
 						[#inc elements/radioc.html#]
+					[#endif TYPE#]
+					[#if TYPE =="info"#]
+						[#inc elements/info.html#]
 					[#endif TYPE#]
 					
 			[#endif ID#]

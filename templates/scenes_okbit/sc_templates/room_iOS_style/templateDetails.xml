@@ -97,6 +97,10 @@
 		<titleElements>Произвольный html</titleElements>
 	</elements>
 	<elements pos="CENTER1">
+		<nameElements>info</nameElements>
+		<titleElements>Информер</titleElements>
+	</elements>
+	<elements pos="CENTER1">
 		<nameElements>switch_cent</nameElements>
 		<titleElements>Выключатель</titleElements>
 	</elements>
@@ -228,12 +232,20 @@
 		<filesIco id="2">budSet				</filesIco>
 		<filesIco id="3">ventRoom			</filesIco>
 		<filesIco id="4">gradus				</filesIco>
-		<filesIco id="5">radioSwitch	</filesIco>
-		<filesIco id="6">script-zam-0		</filesIco>
-		<filesIco id="7">script-tv-0		</filesIco>
-		<filesIco id="8">script-smotr-0		</filesIco>
-		<filesIco id="9">script-code-0		</filesIco>
-		<filesIco id="10">script-pivo-0		</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+	</ico>
+	
+	<ico ico_pos="CENTER1" element="info">
+		<filesIco id="1">info-gradus		</filesIco>
+		<filesIco id="2">info-wather		</filesIco>
+		<filesIco id="3">info-svet			</filesIco>
+		<filesIco id="4">info-pr			</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
 	</ico>
 	
 	<ico ico_pos="CENTER1" element="button_ico">

@@ -433,7 +433,56 @@ A, A:hover {
 }
 
 .center-menu .link-ico-5 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/radioSwitch.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/info-volt.png)!important;
+}
+
+.center-menu .link-ico-6 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/left-show-climat.png)!important;
+}
+
+.center-menu .link-ico-7 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/show-muzc.png)!important;
+}
+
+.center-menu .link-ico-8 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/sec.png)!important;
+}
+
+.center-menu .link-ico-9 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/show-mic.png)!important;
+}
+
+.center-menu .link-ico-10 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/heat-pol.png)!important;
+}
+
+
+.info-s {
+	float:right;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 5px 10px;
+	
+}
+
+.info-ico-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/info-gradus.png)!important;
+}
+
+.info-ico-2 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/info-wather.png)!important;
+}
+
+.info-ico-3 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/info-svet.png)!important;
+}
+
+.info-ico-4 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/info-pr.png)!important;
+}
+
+.info-ico-5 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/info-volt.png)!important;
 }
 
 
@@ -2149,7 +2198,7 @@ A, A:hover {
 	margin: 14px 5px;
     -webkit-appearance: none;
     border-radius:2px;
-    width:calc(100% - 50px)!important;
+    width:calc(100% - 55px)!important;
     height:2px;
     outline : none;
     border:0px solid #D4D4D4;
