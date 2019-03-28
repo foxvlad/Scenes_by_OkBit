@@ -109,14 +109,6 @@
 		<titleElements>Слайдер</titleElements>
 	</elements>
 	<elements pos="CENTER1">
-		<nameElements>dimmer</nameElements>
-		<titleElements>Диммер</titleElements>
-	</elements>
-	<elements pos="CENTER1">
-		<nameElements>temp</nameElements>
-		<titleElements>Регулятор температуры</titleElements>
-	</elements>
-	<elements pos="CENTER1">
 		<nameElements>time</nameElements>
 		<titleElements>Установка времени</titleElements>
 	</elements>
@@ -156,6 +148,22 @@
 		<nameElements>favorite_radio</nameElements>
 		<titleElements>Избранные радиостанции</titleElements>
 	</elements>
+	<elements pos="CENTER5">
+		<nameElements>title</nameElements>
+		<titleElements>Заголовок</titleElements>
+	</elements>
+	<elements pos="CENTER5">
+		<nameElements>switch_cent</nameElements>
+		<titleElements>Выключатель</titleElements>
+	</elements>
+	<elements pos="CENTER5">
+		<nameElements>time</nameElements>
+		<titleElements>Установка времени</titleElements>
+	</elements>
+	<elements pos="CENTER5">
+		<nameElements>select</nameElements>
+		<titleElements>Выпадающий список</titleElements>
+	</elements>
 	<elements pos="RIGHT1">
 		<nameElements>title</nameElements>
 		<titleElements>Заголовок</titleElements>
@@ -165,11 +173,11 @@
 		<titleElements>Произвольный html</titleElements>
 	</elements>
 	<elements pos="RIGHT1">
-		<nameElements>switch_ico</nameElements>
+		<nameElements>switch_icor</nameElements>
 		<titleElements>Выключатель иконка</titleElements>
 	</elements>
 	<elements pos="RIGHT1">
-		<nameElements>button_ico</nameElements>
+		<nameElements>button_icor</nameElements>
 		<titleElements>Кнопка иконка</titleElements>
 	</elements>
 	<elements pos="RIGHT1">
@@ -189,16 +197,16 @@
 		<titleElements>ТВ пульт</titleElements>
 	</elements>
 	<elements pos="RIGHT3">
-		<nameElements>switch_icor</nameElements>
-		<titleElements>Выключатель к слайдеру</titleElements>
-	</elements>
-	<elements pos="RIGHT3">
 		<nameElements>player</nameElements>
 		<titleElements>Плеер</titleElements>
 	</elements>
-		<elements pos="RIGHT3">
+	<elements pos="RIGHT3">
 		<nameElements>radio</nameElements>
 		<titleElements>Переключатель входов</titleElements>
+	</elements>
+	<elements pos="RIGHT3">
+		<nameElements>slider_r</nameElements>
+		<titleElements>Слайдер</titleElements>
 	</elements>
 	<ico ico_pos="HEADER" element="ico_link">
 		<filesIco id="1">top-cold		</filesIco>
@@ -256,8 +264,45 @@
 		<filesIco id="5">left-show-volt		</filesIco>
 		<filesIco id="6">left-show-gradus	</filesIco>
 	</ico>
-	
-	<ico ico_pos="RIGHT1" element="button_ico">
+	<ico ico_pos="CENTER5" element="time">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+	</ico>
+	<ico ico_pos="CENTER5" element="switch_cent">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+		<filesIco id="11">radioSwitch		</filesIco>
+	</ico>
+	<ico ico_pos="CENTER5" element="select">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+		<filesIco id="11">radioSwitch		</filesIco>
+	</ico>	
+	<ico ico_pos="RIGHT1" element="button_icor">
 		<filesIco id="1">script-lamp-0</filesIco>
 		<filesIco id="2">script-eco-0</filesIco>
 		<filesIco id="3">script-luna-0</filesIco>
@@ -270,7 +315,7 @@
 		<filesIco id="10">script-pivo-0</filesIco>
 		<filesIco id="11">script-party-0</filesIco>
 	</ico>
-	<ico ico_pos="RIGHT1" element="switch_ico">
+	<ico ico_pos="RIGHT1" element="switch_icor">
 		<filesIco id="1">script-lamp-0</filesIco>
 		<filesIco id="2">script-eco-0</filesIco>
 		<filesIco id="3">script-luna-0</filesIco>
@@ -282,7 +327,18 @@
 		<filesIco id="9">script-code-0</filesIco>
 		<filesIco id="10">script-pivo-0</filesIco>
 		<filesIco id="11">script-party-0</filesIco>
+	</ico>	
+	<ico ico_pos="RIGHT3" element="switch_icor">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
 	</ico>
-	
 	
 </templates>

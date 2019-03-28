@@ -4,7 +4,7 @@
 
 <div class="img-home">
 	<div class="in-home-1">
-		<img src="../../templates/scenes_okbit/sc_templates/home_iOS_style/images/logo_M_O.png" style="float:left;">
+		<img src="../../templates/scenes_okbit/sc_templates/home_iOS_style/images/logo_M_S.png" style="float:left;">
 		<div class="ico-stutus">
 			<div class="ico stutus-sys-%System.stateColor%"></div>
 			<div class="ico stutus-com-%Communication.stateColor%"></div>

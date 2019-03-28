@@ -92,7 +92,19 @@ if ($this->mode == 'update') {
 		$contents = str_replace('{{HREF}}',$rec['SCENE_LINK'],$contents);
 		$contents = str_replace('{{ICO}}',$rec['ICO'],$contents);	
 		$contents = str_replace('{{TITLE}}',$rec['TITLE'],$contents);
-		$contents = str_replace('{{TEXTAREA}}',$rec['TEXTAREA'],$contents);
+		if ($type == 'select') {
+			$text_select = '';
+			$text_select = explode(PHP_EOL, $rec['TEXTAREA']);
+			
+			foreach ($text_select as $key => $value) {
+				$fff = $key;
+				$new_sel = $new_sel.'<option value="'.$key.'">'.$value.'</option>'.PHP_EOL;
+			}
+			
+			
+			$contents = str_replace('{{TEXTAREA}}',$new_sel,$contents);
+		}
+		else $contents = str_replace('{{TEXTAREA}}',$rec['TEXTAREA'],$contents);
 		$contents = str_replace('{{ELEMENT_ID}}',$rec['ID'],$contents);
 		$contents = str_replace('{{CENTER_SHOW}}',$rec['SHOW1'],$contents);
 		$contents = str_replace('{{RIGHT_SHOW}}',$rec['SHOW2'],$contents);

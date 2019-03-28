@@ -355,6 +355,7 @@ A, A:hover {
 	font-size: 12px;
 	text-align:left;
 	padding: 0px;
+	margin-left: 10px;
 	font-weight: bold;
 	text-transform: uppercase; 
 }
@@ -416,46 +417,49 @@ A, A:hover {
 }
 
 
-.center-menu .link-ico-1 {
+.center-menu .link-ico-1, .right-menu .link-ico-1 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/left-show-lamp.png)!important;
 }
 
-.center-menu .link-ico-2 {
+.center-menu .link-ico-2, .right-menu .link-ico-2 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/budSet.png)!important;
 }
 
-.center-menu .link-ico-3 {
+.center-menu .link-ico-3, .right-menu .link-ico-3 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/ventRoom.png)!important;
 }
 
-.center-menu .link-ico-4 {
+.center-menu .link-ico-4, .right-menu .link-ico-4 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/gradus.png)!important;
 }
 
-.center-menu .link-ico-5 {
+.center-menu .link-ico-5, .right-menu .link-ico-5 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/info-volt.png)!important;
 }
 
-.center-menu .link-ico-6 {
+.center-menu .link-ico-6, .right-menu .link-ico-6 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/left-show-climat.png)!important;
 }
 
-.center-menu .link-ico-7 {
+.center-menu .link-ico-7, .right-menu .link-ico-7 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/show-muzc.png)!important;
 }
 
-.center-menu .link-ico-8 {
+.center-menu .link-ico-8, .right-menu .link-ico-8 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/sec.png)!important;
 }
 
-.center-menu .link-ico-9 {
+.center-menu .link-ico-9, .right-menu .link-ico-9 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/show-mic.png)!important;
 }
 
-.center-menu .link-ico-10 {
+.center-menu .link-ico-10, .right-menu .link-ico-10 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/heat-pol.png)!important;
 }
 
+.center-menu .link-ico-11, .right-menu .link-ico-11 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/radioSwitch.png)!important;
+}
 
 .info-s {
 	float:right;
@@ -493,6 +497,22 @@ A, A:hover {
 	padding: 5px;
 	border-radius: 50%;
 	cursor: pointer
+}
+
+.right-menu .link-ico-switch{
+	float: left;
+    width: 30px;
+    height: 30px;
+    background-size: cover;
+	margin-left: 6px;
+}
+
+.link-ico-switch span {
+	font-size: 14px;
+    margin: 6px 0 0 8px;
+    float: left;
+    font-weight: bold;
+	color: #b1b1b1!important;
 }
 
 .right-menu .link-ico:active{
@@ -1010,6 +1030,108 @@ A, A:hover {
 	background-size: 24px 24px;
 }
 
+.setTimaF {
+	float:right;
+}
+
+
+.setTimaF .ch {
+ display: inline-block;
+ border-radius: 10px 0px 0px 10px;
+ -webkit-border-radius: 10px 0px 0px 10px;
+ -moz-border-radius: 10px 0px 0px 10px;
+ width: auto;
+ height: auto;
+ font-size: 15px;
+ padding: 3px 2px;
+ background-color: transparent;
+ font-weight: bold;
+}
+
+.setTimaF .min {
+ display: inline-block;
+ border-radius: 0px 10px 10px 0px;
+ -webkit-border-radius: 0px 10px 10px 0px;
+ -moz-border-radius: 0px 10px 10px 0px;
+ width: auto;
+ height: auto;
+ font-size: 15px;
+ padding: 3px 2px;
+ background-color: transparent;
+ font-weight: bold;
+ margin-right: 6px;
+}
+
+
+.setTimaF .rad {
+ display: inline-block;
+ border-radius: 10px;
+ -webkit-border-radius: 10px ;
+ -moz-border-radius: 10px;
+ width: auto;
+ height: auto;
+ font-size: 15px;
+ padding: 3px 2px;
+ background-color: transparent;
+ font-weight: bold;
+ margin-right: 6px;
+}
+
+.rad-color-1 {
+ border:1px solid #d7a306;
+ color: #d7a306;
+}
+
+.rad-color-2 {
+ border:1px solid #00cb1c;
+ color: #00cb1c;
+}
+
+
+.rad-color-3 {
+ border:1px solid #97476a;
+ color: #97476a;
+}
+
+.rad-color-4 {
+ border:1px solid #008de4;
+ color: #008de4;
+}
+
+.rad-color-5 {
+ border:1px solid #fe2121;
+ color: #fe2121;
+}
+
+.rad-color-6 {
+ border:1px solid #97476a;
+ color: #97476a;
+}
+
+.rad-color-7 {
+ border:1px solid #00cb1c;
+ color: #00cb1c;
+}
+
+.rad-color-8 {
+ border:1px solid #fe6f00;
+ color: #fe6f00;
+}
+
+.rad-color-9 {
+ border:1px solid #9b4dcc;
+ color: #9b4dcc;
+}
+
+.rad-color-10 {
+ border:1px solid #fe2121;
+ color: #fe2121;
+}
+
+.rad-color-11 {
+ border:1px solid #d7a306;
+ color: #d7a306;
+}
 
 
 .{{HEADER}} { /* HEADER */
