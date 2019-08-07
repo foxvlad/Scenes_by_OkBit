@@ -10,7 +10,7 @@
 
 </script>
 
-<div style="width:calc(100vw/3)">
+<div style="width:calc(100vw/3)" class="tv-out-p">
 	<div class="pult">	
 
 		<div class="pult-line">

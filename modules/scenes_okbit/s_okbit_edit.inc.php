@@ -120,6 +120,15 @@ if ($this->mode == 'update') {
 	} else {
 		$out['ERR'] = 1;
 	}
+	
+	
+
+	
+	
+	
+	
+	
+	
 }
 
 
@@ -261,7 +270,7 @@ $filelist = array();
 	
 	$rec['HOME_SCENE'] = $all_scenes;
 	
-	
+/*	
 	$xml = simplexml_load_file('./templates/scenes_okbit/sc_templates/'.$rec['TEMPLATE'].'/templateDetails.xml');
 	
 	$rec['TYPE_SCENE']='';
@@ -270,9 +279,19 @@ $filelist = array();
 		$temp_type = $type->nameType;
 		if ($temp_type) $rec['TYPE_SCENE'] = $temp_type;
 	}
+*/	
 	
+	if ($rec['TEMPLATE'] !=''){
 	
-	
+		$xml = simplexml_load_file('./templates/scenes_okbit/sc_templates/'.$rec['TEMPLATE'].'/templateDetails.xml');
+		
+		$rec['TYPE_SCENE']='';
+			
+		foreach ($xml as $type) {		
+			$temp_type = $type->nameType;
+			if ($temp_type) $rec['TYPE_SCENE'] = $temp_type;
+		}
+	}
 
 	$rec['TEMPLATE_SEARH'] = $text_html;
 	$rec['TEMPLATE_CSS'] = $text_css;

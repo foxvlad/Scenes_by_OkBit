@@ -1,7 +1,3 @@
-
-
-
-
 @font-face {
     font-family: okbit; /* Гарнитура шрифта */
     src: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/css/font/IstokWeb-Regular.ttf); /* Путь к файлу со шрифтом */
@@ -12,6 +8,9 @@ h4, span, div, p, text{
 	font-family: okbit!important;
 }
 
+a, a:hover {
+	text-decoration: none!important;
+}
 
 
 body {
@@ -27,7 +26,7 @@ table {
 	width:100%!important;
 }
 
-.top-title {
+.top-title, .top-back {
 	float:left;
 	font-size: 19px;
 	text-align:left;
@@ -51,7 +50,7 @@ table {
 	height:50px;
 	border-radius: 4px;
 	background-size: cover;
-	margin: 0 7px 0 7px;
+	margin: 0 2px 0 2px;
 }
 
 .top-menu .link:active{
@@ -67,52 +66,103 @@ table {
 }
 
 .top-menu .link-ico-1{
-	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/top-cold.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-cold.png);
 }
 
 .top-menu .link-ico-2{
-	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/top-lamp.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-lamp.png);
 }
 
 .top-menu .link-ico-3{
-	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/top-note.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-lamp-1.png);
 }
 
 .top-menu .link-ico-4{
-	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/top-cam.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-lamp-2.png);
 }
 
 .top-menu .link-ico-5{
-	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/top-shit.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-lamp-3.png);
 }
 
 .top-menu .link-ico-6{
-	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/top-setting.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-note.png);
 }
 
 .top-menu .link-ico-7{
-	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/top-gradus.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-cam.png);
 }
 
 .top-menu .link-ico-8{
-	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/top-plan.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-shit.png);
 }
 
 .top-menu .link-ico-9{
-	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/top-shit-poj.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-setting.png);
 }
 
 .top-menu .link-ico-10{
-	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/top-shit-ohr.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-gradus.png);
 }
 
 .top-menu .link-ico-11{
-	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/top-graf.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-shit-poj.png);
 }
 
-
 .top-menu .link-ico-12{
-	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/top-in-sys.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-shit-ohr.png);
+}
+
+.top-menu .link-ico-13{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-graf.png);
+}
+
+.top-menu .link-ico-14{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-in-sys.png);
+}
+
+.top-menu .link-ico-15{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-plan.png);
+}
+
+.top-menu .link-ico-16{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-plan-1.png);
+}
+
+.top-menu .link-ico-17{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-plan-2.png);
+}
+
+.top-menu .link-ico-18{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-plan-3.png);
+}
+
+.top-menu .link-ico-19{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-com.png);
+}
+
+.top-menu .link-ico-20{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-otop.png);
+}
+
+.top-menu .link-ico-21{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-geo.png);
+}
+
+.top-menu .link-ico-22{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-pos.png);
+}
+
+.top-menu .link-ico-23{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-happi.png);
+}
+
+.top-menu .link-ico-24{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-log.png);
+}
+
+.top-menu .link-ico-25{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-zam.png);
 }
 
 
@@ -226,6 +276,17 @@ A, A:hover {
 	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/left-show-gradus.png);
 }
 
+.left-menu .link-ico-12{
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/room-hoz.png);
+}
+
+.left-menu .link-ico-13{
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/room-garaj.png);
+}
+
+.left-menu .link-ico-14{
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/room-hoz2.png);
+}
 
 .left-arrow{
 	margin: 4px 2px 0 0;
@@ -461,6 +522,14 @@ A, A:hover {
 	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/radioSwitch.png)!important;
 }
 
+.center-menu .link-ico-12, .right-menu .link-ico-12 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/rgb.png)!important;
+}
+
+.center-menu .link-ico-13, .right-menu .link-ico-13 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/room-hoz2.png)!important;
+}
+
 .info-s {
 	float:right;
 	font-weight: bold;
@@ -487,6 +556,18 @@ A, A:hover {
 
 .info-ico-5 {
 	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/info-volt.png)!important;
+}
+
+.info-ico-6 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/heat-pol.png)!important;
+}
+
+.info-ico-7 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/door-room.png)!important;
+}
+
+.info-ico-8 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/win-room.png)!important;
 }
 
 
@@ -583,12 +664,12 @@ A, A:hover {
 	background:#ce0101;
 }
 
-.right-menu .link-color-7-0, .right-menu .link-color-8-0{
+.right-menu .link-color-7-0, .right-menu .link-color-8-0, .right-menu .link-color-12-0{
 	border: 2px solid #dc4701;
 
 }
 
-.right-menu .link-color-7-1, .right-menu .link-color-8-1{
+.right-menu .link-color-7-1, .right-menu .link-color-8-1, .right-menu .link-color-12-1{
 	border: 2px solid #faa67e;
 	background:#dc4701;
 }
@@ -613,93 +694,101 @@ A, A:hover {
 }
 
 .right-menu .link-ico-1-0 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-lamp-0.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-lamp-0.png)!important;
 }
 
 .right-menu .link-ico-1-1 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-lamp-1.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-lamp-1.png)!important;
 }
 
 .right-menu .link-ico-2-0 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-eco-0.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-eco-0.png)!important;
 }
 
 .right-menu .link-ico-2-1 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-eco-1.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-eco-1.png)!important;
 }
 
 .right-menu .link-ico-3-0 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-luna-0.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-luna-0.png)!important;
 }
 
 .right-menu .link-ico-3-1 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-luna-1.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-luna-1.png)!important;
 }
 
 .right-menu .link-ico-4-0 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-sun-0.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-sun-0.png)!important;
 }
 
 .right-menu .link-ico-4-1 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-sun-1.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-sun-1.png)!important;
 }
 
 .right-menu .link-ico-5-0 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-wather-0.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-wather-0.png)!important;
 }
 
 .right-menu .link-ico-5-1 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-wather-1.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-wather-1.png)!important;
 }
 
 .right-menu .link-ico-6-0 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-zam-0.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-zam-0.png)!important;
 }
 
 .right-menu .link-ico-6-1 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-zam-1.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-zam-1.png)!important;
 }
 
 .right-menu .link-ico-7-0 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-tv-0.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-tv-0.png)!important;
 }
 
 .right-menu .link-ico-7-1 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-tv-1.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-tv-1.png)!important;
 }
 
 
 .right-menu .link-ico-8-0 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-smotr-0.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-smotr-0.png)!important;
 }
 
 .right-menu .link-ico-8-1 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-smotr-1.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-smotr-1.png)!important;
 }
 
 .right-menu .link-ico-9-0 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-code-0.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-code-0.png)!important;
 }
 
 .right-menu .link-ico-9-1 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-code-1.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-code-1.png)!important;
 }
 
 
 .right-menu .link-ico-10-0 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-pivo-0.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-pivo-0.png)!important;
 }
 
 .right-menu .link-ico-10-1 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-pivo-1.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-pivo-1.png)!important;
 }
 
 .right-menu .link-ico-11-0 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-party-0.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-party-0.png)!important;
 }
 
 .right-menu .link-ico-11-1 {
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-party-1.png)!important;
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-party-1.png)!important;
+}
+
+.right-menu .link-ico-12-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-kol-0.png)!important;
+}
+
+.right-menu .link-ico-12-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/room_iOS_style/images/ico/script-kol-1.png)!important;
 }
 
 
@@ -885,10 +974,17 @@ A, A:hover {
 	width:calc(100vw/3 - 40px);
 }
 
-
+.mode-out {
+	width:calc(100vw/3 - 40px);
+}
 
 .player-in {
 	width: 300px;
+	margin: 8 auto;
+}
+
+.mode-in {
+	width: 100%;
 	margin: 8 auto;
 }
 
@@ -948,6 +1044,16 @@ A, A:hover {
   width: 300px;
 }
 
+.radio-container-m{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  border: 2px solid #fff;
+  border-radius: 8px;
+  width: 100%;
+}
+
 .radio-container *{
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -960,18 +1066,35 @@ A, A:hover {
   -ms-user-select: none;
 }
 
-.radio-container .radio-btn, .radio-container-c .radio-btn{
+.radio-container-m *{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+
+.radio-container .radio-btn, .radio-container-c .radio-btn {
   border-right: 2px solid #fff;
   overflow: hidden;
   width: calc(25%);
   height: 33px;
 }
 
-.radio-container .radio-btn:last-child, .radio-container-c .radio-btn:last-child{
+
+.radio-container-m .radio-btn {
+  border-right: 2px solid #fff;
+  overflow: hidden;
+  width: calc(33.3%);
+  height: 33px;
+}
+
+
+
+.radio-container .radio-btn:last-child, .radio-container-c .radio-btn:last-child, .radio-container-m .radio-btn:last-child{
   border-right: 0px;
 }
 
-.radio-container .radio-btn label, .radio-container-c .radio-btn label{
+.radio-container .radio-btn label, .radio-container-c .radio-btn label, .radio-container-m .radio-btn label{
   background-color: transparent;
   font-size: 14px;
   color: #fff;
@@ -981,9 +1104,9 @@ A, A:hover {
   height: 33px;
 }
 
-.radio-container .radio-btn input, .radio-container-c .radio-btn input{display: none;}
+.radio-container .radio-btn input, .radio-container-c .radio-btn input, .radio-container-m .radio-btn input{display: none;}
 
-.radio-container .radio-btn input:checked + label, .radio-container-c .radio-btn input:checked + label{
+.radio-container .radio-btn input:checked + label, .radio-container-c .radio-btn input:checked + label, .radio-container-m .radio-btn input:checked + label{
   background-color: #fff;
   color: #05c605;
 }
@@ -1077,6 +1200,48 @@ A, A:hover {
  margin-right: 6px;
 }
 
+
+.rgb-sel {
+ border:1px solid #fafafa;
+ background-color: #36b736;
+ border-radius: 18px;
+ -webkit-border-radius: 18px;
+ -moz-border-radius: 18px;
+ width: 58px;
+ height: 28px;
+ float:right;
+ margin-right: 5px;
+}
+
+.info-bin {
+ border:1px solid #fafafa;
+ background-color: #7c7f83;
+ border-radius: 18px;
+ -webkit-border-radius: 18px;
+ -moz-border-radius: 18px;
+ width: 58px;
+ height: 28px;
+ float:right;
+ margin-right: 5px;
+}
+
+.info-color-0 {
+ background-color: #7c7f83!important;
+}
+
+.info-color-1 {
+ background-color: #36b636!important;
+}
+
+.info-color1-1 {
+	background-color: #7c7f83!important;
+}
+
+.info-color1-0 {
+	background-color: #36b636!important;
+}
+
+
 .rad-color-1 {
  border:1px solid #d7a306;
  color: #d7a306;
@@ -1133,6 +1298,212 @@ A, A:hover {
  color: #d7a306;
 }
 
+.info-sl{
+	font-size: 14px; 
+	text-align: center; 
+	font-weight: bold;
+    text-transform: uppercase;
+	width:calc(100vw/3 - 40px)!important;
+}
+
+
+
+/* Далее идет оформление чекбокса в современных браузерах, а также IE9 и выше.
+Благодаря тому, что старые браузеры не поддерживают селекторы :not и :checked,
+в них все нижеследующие стили не сработают. */
+
+/* Прячем оригинальный чекбокс. */
+.checkbox:not(checked) {
+  position: absolute;
+  opacity: 0;
+}
+.checkbox:not(checked) + label {
+  position: relative; /* будем позиционировать псевдочекбокс относительно label */
+  padding: 0 0 0 60px; /* оставляем слева от label место под псевдочекбокс */
+}
+/* Оформление первой части чекбокса в выключенном состоянии (фон). */
+.checkbox:not(checked) + label:before {
+  content: '';
+  position: absolute;
+  top: -4px;
+  left: 0;
+  width: 60px;
+  height: 30px;
+  border-radius: 18px;
+  background: #7c7f84;
+  border: 1px solid #2e323a; /* задаём границу */
+ 
+}
+/* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
+.checkbox:not(checked) + label:after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: 2px;
+  width: 26px;
+  height: 26px;
+  border-radius: 18px;
+  background: #FFF;
+  transition: all .2s; /* анимация, чтобы чекбокс переключался плавно */
+}
+/* Меняем фон чекбокса, когда он включен. */
+.checkbox:checked + label:before {
+  background: #36b736;
+  border: 1px solid #034203; /* задаём границу */
+}
+/* Сдвигаем переключатель чекбокса, когда он включен. */
+.checkbox:checked + label:after {
+  left: 33px;
+}
+
+.checkStyle {
+	width:64px;
+	height:16px;
+	margin:3px;
+	float:right;	
+}
+
+
+.range{
+	margin: 14px 5px;
+    -webkit-appearance: none;
+    border-radius:2px;
+    width:calc(100% - 55px)!important;
+    height:2px;
+    outline : none;
+    border:0px solid #D4D4D4;
+	background:-webkit-linear-gradient(left ,#36b736 0%,#36b736 0%,#bec1c5 0%, #bec1c5 100%);
+	float:left;
+	
+}
+
+.range::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width:22px;
+    height:22px;
+    background:#fff;
+    border-radius:50%;
+    cursor:pointer;
+    transition:.1s;
+	border:1px solid #2e323a;
+}
+
+
+
+.rangeStyle {
+	margin:6px 4px 10px 0px;
+	float:right;
+	font-size: 14px;
+}
+
+
+
+
+
+
+.modalDialog {
+		position: fixed;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		background: rgba(0,0,0,0.8);
+		z-index: 99999;
+		-webkit-transition: opacity 400ms ease-in;
+		-moz-transition: opacity 400ms ease-in;
+		transition: opacity 400ms ease-in;
+		display: none;
+		pointer-events: none;
+	}
+
+.modalDialog:target {
+		display: block;
+		pointer-events: auto;
+	}
+
+.modalDialog > div {
+		width: 320px;
+		position: relative;
+		margin: 10% auto;
+		padding: 0px;
+		border-radius: 10px;
+		background: #999;
+		background: -moz-linear-gradient(#999, #444);
+		background: -webkit-linear-gradient(#999, #444);
+		background: -o-linear-gradient(#999, #444);
+	}
+
+.close {
+		background: #fdfdfd;
+		color: #444;
+		line-height: 25px;
+		position: absolute;
+		right: -12px;
+		text-align: center;
+		top: -10px;
+		width: 24px;
+		text-decoration: none;
+		font-weight: bold;
+		-webkit-border-radius: 12px;
+		-moz-border-radius: 12px;
+		border-radius: 12px;
+
+	}
+
+.close:hover { background: #00d9ff; }
+	
+	
+/* colorpicker styles */
+.colorpicker {
+	border-radius: 18px;
+    background-color: #222222;
+	color: #FFFFFF;
+    position: absolute;
+    width: 320px;
+}
+
+#picker {
+    cursor: crosshair;
+    float: left;
+    margin: 10px;
+    border: 0;
+}
+
+.controls {
+    float: right;
+    margin: 10px;
+}
+
+.controls > div {
+    border: 1px solid #2F2F2F;
+    margin-bottom: 5px;
+    overflow: hidden;
+    padding: 5px;
+}
+
+.controls label {
+   
+   float: left;
+}
+.controls > div input {
+    background-color: #121212;
+    border: 1px solid #2F2F2F;
+    color: #DDDDDD;
+    float: right;
+    font-size: 10px;
+    height: 14px;
+    margin-left: 6px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 75px;
+}
+
+.small-top-title {
+	display: none;
+}
+
+
+
 
 .{{HEADER}} { /* HEADER */
 	position: relative !important;
@@ -1143,7 +1514,7 @@ A, A:hover {
 	margin: 1px!important;
 	padding:0px !important;
 	font-size:18px!important;
-	height:70px !important;
+	/*height:70px !important;*/
 	background:#37373a !important;
 	border-bottom: 2px ridge #6d6e6f !important;
 }
@@ -1231,7 +1602,7 @@ A, A:hover {
 }
 
 .{{RIGHT1}}, .{{RIGHT2}}, .{{RIGHT3}}, .{{RIGHT4}}, .right-v { /* RIGHT */	
-	position: relative !important;
+	position: static !important;
 	top: auto !important;
 	left : auto !important;
 	z-index : auto !important;
@@ -1264,6 +1635,14 @@ A, A:hover {
 .{{RIGHT2}}, .{{RIGHT3}}, .{{RIGHT4}} {
 	display:none !important;
 }
+
+	.title-mid {
+		display: none!important;
+		margin: 6px;
+		font-size: 16px;
+		font-weight: bold;
+		text-align:center!important;
+	}
 
 
 /* CSS Движение влево */
@@ -2126,6 +2505,54 @@ A, A:hover {
 
 
 
+
+
+
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 1440px) and (max-width: 1920px) {
+	.img-home {
+		height: 390px!important;
+
+	}	
+	
+	.title-big {
+		margin-left: 650px!important;
+	}
+		
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 1200px) and (max-width: 1439px) {
+	
+	.left-menu .link-ico{
+		width:25px!important;
+		height: 25px!important;
+	}
+	
+	.title-big {
+		margin-left: 400px!important;
+	}
+
+}
+
+
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	
+	.left-menu .link-ico{
+		width:25px!important;
+		height: 25px!important;
+	}
+	
+		.title-big {
+		margin-left: 150px!important;
+	}
+
+}
+
+
 @media (min-width: 900px) {
 	
 	html {
@@ -2135,20 +2562,114 @@ A, A:hover {
 	.small-title, .mini-title {
 		display: none;
 	}
+	
 }
 
-/* Portrait tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
 
-}
+
 
 /* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 760px) and (max-width: 991px) {
+	
+	.title-mid {
+		display: block!important;
+	}
 
+	
+	.small-title{
+		display: none!important;
+	}
+	
+	.top-title{
+		display: none!important;
+	}
+	
+	
+	
+	.title-big {
+		margin-left: 50px!important;
+	}
+	
+	.small-title, .mini-title {
+		display: none;
+	}
+
+	.left-menu .link-ico, .center-menu .link-ico{
+		width:25px;
+		height: 25px;
+	}
+	
+	.left-link{
+
+		height: 32px;
+	}
+	
+	.center-in {
+		padding: 4px;
+		height: 36px;
+	}
+	
+	.player {
+		width: calc(100vw/3 - 25px)!important;
+	}
+	
+	.player-in {
+		width: 260px!important;
+	}
+	
+	
+	.circleP {
+		width: 36px!important;
+		height: 36px!important;
+	}
+	
+	.circleP img {
+		width: 21px!important;
+		height: 21px!important;
+		margin: 7px 4px;
+	}
+
+	.tv-out-p {
+		width: calc(100vw/3 - 20px)!important;
+	}
+	
+	.left-link span, .center-menu span, .center-in {
+		font-size: 12px;
+		margin: 4px 0 0 4px;
+	}
+	
+	.{{CENTER1}}, .{{CENTER2}}, .{{CENTER3}}, .{{CENTER4}}, .{{CENTER5}}, .center-v {
+		margin: 5px 5px!important;
+		padding: 0 1px 0 1px!important;
+		width: calc(36% - 15px)!important;
+	}
+	
+	.right-menu .link-ico-out {
+		width: 65px;
+		height: 70px;
+	}
+	
+
+	.right-menu .link-ico {
+		margin: 0 auto;
+		width: 50px;
+		height: 50px;
+		padding: 3px;
+	}
+	
+	.right-menu .link-ico-in {
+		width: 40px;
+		height: 40px;
+	}
+	
 }
 
 /* Landscape phones and portrait tablets */
 @media (max-width: 767px) {
+	
+	.title-big {
+		margin-left: 50px!important;
+	}
 
 }
 
@@ -2164,10 +2685,10 @@ A, A:hover {
 		height : auto !important;
 	}
 		
-	.{{HEADER}} {order: 0!important;}
-	.{{LEFT}} {order: 1!important;}
+	.{{HEADER}} {order: 3!important;}
+	.{{LEFT}} {order: 0!important;}
 	.{{CENTER1}}, .{{CENTER2}}, .{{CENTER3}}, .{{CENTER4}}, .{{CENTER5}} , .center-v {order: 2!important;}
-	.{{RIGHT1}}, .{{RIGHT2}}, .{{RIGHT3}}, .{{RIGHT4}} , .right-v {order: 3!important;}
+	.{{RIGHT1}}, .{{RIGHT2}}, .{{RIGHT3}}, .{{RIGHT4}} , .right-v {order: 1!important;}
 	
 	
 	.{{CENTER1}}, .{{CENTER2}}, .{{CENTER3}}, .{{CENTER4}}, .{{CENTER5}} {
@@ -2183,7 +2704,11 @@ A, A:hover {
 		border-radius: 0!important;
 	}
 	
-	
+	.{{CENTER1}}, .{{CENTER2}}, .{{CENTER3}}, .{{CENTER4}}, .{{CENTER5}}, .center-v { /* CENTER */	
+	/*border: 1px solid #666;*/	
+	margin: 5px!important;
+	padding:0px!important;
+	}
 
 
 	.in-home-1 {
@@ -2204,10 +2729,13 @@ A, A:hover {
 	}
 	
 	.small-title {
-		height:30px;
-		padding-top:5px;
+		height: 30px;
+		padding-top: 5px;
+		margin-left: 10px;
 		font-size: 16px;
 		font-weight: bold;
+		margin-top: 5px!important; 
+		float:left!important;
 	}
 	
 	.center-menu .link-ico-out {
@@ -2256,98 +2784,29 @@ A, A:hover {
 		height: 45px !important;
 		margin: 0 6px 0 6px!important;
 	}
-}
-
-
-
-/* Далее идет оформление чекбокса в современных браузерах, а также IE9 и выше.
-Благодаря тому, что старые браузеры не поддерживают селекторы :not и :checked,
-в них все нижеследующие стили не сработают. */
-
-/* Прячем оригинальный чекбокс. */
-.checkbox:not(checked) {
-  position: absolute;
-  opacity: 0;
-}
-.checkbox:not(checked) + label {
-  position: relative; /* будем позиционировать псевдочекбокс относительно label */
-  padding: 0 0 0 60px; /* оставляем слева от label место под псевдочекбокс */
-}
-/* Оформление первой части чекбокса в выключенном состоянии (фон). */
-.checkbox:not(checked) + label:before {
-  content: '';
-  position: absolute;
-  top: -4px;
-  left: 0;
-  width: 60px;
-  height: 30px;
-  border-radius: 18px;
-  background: #7c7f84;
-  border: 1px solid #2e323a; /* задаём границу */
- 
-}
-/* Оформление второй части чекбокса в выключенном состоянии (переключатель). */
-.checkbox:not(checked) + label:after {
-  content: '';
-  position: absolute;
-  top: -2px;
-  left: 2px;
-  width: 26px;
-  height: 26px;
-  border-radius: 18px;
-  background: #FFF;
-  transition: all .2s; /* анимация, чтобы чекбокс переключался плавно */
-}
-/* Меняем фон чекбокса, когда он включен. */
-.checkbox:checked + label:before {
-  background: #36b736;
-  border: 1px solid #034203; /* задаём границу */
-}
-/* Сдвигаем переключатель чекбокса, когда он включен. */
-.checkbox:checked + label:after {
-  left: 33px;
-}
-
-.checkStyle {
-	width:64px;
-	height:16px;
-	margin:3px;
-	float:right;	
-}
-
-
-.range{
-	margin: 14px 5px;
-    -webkit-appearance: none;
-    border-radius:2px;
-    width:calc(100% - 55px)!important;
-    height:2px;
-    outline : none;
-    border:0px solid #D4D4D4;
-	background:-webkit-linear-gradient(left ,#36b736 0%,#36b736 0%,#bec1c5 0%, #bec1c5 100%);
-	float:left;
 	
+	.small-top-title {
+		display: block!important;
+		margin-top: 5px!important; 
+		float:right!important;
+		margin-right: 10px;
+		border-radius: 5px;
+		border: 1px solid #37373a; /* задаём границу */
+		padding: 1px 5px 1px 5px;
+		background: #7b7e83!important;
+	}
+	
+	.tv-out-p{
+		width:calc(100vw - 10px)!important;
+	}
+	
+	.player {
+		width:calc(100vw - 20px)!important;
+	}
+	
+	.info-sl{
+		width: calc(100vw - 40px)!important;
+	}
 }
-
-.range::-webkit-slider-thumb{
-    -webkit-appearance: none;
-    width:22px;
-    height:22px;
-    background:#fff;
-    border-radius:50%;
-    cursor:pointer;
-    transition:.1s;
-	border:1px solid #2e323a;
-}
-
-
-
-.rangeStyle {
-	margin:6px 4px 10px 0px;
-	float:right;
-	font-size: 14px;
-}
-
-
 
 

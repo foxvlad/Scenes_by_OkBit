@@ -1,8 +1,6 @@
-<div class="right-menu">
-	{{RIGHT4}}
+<div class="right-menu">	
 	<div class="pult-out">
-		<div style="font-size:300px; text-align: center;">
-			4
-		</div>
+		{{RIGHT4}}
+		<div style="clear:both;"></div>
 	</div>
 </div>

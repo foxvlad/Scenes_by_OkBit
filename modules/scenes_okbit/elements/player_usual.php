@@ -20,7 +20,7 @@
 		<div class="circleP gray" onclick="playControl(2)">
 			<img src="../../templates/scenes_okbit/sc_templates/room_iOS_style/images/playControl/pause.png"/>
 		</div>
-		<div class="circleP gray" onclick="playControl(3)">
+		<div class="circleP gray" onclick="playControl(3); app_player_5ca27efec036e_action('play');">
 			<img src="../../templates/scenes_okbit/sc_templates/room_iOS_style/images/playControl/play.png"/>
 		</div>
 		<div class="circleP gray" onclick="playControl(4)">

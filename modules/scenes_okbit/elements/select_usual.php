@@ -22,7 +22,6 @@
 				{{TEXTAREA}}
 			</select>
 		</form>
-		</div> 
-	</div>
+	</div> 
 
 	

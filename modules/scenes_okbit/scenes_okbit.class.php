@@ -57,6 +57,7 @@ function saveParams($data=1) {
 */
 function getParams() {
   global $id;
+  global $idp;
   global $mode;
   global $view_mode;
   global $edit_mode;
@@ -64,6 +65,9 @@ function getParams() {
   global $tab;
   if (isset($id)) {
    $this->id=$id;
+  }
+  if (isset($idp)) {
+   $this->idp = $idp;
   }
   if (isset($mode)) {
    $this->mode=$mode;
@@ -140,11 +144,15 @@ function admin(&$out) {
    $this->saveConfig();
    $this->redirect("?");
  }
- 
-
+	
+	require "new_install.php";
+	
+	//DebMes(date("H:i:s")." - >>>>>>>>>>>>>>>", 'scenes_okbit');
  
  if (isset($this->data_source) && !$_GET['data_source'] && !$_POST['data_source']) {
-  $out['SET_DATASOURCE']=1;
+	 
+	
+	$out['SET_DATASOURCE']=1;
  }
  if ($this->data_source=='s_okbit' || $this->data_source=='') {
   if ($this->view_mode=='' || $this->view_mode=='search_s_okbit') {
@@ -162,6 +170,11 @@ function admin(&$out) {
   if ($this->view_mode=='build') {
    $this->build_s_okbit($out, $this->id);
   }
+  
+  if ($this->view_mode=='build2') {
+   $this->build_s_okbit_2($out, $this->id, $this->idp);
+  }
+  
   if ($this->view_mode=='delete_s_okbit') {
    $this->delete_s_okbit($this->id);
    $this->redirect("?data_source=s_okbit");
@@ -232,8 +245,19 @@ function usual(&$out) {
 * @access public
 */
  function build_s_okbit(&$out, $id) {
-	require(DIR_MODULES.$this->name.'/s_okbit_build.inc.php');
+	require_once(DIR_MODULES.$this->name.'/s_okbit_build.inc.php');
 	$this->redirect("?data_source=s_okbit");	
+ }
+ 
+ 
+ /**
+* s_okbit build_2
+*
+* @access public
+*/
+ function build_s_okbit_2(&$out, $id, $idp) {
+	require_once(DIR_MODULES.$this->name.'/s_okbit_build.inc.php');
+	$this->redirect("?data_source=s_okbit&view_mode=edit_s_okbit&tab=data&id=$idp");	
  }
  
  
@@ -385,8 +409,8 @@ scenes_element_okbit -
  scenes_element_okbit: TITLE varchar(100) NOT NULL DEFAULT ''
  scenes_element_okbit: POSITION varchar(100) NOT NULL DEFAULT ''
  scenes_element_okbit: VALUE varchar(255) NOT NULL DEFAULT ''
- scenes_element_okbit: HTML varchar(1000) NOT NULL DEFAULT ''
- scenes_element_okbit: TEXTAREA varchar(255) NOT NULL DEFAULT ''
+ scenes_element_okbit: HTML longtext NOT NULL DEFAULT ''
+ scenes_element_okbit: TEXTAREA longtext NOT NULL DEFAULT ''
  scenes_element_okbit: TYPE varchar(255) NOT NULL DEFAULT ''
  scenes_element_okbit: SCENE_LINK varchar(100) NOT NULL DEFAULT ''
  scenes_element_okbit: ICO varchar(255) NOT NULL DEFAULT ''

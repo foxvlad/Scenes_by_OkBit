@@ -75,6 +75,18 @@
 	
 </style>
 
+
+
+
+
+<div class="small-title">
+	{{TITLE}}
+</div>
+
+<!-- подстановка ссылки на главную -->
+<div class="small-top-title"><a href="/popup/scenes/{{HOME_SCENE}}.html" style="font-size:16px; color:#fff;">Назад</a></div>
+<!-- / подстановка ссылки на главную -->
+
 <div class="left-menu">
 
 	<div class="img-home">

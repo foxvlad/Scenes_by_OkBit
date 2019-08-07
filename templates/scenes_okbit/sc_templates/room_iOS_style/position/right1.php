@@ -4,6 +4,7 @@
 			<div class="player-in">	
 				{{RIGHT1}}
 			</div>
-		</div>			
+		</div>
+		<div style="clear:both;"></div>
 	</div>
 </div>

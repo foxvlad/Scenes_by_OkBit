@@ -1,0 +1,178 @@
+<?xml version='1.0'?>
+<templates>
+	<type>
+		<nameType>sys</nameType>
+	</type>
+	<css>
+		<name>light</name>
+		<img_ico>thumbnail2</img_ico>
+		<files>light</files>
+	</css>
+	<css>
+		<name>dark</name>
+		<img_ico>thumbnail1</img_ico>
+		<files>dark</files>	
+	</css>
+	<position>
+		<namePosition>HEADER-SMALL</namePosition>
+		<positionFile>header-small</positionFile>
+		<priority>120</priority>		
+	</position>
+	<position>
+		<namePosition>HEADER</namePosition>
+		<positionFile>header</positionFile>
+		<priority>100</priority>		
+	</position>
+	<position>
+		<namePosition>CENTER</namePosition>
+		<positionFile>center</positionFile>
+		<priority>88</priority>
+	</position>
+	<elements pos="HEADER">
+		<nameElements>ico_link</nameElements>
+		<titleElements>Ссылка иконка</titleElements>
+	</elements>
+	<elements pos="CENTER">
+		<nameElements>title</nameElements>
+		<titleElements>Заголовок</titleElements>
+	</elements>
+	<elements pos="CENTER">
+		<nameElements>zero</nameElements>
+		<titleElements>Отступ</titleElements>
+	</elements>
+	<elements pos="CENTER">
+		<nameElements>html</nameElements>
+		<titleElements>Произвольный html</titleElements>
+	</elements>
+	<elements pos="CENTER">
+		<nameElements>info</nameElements>
+		<titleElements>Информер</titleElements>
+	</elements>
+	<elements pos="CENTER">
+		<nameElements>info_bin</nameElements>
+		<titleElements>Информер бинарный</titleElements>
+	</elements>
+	<elements pos="CENTER">
+		<nameElements>info_sos</nameElements>
+		<titleElements>Информер охранный</titleElements>
+	</elements>
+	<elements pos="CENTER">
+		<nameElements>switch_cent</nameElements>
+		<titleElements>Выключатель</titleElements>
+	</elements>
+	<elements pos="CENTER">
+		<nameElements>slider</nameElements>
+		<titleElements>Слайдер</titleElements>
+	</elements>
+	<elements pos="CENTER">
+		<nameElements>time</nameElements>
+		<titleElements>Установка времени</titleElements>
+	</elements>
+	<elements pos="CENTER">
+		<nameElements>select</nameElements>
+		<titleElements>Выпадающий список</titleElements>
+	</elements>
+	<elements pos="CENTER">
+		<nameElements>termostat</nameElements>
+		<titleElements>Термостат</titleElements>
+	</elements>
+	<ico ico_pos="HEADER" element="ico_link">
+		<filesIco id="1">top-cold		</filesIco>
+		<filesIco id="2">top-lamp		</filesIco>
+		<filesIco id="3">top-note		</filesIco>
+		<filesIco id="4">top-cam		</filesIco>
+		<filesIco id="5">top-shit		</filesIco>
+		<filesIco id="6">top-setting	</filesIco>
+		<filesIco id="7">top-gradus		</filesIco>
+		<filesIco id="8">top-plan		</filesIco>
+		<filesIco id="9">top-shit-poj	</filesIco>
+		<filesIco id="10">top-shit-ohr	</filesIco>
+		<filesIco id="11">top-graf		</filesIco>
+		<filesIco id="12">top-in-sys	</filesIco>
+		<filesIco id="13">top-plan-1	</filesIco>
+		<filesIco id="14">top-plan-2	</filesIco>
+		<filesIco id="15">top-com		</filesIco>
+		<filesIco id="16">top-otop		</filesIco>
+		<filesIco id="17">top-geo</filesIco>
+		<filesIco id="18">top-pos</filesIco>
+		<filesIco id="19">top-happi</filesIco>
+		<filesIco id="20">top-log</filesIco>
+		<filesIco id="21">top-zam</filesIco>
+	</ico>
+	<ico ico_pos="CENTER" element="switch_cent">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+		<filesIco id="11">info-kran			</filesIco>
+	</ico>	
+	<ico ico_pos="CENTER" element="info">
+		<filesIco id="1">info-gradus		</filesIco>
+		<filesIco id="2">info-wather		</filesIco>
+		<filesIco id="3">info-svet			</filesIco>
+		<filesIco id="4">info-pr			</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+	</ico>	
+	<ico ico_pos="CENTER" element="button_ico">
+		<filesIco id="1">room-hoz			</filesIco>
+		<filesIco id="2">left-show-climat	</filesIco>
+		<filesIco id="3">left-show-muzc		</filesIco>
+		<filesIco id="4">left-show-vent		</filesIco>
+		<filesIco id="5">left-show-volt		</filesIco>
+		<filesIco id="6">left-show-gradus	</filesIco>
+	</ico>
+		<ico ico_pos="CENTER" element="select">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+		<filesIco id="11">radioSwitch		</filesIco>
+		<filesIco id="12">rgb				</filesIco>
+	</ico>
+	<ico ico_pos="CENTER" element="time">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+	</ico>
+	<ico ico_pos="CENTER" element="info_bin">
+		<filesIco id="1">info-gradus		</filesIco>
+		<filesIco id="2">info-wather		</filesIco>
+		<filesIco id="3">info-svet			</filesIco>
+		<filesIco id="4">info-pr			</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">heat-pol			</filesIco>
+		<filesIco id="7">door-room			</filesIco>
+		<filesIco id="8">win-room			</filesIco>
+	</ico>
+	<ico ico_pos="CENTER" element="info_sos">
+		<filesIco id="1">info-gradus		</filesIco>
+		<filesIco id="2">info-wather		</filesIco>
+		<filesIco id="3">info-svet			</filesIco>
+		<filesIco id="4">info-pr			</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">heat-pol			</filesIco>
+		<filesIco id="7">door-room			</filesIco>
+		<filesIco id="8">win-room			</filesIco>
+		<filesIco id="9">movement-room		</filesIco>
+	</ico>
+	
+</templates>

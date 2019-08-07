@@ -1,8 +1,13 @@
 <?xml version='1.0'?>
 <templates>
+
+	<!-- TYPE START -->
 	<type>
 		<nameType>room</nameType>
 	</type>
+	<!-- TYPE END -->
+	
+	<!-- CSS START -->
 	<css>
 		<name>light</name>
 		<img_ico>thumbnail2</img_ico>
@@ -13,6 +18,9 @@
 		<img_ico>thumbnail1</img_ico>
 		<files>dark</files>	
 	</css>
+	<!-- CSS END -->
+	
+	<!-- POSITION START -->
 	<position>
 		<namePosition>HEADER</namePosition>
 		<positionFile>header</positionFile>
@@ -67,11 +75,17 @@
 		<namePosition>RIGHT4</namePosition>
 		<positionFile>right4</positionFile>
 		<priority>75</priority>
-	</position>	
+	</position>
+	<!-- POSITION END -->
+	
+	<!-- HEADER START -->
 	<elements pos="HEADER">
 		<nameElements>ico_link</nameElements>
 		<titleElements>Ссылка иконка</titleElements>
 	</elements>
+	<!-- HEADER END -->
+	
+	<!-- LEFT START -->
 	<elements pos="LEFT">
 		<nameElements>title</nameElements>
 		<titleElements>Заголовок</titleElements>
@@ -84,6 +98,9 @@
 		<nameElements>link_show</nameElements>
 		<titleElements>Показ элемента</titleElements>
 	</elements>
+	<!-- LEFT END -->
+	
+	<!-- CENTER1 START -->
 	<elements pos="CENTER1">
 		<nameElements>title</nameElements>
 		<titleElements>Заголовок</titleElements>
@@ -101,6 +118,10 @@
 		<titleElements>Информер</titleElements>
 	</elements>
 	<elements pos="CENTER1">
+		<nameElements>info_bin</nameElements>
+		<titleElements>Информер бинарный</titleElements>
+	</elements>
+	<elements pos="CENTER1">
 		<nameElements>switch_cent</nameElements>
 		<titleElements>Выключатель</titleElements>
 	</elements>
@@ -113,12 +134,20 @@
 		<titleElements>Установка времени</titleElements>
 	</elements>
 	<elements pos="CENTER1">
-		<nameElements>list</nameElements>
+		<nameElements>select</nameElements>
 		<titleElements>Выпадающий список</titleElements>
 	</elements>
 	<elements pos="CENTER1">
-		<nameElements>rgb</nameElements>
-		<titleElements>RGB-селектор</titleElements>
+		<nameElements>radio_mode</nameElements>
+		<titleElements>Режим работы</titleElements>
+	</elements>
+	<elements pos="CENTER1">
+		<nameElements>rgb_sel</nameElements>
+		<titleElements>RGB Селектор</titleElements>
+	</elements>
+	<elements pos="CENTER1">
+		<nameElements>favorite_tv</nameElements>
+		<titleElements>Избранные каналы</titleElements>
 	</elements>
 	<elements pos="CENTER1">
 		<nameElements>favorite_radio</nameElements>
@@ -128,33 +157,214 @@
 		<nameElements>radioc</nameElements>
 		<titleElements>Климат</titleElements>
 	</elements>
+	<!-- CENTER1 END -->
+	
+	<!-- CENTER2 START -->
 	<elements pos="CENTER2">
 		<nameElements>title</nameElements>
 		<titleElements>Заголовок</titleElements>
+	</elements>
+	<elements pos="CENTER2">
+		<nameElements>zero</nameElements>
+		<titleElements>Отступ</titleElements>
 	</elements>
 	<elements pos="CENTER2">
 		<nameElements>html</nameElements>
 		<titleElements>Произвольный html</titleElements>
 	</elements>
 	<elements pos="CENTER2">
+		<nameElements>info</nameElements>
+		<titleElements>Информер</titleElements>
+	</elements>
+	<elements pos="CENTER2">
+		<nameElements>info_bin</nameElements>
+		<titleElements>Информер бинарный</titleElements>
+	</elements>
+	<elements pos="CENTER2">
+		<nameElements>switch_cent</nameElements>
+		<titleElements>Выключатель</titleElements>
+	</elements>
+	<elements pos="CENTER2">
+		<nameElements>slider</nameElements>
+		<titleElements>Слайдер</titleElements>
+	</elements>
+	<elements pos="CENTER2">
+		<nameElements>time</nameElements>
+		<titleElements>Установка времени</titleElements>
+	</elements>
+	<elements pos="CENTER2">
+		<nameElements>select</nameElements>
+		<titleElements>Выпадающий список</titleElements>
+	</elements>
+	<elements pos="CENTER2">
+		<nameElements>radio_mode</nameElements>
+		<titleElements>Режим работы</titleElements>
+	</elements>
+	<elements pos="CENTER2">
+		<nameElements>rgb_sel</nameElements>
+		<titleElements>RGB Селектор</titleElements>
+	</elements>
+	<elements pos="CENTER2">
 		<nameElements>favorite_tv</nameElements>
 		<titleElements>Избранные каналы</titleElements>
 	</elements>
+	<elements pos="CENTER2">
+		<nameElements>favorite_radio</nameElements>
+		<titleElements>Избранные радиостанции</titleElements>
+	</elements>
+	<elements pos="CENTER2">
+		<nameElements>radioc</nameElements>
+		<titleElements>Климат</titleElements>
+	</elements>
+	<!-- CENTER2 END -->
+	
+	<!-- CENTER3 START -->
 	<elements pos="CENTER3">
 		<nameElements>title</nameElements>
 		<titleElements>Заголовок</titleElements>
+	</elements>
+	<elements pos="CENTER3">
+		<nameElements>zero</nameElements>
+		<titleElements>Отступ</titleElements>
+	</elements>
+	<elements pos="CENTER3">
+		<nameElements>html</nameElements>
+		<titleElements>Произвольный html</titleElements>
+	</elements>
+	<elements pos="CENTER3">
+		<nameElements>info</nameElements>
+		<titleElements>Информер</titleElements>
+	</elements>
+	<elements pos="CENTER3">
+		<nameElements>info_bin</nameElements>
+		<titleElements>Информер бинарный</titleElements>
+	</elements>
+	<elements pos="CENTER3">
+		<nameElements>switch_cent</nameElements>
+		<titleElements>Выключатель</titleElements>
+	</elements>
+	<elements pos="CENTER3">
+		<nameElements>slider</nameElements>
+		<titleElements>Слайдер</titleElements>
+	</elements>
+	<elements pos="CENTER3">
+		<nameElements>time</nameElements>
+		<titleElements>Установка времени</titleElements>
+	</elements>
+	<elements pos="CENTER3">
+		<nameElements>select</nameElements>
+		<titleElements>Выпадающий список</titleElements>
+	</elements>
+	<elements pos="CENTER3">
+		<nameElements>radio_mode</nameElements>
+		<titleElements>Режим работы</titleElements>
+	</elements>
+	<elements pos="CENTER3">
+		<nameElements>rgb_sel</nameElements>
+		<titleElements>RGB Селектор</titleElements>
+	</elements>
+	<elements pos="CENTER3">
+		<nameElements>favorite_tv</nameElements>
+		<titleElements>Избранные каналы</titleElements>
 	</elements>
 	<elements pos="CENTER3">
 		<nameElements>favorite_radio</nameElements>
 		<titleElements>Избранные радиостанции</titleElements>
 	</elements>
+	<elements pos="CENTER3">
+		<nameElements>radioc</nameElements>
+		<titleElements>Климат</titleElements>
+	</elements>
+	<!-- CENTER3 END -->
+	
+	
+	<!-- CENTER4 START -->
+	<elements pos="CENTER4">
+		<nameElements>title</nameElements>
+		<titleElements>Заголовок</titleElements>
+	</elements>
+	<elements pos="CENTER4">
+		<nameElements>zero</nameElements>
+		<titleElements>Отступ</titleElements>
+	</elements>
+	<elements pos="CENTER4">
+		<nameElements>html</nameElements>
+		<titleElements>Произвольный html</titleElements>
+	</elements>
+	<elements pos="CENTER4">
+		<nameElements>info</nameElements>
+		<titleElements>Информер</titleElements>
+	</elements>
+	<elements pos="CENTER4">
+		<nameElements>info_bin</nameElements>
+		<titleElements>Информер бинарный</titleElements>
+	</elements>
+	<elements pos="CENTER4">
+		<nameElements>switch_cent</nameElements>
+		<titleElements>Выключатель</titleElements>
+	</elements>
+	<elements pos="CENTER4">
+		<nameElements>slider</nameElements>
+		<titleElements>Слайдер</titleElements>
+	</elements>
+	<elements pos="CENTER4">
+		<nameElements>time</nameElements>
+		<titleElements>Установка времени</titleElements>
+	</elements>
+	<elements pos="CENTER4">
+		<nameElements>select</nameElements>
+		<titleElements>Выпадающий список</titleElements>
+	</elements>
+	<elements pos="CENTER4">
+		<nameElements>radio_mode</nameElements>
+		<titleElements>Режим работы</titleElements>
+	</elements>
+	<elements pos="CENTER4">
+		<nameElements>rgb_sel</nameElements>
+		<titleElements>RGB Селектор</titleElements>
+	</elements>
+	<elements pos="CENTER4">
+		<nameElements>favorite_tv</nameElements>
+		<titleElements>Избранные каналы</titleElements>
+	</elements>
+	<elements pos="CENTER4">
+		<nameElements>favorite_radio</nameElements>
+		<titleElements>Избранные радиостанции</titleElements>
+	</elements>
+	<elements pos="CENTER4">
+		<nameElements>radioc</nameElements>
+		<titleElements>Климат</titleElements>
+	</elements>
+	<!-- CENTER4 END -->	
+	
+	<!-- CENTER5 START -->
 	<elements pos="CENTER5">
 		<nameElements>title</nameElements>
 		<titleElements>Заголовок</titleElements>
 	</elements>
 	<elements pos="CENTER5">
+		<nameElements>zero</nameElements>
+		<titleElements>Отступ</titleElements>
+	</elements>
+	<elements pos="CENTER5">
+		<nameElements>html</nameElements>
+		<titleElements>Произвольный html</titleElements>
+	</elements>
+	<elements pos="CENTER5">
+		<nameElements>info</nameElements>
+		<titleElements>Информер</titleElements>
+	</elements>
+	<elements pos="CENTER5">
+		<nameElements>info_bin</nameElements>
+		<titleElements>Информер бинарный</titleElements>
+	</elements>
+	<elements pos="CENTER5">
 		<nameElements>switch_cent</nameElements>
 		<titleElements>Выключатель</titleElements>
+	</elements>
+	<elements pos="CENTER5">
+		<nameElements>slider</nameElements>
+		<titleElements>Слайдер</titleElements>
 	</elements>
 	<elements pos="CENTER5">
 		<nameElements>time</nameElements>
@@ -164,6 +374,29 @@
 		<nameElements>select</nameElements>
 		<titleElements>Выпадающий список</titleElements>
 	</elements>
+	<elements pos="CENTER5">
+		<nameElements>radio_mode</nameElements>
+		<titleElements>Режим работы</titleElements>
+	</elements>
+	<elements pos="CENTER5">
+		<nameElements>rgb_sel</nameElements>
+		<titleElements>RGB Селектор</titleElements>
+	</elements>
+	<elements pos="CENTER5">
+		<nameElements>favorite_tv</nameElements>
+		<titleElements>Избранные каналы</titleElements>
+	</elements>
+	<elements pos="CENTER5">
+		<nameElements>favorite_radio</nameElements>
+		<titleElements>Избранные радиостанции</titleElements>
+	</elements>
+	<elements pos="CENTER5">
+		<nameElements>radioc</nameElements>
+		<titleElements>Климат</titleElements>
+	</elements>
+	<!-- CENTER5 END -->	
+	
+	<!-- RIGHT1 START -->
 	<elements pos="RIGHT1">
 		<nameElements>title</nameElements>
 		<titleElements>Заголовок</titleElements>
@@ -184,6 +417,21 @@
 		<nameElements>tv_console</nameElements>
 		<titleElements>ТВ пульт</titleElements>
 	</elements>
+	<elements pos="RIGHT1">
+		<nameElements>player</nameElements>
+		<titleElements>Плеер</titleElements>
+	</elements>
+	<elements pos="RIGHT1">
+		<nameElements>radio</nameElements>
+		<titleElements>Переключатель входов</titleElements>
+	</elements>
+	<elements pos="RIGHT1">
+		<nameElements>slider_r</nameElements>
+		<titleElements>Слайдер</titleElements>
+	</elements>
+	<!-- RIGHT1 END -->
+	
+	<!-- RIGHT2 START -->
 	<elements pos="RIGHT2">
 		<nameElements>title</nameElements>
 		<titleElements>Заголовок</titleElements>
@@ -193,6 +441,49 @@
 		<titleElements>Произвольный html</titleElements>
 	</elements>
 	<elements pos="RIGHT2">
+		<nameElements>switch_icor</nameElements>
+		<titleElements>Выключатель иконка</titleElements>
+	</elements>
+	<elements pos="RIGHT2">
+		<nameElements>button_icor</nameElements>
+		<titleElements>Кнопка иконка</titleElements>
+	</elements>
+	<elements pos="RIGHT2">
+		<nameElements>tv_console</nameElements>
+		<titleElements>ТВ пульт</titleElements>
+	</elements>
+	<elements pos="RIGHT2">
+		<nameElements>player</nameElements>
+		<titleElements>Плеер</titleElements>
+	</elements>
+	<elements pos="RIGHT2">
+		<nameElements>radio</nameElements>
+		<titleElements>Переключатель входов</titleElements>
+	</elements>
+	<elements pos="RIGHT2">
+		<nameElements>slider_r</nameElements>
+		<titleElements>Слайдер</titleElements>
+	</elements>
+	<!-- RIGHT2 END -->
+	
+	<!-- RIGHT3 START -->
+	<elements pos="RIGHT3">
+		<nameElements>title</nameElements>
+		<titleElements>Заголовок</titleElements>
+	</elements>
+	<elements pos="RIGHT3">
+		<nameElements>html</nameElements>
+		<titleElements>Произвольный html</titleElements>
+	</elements>
+	<elements pos="RIGHT3">
+		<nameElements>switch_icor</nameElements>
+		<titleElements>Выключатель иконка</titleElements>
+	</elements>
+	<elements pos="RIGHT3">
+		<nameElements>button_icor</nameElements>
+		<titleElements>Кнопка иконка</titleElements>
+	</elements>
+	<elements pos="RIGHT3">
 		<nameElements>tv_console</nameElements>
 		<titleElements>ТВ пульт</titleElements>
 	</elements>
@@ -208,6 +499,47 @@
 		<nameElements>slider_r</nameElements>
 		<titleElements>Слайдер</titleElements>
 	</elements>
+	<!-- RIGHT3 END -->
+	
+	<!-- RIGHT4 START -->
+	<elements pos="RIGHT4">
+		<nameElements>title</nameElements>
+		<titleElements>Заголовок</titleElements>
+	</elements>
+	<elements pos="RIGHT4">
+		<nameElements>html</nameElements>
+		<titleElements>Произвольный html</titleElements>
+	</elements>
+	<elements pos="RIGHT4">
+		<nameElements>switch_icor</nameElements>
+		<titleElements>Выключатель иконка</titleElements>
+	</elements>
+	<elements pos="RIGHT4">
+		<nameElements>button_icor</nameElements>
+		<titleElements>Кнопка иконка</titleElements>
+	</elements>
+	<elements pos="RIGHT4">
+		<nameElements>tv_console</nameElements>
+		<titleElements>ТВ пульт</titleElements>
+	</elements>
+	<elements pos="RIGHT4">
+		<nameElements>player</nameElements>
+		<titleElements>Плеер</titleElements>
+	</elements>
+	<elements pos="RIGHT4">
+		<nameElements>radio</nameElements>
+		<titleElements>Переключатель входов</titleElements>
+	</elements>
+	<elements pos="RIGHT4">
+		<nameElements>slider_r</nameElements>
+		<titleElements>Слайдер</titleElements>
+	</elements>
+	<!-- RIGHT4 END -->
+	
+	
+	
+	
+	<!-- HEADER ICO START -->	
 	<ico ico_pos="HEADER" element="ico_link">
 		<filesIco id="1">top-cold		</filesIco>
 		<filesIco id="2">top-lamp		</filesIco>
@@ -221,7 +553,19 @@
 		<filesIco id="10">top-shit-ohr	</filesIco>
 		<filesIco id="11">top-graf		</filesIco>
 		<filesIco id="12">top-in-sys	</filesIco>
+		<filesIco id="13">top-plan-1	</filesIco>
+		<filesIco id="14">top-plan-2	</filesIco>
+		<filesIco id="15">top-com		</filesIco>
+		<filesIco id="16">top-otop		</filesIco>
+		<filesIco id="17">top-geo</filesIco>
+		<filesIco id="18">top-pos</filesIco>
+		<filesIco id="19">top-happi</filesIco>
+		<filesIco id="20">top-log</filesIco>
+		<filesIco id="21">top-zam</filesIco>
 	</ico>
+	<!-- HEADER ICO END -->
+	
+	<!-- LEFT ICO START -->
 	<ico ico_pos="LEFT" element="link_show">
 		<filesIco id="1">left-show-list		</filesIco>
 		<filesIco id="2">left-show-tv		</filesIco>
@@ -235,6 +579,9 @@
 		<filesIco id="10">left-show-volt	</filesIco>
 		<filesIco id="11">left-show-gradus	</filesIco>
 	</ico>
+	<!-- LEFT ICO END -->
+	
+	<!-- CENTER1 ICO START -->
 	<ico ico_pos="CENTER1" element="switch_cent">
 		<filesIco id="1">left-show-lamp		</filesIco>
 		<filesIco id="2">budSet				</filesIco>
@@ -246,8 +593,10 @@
 		<filesIco id="8">sec				</filesIco>
 		<filesIco id="9">show-mic			</filesIco>
 		<filesIco id="10">heat-pol			</filesIco>
-	</ico>
-	
+		<filesIco id="11">radioSwitch		</filesIco>
+		<filesIco id="12">rgb				</filesIco>
+		<filesIco id="13">room-hoz2			</filesIco>
+	</ico>	
 	<ico ico_pos="CENTER1" element="info">
 		<filesIco id="1">info-gradus		</filesIco>
 		<filesIco id="2">info-wather		</filesIco>
@@ -255,8 +604,349 @@
 		<filesIco id="4">info-pr			</filesIco>
 		<filesIco id="5">info-volt			</filesIco>
 	</ico>
-	
+	<ico ico_pos="CENTER1" element="info_bin">
+		<filesIco id="1">info-gradus		</filesIco>
+		<filesIco id="2">info-wather		</filesIco>
+		<filesIco id="3">info-svet			</filesIco>
+		<filesIco id="4">info-pr			</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">heat-pol			</filesIco>
+		<filesIco id="7">door-room			</filesIco>
+		<filesIco id="8">win-room			</filesIco>
+	</ico>	
 	<ico ico_pos="CENTER1" element="button_ico">
+		<filesIco id="1">room-hoz			</filesIco>
+		<filesIco id="2">left-show-climat	</filesIco>
+		<filesIco id="3">left-show-muzc		</filesIco>
+		<filesIco id="4">left-show-vent		</filesIco>
+		<filesIco id="5">left-show-volt		</filesIco>
+		<filesIco id="6">left-show-gradus	</filesIco>
+	</ico>
+	<ico ico_pos="CENTER1" element="time">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+	</ico>
+	<ico ico_pos="CENTER1" element="select">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+		<filesIco id="11">radioSwitch		</filesIco>
+		<filesIco id="12">rgb				</filesIco>
+	</ico>
+	<ico ico_pos="CENTER1" element="rgb_sel">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+		<filesIco id="11">radioSwitch		</filesIco>
+		<filesIco id="12">rgb				</filesIco>
+	</ico>
+	<!-- CENTER1 ICO END -->
+	
+	<!-- CENTER2 ICO START -->
+	<ico ico_pos="CENTER2" element="switch_cent">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+		<filesIco id="11">radioSwitch		</filesIco>
+		<filesIco id="12">rgb				</filesIco>
+		<filesIco id="13">room-hoz2			</filesIco>
+	</ico>	
+	<ico ico_pos="CENTER2" element="info">
+		<filesIco id="1">info-gradus		</filesIco>
+		<filesIco id="2">info-wather		</filesIco>
+		<filesIco id="3">info-svet			</filesIco>
+		<filesIco id="4">info-pr			</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+	</ico>
+	<ico ico_pos="CENTER2" element="info_bin">
+		<filesIco id="1">info-gradus		</filesIco>
+		<filesIco id="2">info-wather		</filesIco>
+		<filesIco id="3">info-svet			</filesIco>
+		<filesIco id="4">info-pr			</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">heat-pol			</filesIco>
+		<filesIco id="7">door-room			</filesIco>
+		<filesIco id="8">win-room			</filesIco>
+	</ico>
+	<ico ico_pos="CENTER2" element="button_ico">
+		<filesIco id="1">room-hoz			</filesIco>
+		<filesIco id="2">left-show-climat	</filesIco>
+		<filesIco id="3">left-show-muzc		</filesIco>
+		<filesIco id="4">left-show-vent		</filesIco>
+		<filesIco id="5">left-show-volt		</filesIco>
+		<filesIco id="6">left-show-gradus	</filesIco>
+	</ico>
+	<ico ico_pos="CENTER2" element="time">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+	</ico>
+	<ico ico_pos="CENTER2" element="select">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+		<filesIco id="11">radioSwitch		</filesIco>
+		<filesIco id="12">rgb				</filesIco>
+	</ico>
+	<ico ico_pos="CENTER2" element="rgb_sel">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+		<filesIco id="11">radioSwitch		</filesIco>
+		<filesIco id="12">rgb				</filesIco>
+	</ico>
+	<!-- CENTER2 ICO END -->
+	
+	<!-- CENTER3 ICO START -->
+	<ico ico_pos="CENTER3" element="switch_cent">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+		<filesIco id="11">radioSwitch		</filesIco>
+		<filesIco id="12">rgb				</filesIco>
+		<filesIco id="13">room-hoz2			</filesIco>
+	</ico>	
+	<ico ico_pos="CENTER3" element="info">
+		<filesIco id="1">info-gradus		</filesIco>
+		<filesIco id="2">info-wather		</filesIco>
+		<filesIco id="3">info-svet			</filesIco>
+		<filesIco id="4">info-pr			</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+	</ico>	
+	<ico ico_pos="CENTER3" element="info_bin">
+		<filesIco id="1">info-gradus		</filesIco>
+		<filesIco id="2">info-wather		</filesIco>
+		<filesIco id="3">info-svet			</filesIco>
+		<filesIco id="4">info-pr			</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">heat-pol			</filesIco>
+		<filesIco id="7">door-room			</filesIco>
+		<filesIco id="8">win-room			</filesIco>
+	</ico>
+	<ico ico_pos="CENTER3" element="button_ico">
+		<filesIco id="1">room-hoz			</filesIco>
+		<filesIco id="2">left-show-climat	</filesIco>
+		<filesIco id="3">left-show-muzc		</filesIco>
+		<filesIco id="4">left-show-vent		</filesIco>
+		<filesIco id="5">left-show-volt		</filesIco>
+		<filesIco id="6">left-show-gradus	</filesIco>
+	</ico>
+	<ico ico_pos="CENTER3" element="time">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+	</ico>
+	<ico ico_pos="CENTER3" element="select">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+		<filesIco id="11">radioSwitch		</filesIco>
+		<filesIco id="12">rgb				</filesIco>
+	</ico>
+	<ico ico_pos="CENTER3" element="rgb_sel">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+		<filesIco id="11">radioSwitch		</filesIco>
+		<filesIco id="12">rgb				</filesIco>
+	</ico>
+	<!-- CENTER3 ICO END -->
+	
+	<!-- CENTER4 ICO START -->
+	<ico ico_pos="CENTER4" element="switch_cent">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+		<filesIco id="11">radioSwitch		</filesIco>
+		<filesIco id="12">rgb				</filesIco>
+		<filesIco id="13">room-hoz2			</filesIco>
+	</ico>	
+	<ico ico_pos="CENTER4" element="info">
+		<filesIco id="1">info-gradus		</filesIco>
+		<filesIco id="2">info-wather		</filesIco>
+		<filesIco id="3">info-svet			</filesIco>
+		<filesIco id="4">info-pr			</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+	</ico>	
+	<ico ico_pos="CENTER4" element="info_bin">
+		<filesIco id="1">info-gradus		</filesIco>
+		<filesIco id="2">info-wather		</filesIco>
+		<filesIco id="3">info-svet			</filesIco>
+		<filesIco id="4">info-pr			</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">heat-pol			</filesIco>
+		<filesIco id="7">door-room			</filesIco>
+		<filesIco id="8">win-room			</filesIco>
+	</ico>
+	<ico ico_pos="CENTER4" element="button_ico">
+		<filesIco id="1">room-hoz			</filesIco>
+		<filesIco id="2">left-show-climat	</filesIco>
+		<filesIco id="3">left-show-muzc		</filesIco>
+		<filesIco id="4">left-show-vent		</filesIco>
+		<filesIco id="5">left-show-volt		</filesIco>
+		<filesIco id="6">left-show-gradus	</filesIco>
+	</ico>
+	<ico ico_pos="CENTER4" element="time">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+	</ico>
+	<ico ico_pos="CENTER4" element="select">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+		<filesIco id="11">radioSwitch		</filesIco>
+		<filesIco id="12">rgb				</filesIco>
+	</ico>
+	<ico ico_pos="CENTER4" element="rgb_sel">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+		<filesIco id="11">radioSwitch		</filesIco>
+		<filesIco id="12">rgb				</filesIco>
+	</ico>
+	<!-- CENTER4 ICO END -->
+	
+	<!-- CENTER5 ICO START -->
+	<ico ico_pos="CENTER5" element="switch_cent">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+		<filesIco id="11">radioSwitch		</filesIco>
+		<filesIco id="12">rgb				</filesIco>
+		<filesIco id="13">room-hoz2			</filesIco>
+	</ico>	
+	<ico ico_pos="CENTER5" element="info">
+		<filesIco id="1">info-gradus		</filesIco>
+		<filesIco id="2">info-wather		</filesIco>
+		<filesIco id="3">info-svet			</filesIco>
+		<filesIco id="4">info-pr			</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+	</ico>
+	<ico ico_pos="CENTER5" element="info_bin">
+		<filesIco id="1">info-gradus		</filesIco>
+		<filesIco id="2">info-wather		</filesIco>
+		<filesIco id="3">info-svet			</filesIco>
+		<filesIco id="4">info-pr			</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">heat-pol			</filesIco>
+		<filesIco id="7">door-room			</filesIco>
+		<filesIco id="8">win-room			</filesIco>
+	</ico>
+	<ico ico_pos="CENTER5" element="button_ico">
 		<filesIco id="1">room-hoz			</filesIco>
 		<filesIco id="2">left-show-climat	</filesIco>
 		<filesIco id="3">left-show-muzc		</filesIco>
@@ -276,19 +966,6 @@
 		<filesIco id="9">show-mic			</filesIco>
 		<filesIco id="10">heat-pol			</filesIco>
 	</ico>
-	<ico ico_pos="CENTER5" element="switch_cent">
-		<filesIco id="1">left-show-lamp		</filesIco>
-		<filesIco id="2">budSet				</filesIco>
-		<filesIco id="3">ventRoom			</filesIco>
-		<filesIco id="4">gradus				</filesIco>
-		<filesIco id="5">info-volt			</filesIco>
-		<filesIco id="6">left-show-climat	</filesIco>
-		<filesIco id="7">show-muzc			</filesIco>
-		<filesIco id="8">sec				</filesIco>
-		<filesIco id="9">show-mic			</filesIco>
-		<filesIco id="10">heat-pol			</filesIco>
-		<filesIco id="11">radioSwitch		</filesIco>
-	</ico>
 	<ico ico_pos="CENTER5" element="select">
 		<filesIco id="1">left-show-lamp		</filesIco>
 		<filesIco id="2">budSet				</filesIco>
@@ -301,7 +978,25 @@
 		<filesIco id="9">show-mic			</filesIco>
 		<filesIco id="10">heat-pol			</filesIco>
 		<filesIco id="11">radioSwitch		</filesIco>
-	</ico>	
+		<filesIco id="12">rgb				</filesIco>
+	</ico>
+	<ico ico_pos="CENTER5" element="rgb_sel">
+		<filesIco id="1">left-show-lamp		</filesIco>
+		<filesIco id="2">budSet				</filesIco>
+		<filesIco id="3">ventRoom			</filesIco>
+		<filesIco id="4">gradus				</filesIco>
+		<filesIco id="5">info-volt			</filesIco>
+		<filesIco id="6">left-show-climat	</filesIco>
+		<filesIco id="7">show-muzc			</filesIco>
+		<filesIco id="8">sec				</filesIco>
+		<filesIco id="9">show-mic			</filesIco>
+		<filesIco id="10">heat-pol			</filesIco>
+		<filesIco id="11">radioSwitch		</filesIco>
+		<filesIco id="12">rgb				</filesIco>
+	</ico>
+	<!-- CENTER5 ICO END -->
+	
+	<!-- RIGHT1 ICO START -->
 	<ico ico_pos="RIGHT1" element="button_icor">
 		<filesIco id="1">script-lamp-0</filesIco>
 		<filesIco id="2">script-eco-0</filesIco>
@@ -314,6 +1009,7 @@
 		<filesIco id="9">script-code-0</filesIco>
 		<filesIco id="10">script-pivo-0</filesIco>
 		<filesIco id="11">script-party-0</filesIco>
+		<filesIco id="12">script-kol-0</filesIco>
 	</ico>
 	<ico ico_pos="RIGHT1" element="switch_icor">
 		<filesIco id="1">script-lamp-0</filesIco>
@@ -327,18 +1023,101 @@
 		<filesIco id="9">script-code-0</filesIco>
 		<filesIco id="10">script-pivo-0</filesIco>
 		<filesIco id="11">script-party-0</filesIco>
-	</ico>	
-	<ico ico_pos="RIGHT3" element="switch_icor">
-		<filesIco id="1">left-show-lamp		</filesIco>
-		<filesIco id="2">budSet				</filesIco>
-		<filesIco id="3">ventRoom			</filesIco>
-		<filesIco id="4">gradus				</filesIco>
-		<filesIco id="5">info-volt			</filesIco>
-		<filesIco id="6">left-show-climat	</filesIco>
-		<filesIco id="7">show-muzc			</filesIco>
-		<filesIco id="8">sec				</filesIco>
-		<filesIco id="9">show-mic			</filesIco>
-		<filesIco id="10">heat-pol			</filesIco>
+		<filesIco id="12">script-kol-0</filesIco>
 	</ico>
+	<!-- RIGHT1 ICO END -->
+	
+	<!-- RIGHT2 ICO START -->
+	<ico ico_pos="RIGHT2" element="button_icor">
+		<filesIco id="1">script-lamp-0</filesIco>
+		<filesIco id="2">script-eco-0</filesIco>
+		<filesIco id="3">script-luna-0</filesIco>
+		<filesIco id="4">script-sun-0</filesIco>
+		<filesIco id="5">script-wather-0</filesIco>
+		<filesIco id="6">script-zam-0</filesIco>
+		<filesIco id="7">script-tv-0</filesIco>
+		<filesIco id="8">script-smotr-0</filesIco>
+		<filesIco id="9">script-code-0</filesIco>
+		<filesIco id="10">script-pivo-0</filesIco>
+		<filesIco id="11">script-party-0</filesIco>
+		<filesIco id="12">script-kol-0</filesIco>
+	</ico>
+	<ico ico_pos="RIGHT2" element="switch_icor">
+		<filesIco id="1">script-lamp-0</filesIco>
+		<filesIco id="2">script-eco-0</filesIco>
+		<filesIco id="3">script-luna-0</filesIco>
+		<filesIco id="4">script-sun-0</filesIco>
+		<filesIco id="5">script-wather-0</filesIco>
+		<filesIco id="6">script-zam-0</filesIco>
+		<filesIco id="7">script-tv-0</filesIco>
+		<filesIco id="8">script-smotr-0</filesIco>
+		<filesIco id="9">script-code-0</filesIco>
+		<filesIco id="10">script-pivo-0</filesIco>
+		<filesIco id="11">script-party-0</filesIco>
+		<filesIco id="12">script-kol-0</filesIco>
+	</ico>
+	<!-- RIGHT2 ICO END -->
+	
+	<!-- RIGHT3 ICO START -->
+	<ico ico_pos="RIGHT3" element="button_icor">
+		<filesIco id="1">script-lamp-0</filesIco>
+		<filesIco id="2">script-eco-0</filesIco>
+		<filesIco id="3">script-luna-0</filesIco>
+		<filesIco id="4">script-sun-0</filesIco>
+		<filesIco id="5">script-wather-0</filesIco>
+		<filesIco id="6">script-zam-0</filesIco>
+		<filesIco id="7">script-tv-0</filesIco>
+		<filesIco id="8">script-smotr-0</filesIco>
+		<filesIco id="9">script-code-0</filesIco>
+		<filesIco id="10">script-pivo-0</filesIco>
+		<filesIco id="11">script-party-0</filesIco>
+		<filesIco id="12">script-kol-0</filesIco>
+	</ico>
+	<ico ico_pos="RIGHT3" element="switch_icor">
+		<filesIco id="1">script-lamp-0</filesIco>
+		<filesIco id="2">script-eco-0</filesIco>
+		<filesIco id="3">script-luna-0</filesIco>
+		<filesIco id="4">script-sun-0</filesIco>
+		<filesIco id="5">script-wather-0</filesIco>
+		<filesIco id="6">script-zam-0</filesIco>
+		<filesIco id="7">script-tv-0</filesIco>
+		<filesIco id="8">script-smotr-0</filesIco>
+		<filesIco id="9">script-code-0</filesIco>
+		<filesIco id="10">script-pivo-0</filesIco>
+		<filesIco id="11">script-party-0</filesIco>
+		<filesIco id="12">script-kol-0</filesIco>
+	</ico>
+	<!-- RIGHT3 ICO END -->
+	
+	<!-- RIGHT4 ICO START -->
+	<ico ico_pos="RIGHT4" element="button_icor">
+		<filesIco id="1">script-lamp-0</filesIco>
+		<filesIco id="2">script-eco-0</filesIco>
+		<filesIco id="3">script-luna-0</filesIco>
+		<filesIco id="4">script-sun-0</filesIco>
+		<filesIco id="5">script-wather-0</filesIco>
+		<filesIco id="6">script-zam-0</filesIco>
+		<filesIco id="7">script-tv-0</filesIco>
+		<filesIco id="8">script-smotr-0</filesIco>
+		<filesIco id="9">script-code-0</filesIco>
+		<filesIco id="10">script-pivo-0</filesIco>
+		<filesIco id="11">script-party-0</filesIco>
+		<filesIco id="12">script-kol-0</filesIco>
+	</ico>
+	<ico ico_pos="RIGHT4" element="switch_icor">
+		<filesIco id="1">script-lamp-0</filesIco>
+		<filesIco id="2">script-eco-0</filesIco>
+		<filesIco id="3">script-luna-0</filesIco>
+		<filesIco id="4">script-sun-0</filesIco>
+		<filesIco id="5">script-wather-0</filesIco>
+		<filesIco id="6">script-zam-0</filesIco>
+		<filesIco id="7">script-tv-0</filesIco>
+		<filesIco id="8">script-smotr-0</filesIco>
+		<filesIco id="9">script-code-0</filesIco>
+		<filesIco id="10">script-pivo-0</filesIco>
+		<filesIco id="11">script-party-0</filesIco>
+		<filesIco id="12">script-kol-0</filesIco>
+	</ico>
+	<!-- RIGHT4 ICO END -->
 	
 </templates>

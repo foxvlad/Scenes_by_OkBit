@@ -19,8 +19,9 @@
   $sortby_s_okbit="PRIORITY DESC";
   $out['SORTBY']=$sortby_s_okbit;
   // SEARCH RESULTS
-  $res=SQLSelect("SELECT * FROM scenes_okbit WHERE $qry ORDER BY ".$sortby_s_okbit);
+  $res=SQLSelect("SELECT * FROM scenes_okbit WHERE $qry  ORDER BY PRIORITY DESC");
   
+  $state_active = SQLSelectOne("SELECT * FROM event WHERE ID=1");
 
   
   if ($res[0]['ID']) {
@@ -94,7 +95,24 @@
 		else  SQLExec("DELETE FROM scenes_okbit WHERE ID='".$res[$i]['ID']."'");
 	}
 	
-		
+
+	
    
    $out['RESULT']=$result;
+   
+	if ( $state_active['STATE'] == '1' ){   
+		$out['ACTIVE']='<div class="alert alert-success" role="alert">Спасибо, Ваша копия модуля активирована</div><hr>';
+		$out['ACTIVE_INFO']='<div class="alert alert-info">Модуль зарегистрирован.<br>Лицензия ID: '.$state_active['SERIAL_ID'].'<br>Лицензионный ключь: '.$state_active['SERIAL'].'</div>';
+		$out['ACTIVE_CODE'] = '1';
+	}
+	else if ( $state_active['STATE'] == '2' ){   
+		$out['ACTIVE']='<div class="alert alert-danger" role="alert">Ваша лицензия заблокированна за нарушение условий соглашения</div><hr>';
+		$out['ACTIVE_CODE'] = '2';
+	}
+	else {
+		$out['ACTIVE']='<div class="alert alert-danger" role="alert">Модуль не активирован! Произведите регистрацию модуля!</div><hr>';
+		$out['ACTIVE_CODE'] = '0';
+		
+		
+	}
   }

@@ -68,31 +68,49 @@
 	<ico ico_pos="HEADER" element="ico_link">
 		<filesIco id="1">top-cold		</filesIco>
 		<filesIco id="2">top-lamp		</filesIco>
-		<filesIco id="3">top-note		</filesIco>
-		<filesIco id="4">top-cam		</filesIco>
-		<filesIco id="5">top-shit		</filesIco>
-		<filesIco id="6">top-setting	</filesIco>
-		<filesIco id="7">top-gradus		</filesIco>
-		<filesIco id="8">top-plan		</filesIco>
-		<filesIco id="9">top-shit-poj	</filesIco>
-		<filesIco id="10">top-shit-ohr	</filesIco>
-		<filesIco id="11">top-graf		</filesIco>
-		<filesIco id="12">top-in-sys	</filesIco>
+		<filesIco id="3">top-lamp-1		</filesIco>
+		<filesIco id="4">top-lamp-2		</filesIco>
+		<filesIco id="5">top-lamp-3		</filesIco>
+		<filesIco id="6">top-note		</filesIco>
+		<filesIco id="7">top-cam		</filesIco>
+		<filesIco id="8">top-shit		</filesIco>
+		<filesIco id="9">top-setting	</filesIco>
+		<filesIco id="10">top-gradus		</filesIco>
+		<filesIco id="11">top-shit-poj	</filesIco>
+		<filesIco id="12">top-shit-ohr	</filesIco>
+		<filesIco id="13">top-graf		</filesIco>
+		<filesIco id="14">top-in-sys	</filesIco>
+		<filesIco id="15">top-plan		</filesIco>
+		<filesIco id="16">top-plan-1	</filesIco>
+		<filesIco id="17">top-plan-2	</filesIco>
+		<filesIco id="18">top-plan-3	</filesIco>
+		<filesIco id="19">top-com		</filesIco>
+		<filesIco id="20">top-otop		</filesIco>
+		<filesIco id="21">top-geo</filesIco>
+		<filesIco id="22">top-pos</filesIco>
+		<filesIco id="23">top-happi</filesIco>
+		<filesIco id="24">top-log</filesIco>
+		<filesIco id="25">top-zam</filesIco>
 	</ico>
 	<ico ico_pos="LEFT" element="link_ico">
-		<filesIco id="1">room-spal</filesIco>
-		<filesIco id="2">room-kuh</filesIco>
-		<filesIco id="3">room-zal</filesIco>
-		<filesIco id="4">room-vanna</filesIco>
-		<filesIco id="5">room-dets</filesIco>
-		<filesIco id="6">room-stol</filesIco>
-		<filesIco id="7">room-lodj</filesIco>
-		<filesIco id="8">room-ubor</filesIco>
-		<filesIco id="9">room-kubin</filesIco>
-		<filesIco id="10">room-prih</filesIco>
-		<filesIco id="11">room-hoz</filesIco>
-		<filesIco id="12">room-hoz2</filesIco>
-		<filesIco id="13">room-garaj</filesIco>
+		<filesIco id="1">room-spal		</filesIco>
+		<filesIco id="2">room-kuh		</filesIco>
+		<filesIco id="3">room-zal		</filesIco>
+		<filesIco id="4">room-vanna		</filesIco>
+		<filesIco id="5">room-dets		</filesIco>
+		<filesIco id="6">room-stol		</filesIco>
+		<filesIco id="7">room-lodj		</filesIco>
+		<filesIco id="8">room-ubor		</filesIco>
+		<filesIco id="9">room-kubin		</filesIco>
+		<filesIco id="10">room-prih		</filesIco>
+		<filesIco id="11">room-hoz		</filesIco>
+		<filesIco id="12">room-hoz2		</filesIco>
+		<filesIco id="13">room-garaj	</filesIco>
+		<filesIco id="14">room-kor		</filesIco>
+		<filesIco id="15">room-sauna	</filesIco>
+		<filesIco id="16">room-det-sp	</filesIco>
+		<filesIco id="17">room-spal2	</filesIco>
+		<filesIco id="18">room-roof		</filesIco>
 	</ico>
 	<ico ico_pos="CENTER" element="button_ico">
 		<filesIco id="1">script-lamp-0</filesIco>
@@ -106,6 +124,9 @@
 		<filesIco id="9">script-code-0</filesIco>
 		<filesIco id="10">script-pivo-0</filesIco>
 		<filesIco id="11">script-party-0</filesIco>
+		<filesIco id="12">script-open-0</filesIco>
+		<filesIco id="13">script-openk-0</filesIco>
+		<filesIco id="14">script-vent-0</filesIco>
 	</ico>
 	<ico ico_pos="CENTER" element="switch_ico">
 		<filesIco id="1">script-lamp-0</filesIco>
@@ -119,6 +140,9 @@
 		<filesIco id="9">script-code-0</filesIco>
 		<filesIco id="10">script-pivo-0</filesIco>
 		<filesIco id="11">script-party-0</filesIco>
+		<filesIco id="12">script-open-0</filesIco>
+		<filesIco id="13">script-openk-0</filesIco>
+		<filesIco id="14">script-vent-0</filesIco>
 	</ico>
 	
 </templates>

@@ -37,7 +37,7 @@
 
 
 <div class="player"> 
-	<div class="player-in">	
+	<div class="player-in-2">	
 		<div class="center-in">
 			<input class="range" id="range{{ELEMENT_ID}}" oninput="range_{{ELEMENT_ID}}()" onchange="rangeSend_{{ELEMENT_ID}}()" type="range" min="{{CENTER_SHOW}}" max="{{RIGHT_SHOW}}" value="%{{OBJECT}}.{{PROPERTY}}%">
 			<div class="rangeStyle" id="rangeStyle{{ELEMENT_ID}}" >%{{OBJECT}}.{{PROPERTY}}% {{TEXTAREA}}</div>

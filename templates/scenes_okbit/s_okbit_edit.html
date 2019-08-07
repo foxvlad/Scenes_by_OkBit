@@ -16,7 +16,6 @@
 	[#endif ID#]
 
 
-
 <!-- Table s_okbit edit  -->
 	
 [#if TAB=""#]
@@ -182,6 +181,32 @@
 					<input class="form-control" type="text" name="home_img" id="home_img" value="[#HOME_IMG#]" onclick="openFileBrowser('home_img');" size="45">
 				</div>
 			</div>
+			
+			<div class="form-group">
+				<label class="col-lg-3 control-label">
+					Главная сцена:
+				</label>
+				<div class="col-lg-4 ">
+					<select name="home_scene" id="home_scene" class="form-control">
+						<option value='0'></option>
+						[#HOME_SCENE#]
+					</select>
+				</div>
+			</div>
+			
+			<div class="form-group">
+				<label class="col-lg-3 control-label">
+					Копировать меню:
+				</label>
+				<div class="col-lg-4 ">			
+					<input type="checkbox" name="clone_menu" id="clone_menu" [#if CLONE_MENU=="1"#] checked [#endif CLONE_MENU#] value="1">
+				</div>
+			</div>
+			
+			[#endif TYPE_SCENE#]
+			
+			
+			[#if TYPE_SCENE=="sys"#]
 			
 			<div class="form-group">
 				<label class="col-lg-3 control-label">

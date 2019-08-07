@@ -1,7 +1,52 @@
 
 <!-- table S_OkBit search -->
+
+
+<script type="text/javascript" language="javascript">
+ 	function call() {
+ 	  var msg   = $('#formx').serialize();
+        $.ajax({
+          type: 'POST',
+          url: '/modules/scenes_okbit/res.php',
+          data: msg,
+          success: function(data) {
+            $('#results').html(data);
+          },
+          error:  function(xhr, str){
+	    alert('Возникла ошибка: ' + xhr.responseCode);
+          }
+        });
+ 
+    }
+</script>
+
+
+
+
 <p>
+
+
+[#if TITLE!=""#]<h4>[#TITLE#]</h4>[#endif TITLE#]
+			<ul class="nav nav-tabs">
+				<li[#if TAB=""#] class="active"[#endif#]>
+				<a href="?data_source=<#DATA_SOURCE#>&view_mode=<#VIEW_MODE#>&id=<#ID#>&tab=">Основное</a>
+				</li>
+				<li[#if TAB="lic"#] class="active"[#endif#]>
+				<a href="?data_source=<#DATA_SOURCE#>&view_mode=<#VIEW_MODE#>&id=<#ID#>&tab=lic">Лицензия</a>
+				
+			</ul>
+			&nbsp;<br/>
+
+
 </p>
+
+
+[#if TAB=""#]
+
+[#ACTIVE#]
+
+
+
 <table width=100% border=0><tr>
 <td valign=top>
 
@@ -110,3 +155,80 @@
 [#endif RESULT#]
 <!-- / results -->
 </td></tr></table>
+
+
+[#endif TAB#]
+
+
+
+[#if TAB="lic"#]
+
+
+
+
+
+<div class="container">	
+	
+	<div class="row">
+		<div class="col-sm-3">
+		</div>
+		<div class="col-sm-6">
+			[#ACTIVE_INFO#]
+			
+		
+			<legend>Условия лицензионного соглашения:</legend>
+			
+			<div class="prokrutka">
+				[#inc license.html#]
+			</div>
+					
+		</div>
+		<div class="col-sm-3">
+		</div>
+	</div>
+	
+[#if ACTIVE_CODE='0'#]	
+
+	<div class="row">
+		<div class="col-sm-3">
+		</div>
+		<div class="col-sm-6">
+			<form method="POST" id="formx" action="javascript:void(null);" onsubmit="call()">
+				<p></p>
+				<div id="results"></div>
+				<label class="form-check-label">
+					<input type="checkbox" class="form-check-input" id="" name="lic_yes" >
+					Подтверждаю согласия с условиями лицензионного соглашения
+				</label>
+				
+				<legend>Активация лицензии:</legend>
+				<div class="form-group">
+					<label for="">Ваше имя:</label>
+					<input type="text" class="form-control" id="" name="name"  />
+				</div>
+				<div class="form-group">
+					<label for="">Ваш email:</label>
+					<input type="mail" class="form-control" id="" name="mail"  />
+				</div>
+				
+				<div class="form-group">
+					<label for="">Лицензионный ключ:</label>
+					<input type="text" class="form-control" id="" name="serial"  />
+				</div>
+				
+				<div class="form-group">
+					<label for="">Лицензионный ID:</label>
+					<input type="text" class="form-control" id="" name="lic_id"  />
+				</div>
+				<input type="submit" id="submit"  class="btn btn-primary" value="Активировать">
+			</form>			
+		</div>
+		<div class="col-sm-3">
+		</div>
+	</div>
+</div> 
+[#endif ACTIVE_CODE#]
+
+<p><br></p>
+
+[#endif TAB#]

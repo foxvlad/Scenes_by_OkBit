@@ -1,7 +1,3 @@
-
-
-
-
 @font-face {
     font-family: okbit; /* Гарнитура шрифта */
     src: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/css/font/IstokWeb-Regular.ttf); /* Путь к файлу со шрифтом */
@@ -12,7 +8,7 @@ h4, span, div, p, text{
 	font-family: okbit!important;
 }
 
-
+.s{}
 
 body {
 	background: #2e323a!important;
@@ -51,7 +47,7 @@ table {
 	height:50px;
 	border-radius: 4px;
 	background-size: cover;
-	margin: 0 7px 0 7px;
+	margin: 0 2px 0 2px;
 }
 
 .top-menu .link:active{
@@ -75,46 +71,96 @@ table {
 }
 
 .top-menu .link-ico-3{
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-note.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-lamp-1.png);
 }
 
 .top-menu .link-ico-4{
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-cam.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-lamp-2.png);
 }
 
 .top-menu .link-ico-5{
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-shit.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-lamp-3.png);
 }
 
 .top-menu .link-ico-6{
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-setting.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-note.png);
 }
 
 .top-menu .link-ico-7{
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-gradus.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-cam.png);
 }
 
 .top-menu .link-ico-8{
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-plan.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-shit.png);
 }
 
 .top-menu .link-ico-9{
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-shit-poj.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-setting.png);
 }
 
 .top-menu .link-ico-10{
-	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-shit-ohr.png);
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-gradus.png);
 }
 
 .top-menu .link-ico-11{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-shit-poj.png);
+}
+
+.top-menu .link-ico-12{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-shit-ohr.png);
+}
+
+.top-menu .link-ico-13{
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-graf.png);
 }
 
-
-.top-menu .link-ico-12{
+.top-menu .link-ico-14{
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-in-sys.png);
 }
 
+.top-menu .link-ico-15{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-plan.png);
+}
+
+.top-menu .link-ico-16{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-plan-1.png);
+}
+
+.top-menu .link-ico-17{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-plan-2.png);
+}
+
+.top-menu .link-ico-18{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-plan-3.png);
+}
+
+.top-menu .link-ico-19{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-com.png);
+}
+
+.top-menu .link-ico-20{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-otop.png);
+}
+
+.top-menu .link-ico-21{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-geo.png);
+}
+
+.top-menu .link-ico-22{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-pos.png);
+}
+
+.top-menu .link-ico-23{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-happi.png);
+}
+
+.top-menu .link-ico-24{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-log.png);
+}
+
+.top-menu .link-ico-25{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/top-zam.png);
+}
 
 .left-menu .title {
 	width:100%;
@@ -234,6 +280,25 @@ A, A:hover {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-garaj.png);
 }
 
+.left-menu .link-ico-14{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-kor.png);
+}
+
+.left-menu .link-ico-15{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-sauna.png);
+}
+
+.left-menu .link-ico-16{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-det-sp.png);
+}
+
+.left-menu .link-ico-17{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-spal2.png);
+}
+
+.left-menu .link-ico-18{
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/room-roof.png);
+}
 
 .left-arrow{
 	margin: 4px 2px 0 0;
@@ -383,11 +448,11 @@ A, A:hover {
 	transform: translatey(3px); 
 }
 
-.center-menu .link-color-1-0{
+.center-menu .link-color-1-0, .center-menu .link-color-14-0{
 	border: 2px solid #d7a306;
 }
 
-.center-menu .link-color-1-1{
+.center-menu .link-color-1-1, .center-menu .link-color-14-1{
 	border: 2px solid #fbdf8a;
 	background: #d7a306;
 }
@@ -420,21 +485,21 @@ A, A:hover {
 	background:#07a307;
 }
 
-.center-menu .link-color-5-0, .center-menu .link-color-10-0{
+.center-menu .link-color-5-0, .center-menu .link-color-10-0, .center-menu .link-color-13-0{
 	border: 2px solid #0164b1;
 }
 
-.center-menu .link-color-5-1, .center-menu .link-color-10-1{
+.center-menu .link-color-5-1, .center-menu .link-color-10-1, .center-menu .link-color-13-1{
 	border: 2px solid #60a8e0;
 	background:#0164b1;
 	
 }
 
-.center-menu .link-color-6-0, .center-menu .link-color-11-0{
+.center-menu .link-color-6-0, .center-menu .link-color-11-0, .center-menu .link-color-12-0{
 	border: 2px solid #ce0101;
 }
 
-.center-menu .link-color-6-1, .center-menu .link-color-11-1{
+.center-menu .link-color-6-1, .center-menu .link-color-11-1, .center-menu .link-color-12-1{
 	border: 2px solid #fd8989;
 	background:#ce0101;
 }
@@ -550,6 +615,31 @@ A, A:hover {
 	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-party-1.png)!important;
 }
 
+.center-menu .link-ico-12-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-open-0.png)!important;
+}
+
+.center-menu .link-ico-12-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-open-1.png)!important;
+}
+
+.center-menu .link-ico-13-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-openk-0.png)!important;
+}
+
+.center-menu .link-ico-13-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-openk-1.png)!important;
+}
+
+
+.center-menu .link-ico-14-1 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-vent-1.png)!important;
+}
+
+.center-menu .link-ico-14-0 {
+	background-image: url(../../templates/scenes_okbit/sc_templates/home_iOS_style/images/ico/script-vent-0.png)!important;
+}
+
 .right-menu{
 	float:right;
 	font-size:16px;
@@ -617,11 +707,12 @@ A, A:hover {
 	font-size: 18px !important;
 	width:23%  !important;
 	float:left  !important;
-	height: 100vh!important;
+	height: calc(100vh - 80px)!important;
 	text-align:left  !important;
 	border: 0px !important;
 	border-right: 2px solid #242425  !important;
 	background : 0 !important;
+	
 }
 
 
@@ -1561,24 +1652,104 @@ A, A:hover {
 
 
 
-@media (min-width: 900px) {
-	
-	html {
-		overflow:  hidden; /* скрываем полосы прокрутки */
-	}
-	
-	.small-title, .mini-title {
-		display: none;
-	}
-}
+
 
 /* Portrait tablets and medium desktops */
-@media (min-width: 992px) and (max-width: 1199px) {
+@media (min-width: 1440px) and (max-width: 1920px) {
+	.img-home {
+		height: 510px!important;		
+	}
+	
+	.in-home-1 {
+		height: 390px!important;
+	}
+	
+	.right-menu .text-html {
+		font-size: 14px!important;
+	}
+	
+	.center-menu span {
+		font-size: 14px!important;
+	}
+	
+}
+
+
+
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1439px) {
+	
+	.left-menu .link-ico{
+		width:25px;
+		height: 25px;
+	}
+	
+	.left-link{
+
+		height: 32px;
+	}
+	
+	.left-link span{
+		margin: 2px 0 0 8px;
+	}
 
 }
 
+
+
+@media (min-width: 900px) {/* отдельный медеазапрос для всех, не трогать */
+	
+	html {
+		overflow:  hidden; /* запрет скролинга */
+	}
+	
+	.small-title, .mini-title {/* скрываем меню для портативных устройств */
+		display: none;
+	}
+	
+	.{{LEFT}} {
+		overflow-y: scroll; /* прокрутка по вертикали */
+		-ms-overflow-style: none;  /* IE 10+ */
+		scrollbar-width: none; /* Firefox */
+	}
+	
+	::-webkit-scrollbar { /* chrome based */
+		width: 0px;  /* ширина scrollbar'a */
+		background: transparent;  /* опционально */
+	}
+	
+}
+
+
 /* Portrait tablets and small desktops */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 760px) and (max-width: 991px) {
+	
+	html {
+		overflow:  hidden; /* запрет скролинга */
+	}
+	
+	.mini-title {
+		display: none;
+	}
+	
+	.left-menu .link-ico{
+		width:25px;
+		height: 25px;
+	}
+	
+	.left-link{
+
+		height: 32px;
+	}
+	
+	.left-link span{
+		margin: 4px 0 0 4px;
+	}
+	
+	.left-link span {
+		font-size: 12px;
+	}
 
 }
 
@@ -1686,7 +1857,7 @@ A, A:hover {
 	.top-menu .link {
 		width: 45px !important;
 		height: 45px !important;
-		margin: 0 6px 0 6px!important;
+		margin: 0 7px 0 7px!important;
 	}
 }
 

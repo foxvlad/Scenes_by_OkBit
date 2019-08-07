@@ -4,7 +4,10 @@
 		
 		<p>
 			<a href="?view_mode=edit_element&scene_id=<#ID#>" class="btn btn-default"><i class="glyphicon glyphicon-plus"></i> Добавить новый элемент</a>
+			<a href="?data_source=<#DATA_SOURCE#>&view_mode=build2&id=[#SCENES_ID#]&idp=[#ID#]" class="btn btn-default ">Собрать сцену</a>
+			<a href="/popup/scenes/[#SCENES_ID#].html" target=_blank class="btn btn-default ">Просмотр</a>
 			<a href="?data_source=<#DATA_SOURCE#>" class="btn btn-default "><#LANG_STRING_BACK#></a>
+			
 		</p>
 		
 		
@@ -37,22 +40,23 @@
 					</td>
 					<td>
 						[#if TYPE == ico_link#]Ссылка иконка[#endif TYPE#]
-					[#if TYPE =="link_ico"#]Ссылка с иконка[#endif TYPE#]
-					[#if TYPE =="title"#]Заголовок[#endif TYPE#]
-					[#if TYPE == "html"#]HTML[#endif TYPE#]
-					[#if TYPE == "button_ico"#]Кнопка иконка[#endif TYPE#]
-					[#if TYPE == "switch_ico" #]Выключатель иконка[#endif TYPE#]
-					[#if TYPE == "switch" || TYPE == "switch_cent"#]Выключатель[#endif TYPE#]
-					[#if TYPE == "slider"#]Слайдер[#endif TYPE#]
-					[#if TYPE == "link_show"#]Показ элемента[#endif TYPE#]
-					[#if TYPE == "tv_console"#]Пульт управления ТВ[#endif TYPE#]
-					[#if TYPE == "zero"#]Отступ[#endif TYPE#]
-					[#if TYPE == "favorite_radio"#]Избранные радиостанции[#endif TYPE#]
-					[#if TYPE == "favorite_tv"#]Избранные каналы[#endif TYPE#]
-					[#if TYPE == "player"#]Медеапроигрыватель[#endif TYPE#]
-					[#if TYPE == "radio"#]Переключатель входов[#endif TYPE#]
-					[#if TYPE == "radioc"#]Климат[#endif TYPE#]
-					[#if TYPE == "info"#]Информер[#endif TYPE#]
+						[#if TYPE =="link_ico"#]Ссылка с иконка[#endif TYPE#]
+						[#if TYPE =="title"#]Заголовок[#endif TYPE#]
+						[#if TYPE == "html"#]HTML[#endif TYPE#]
+						[#if TYPE == "button_ico"#]Кнопка иконка[#endif TYPE#]
+						[#if TYPE == "switch_ico" #]Выключатель иконка[#endif TYPE#]
+						[#if TYPE == "switch" || TYPE == "switch_cent"#]Выключатель[#endif TYPE#]
+						[#if TYPE == "slider"#]Слайдер[#endif TYPE#]
+						[#if TYPE == "link_show"#]Показ элемента[#endif TYPE#]
+						[#if TYPE == "tv_console"#]Пульт управления ТВ[#endif TYPE#]
+						[#if TYPE == "zero"#]Отступ[#endif TYPE#]
+						[#if TYPE == "favorite_radio"#]Избранные радиостанции[#endif TYPE#]
+						[#if TYPE == "favorite_tv"#]Избранные каналы[#endif TYPE#]
+						[#if TYPE == "player"#]Медеапроигрыватель[#endif TYPE#]
+						[#if TYPE == "radio"#]Переключатель входов[#endif TYPE#]
+						[#if TYPE == "radioc"#]Климат[#endif TYPE#]
+						[#if TYPE == "info"#]Информер[#endif TYPE#]
+						[#if TYPE == "termostat"#]Термостат[#endif TYPE#]
 					</td>
 					<td>
 						[#PRIORITY#]
