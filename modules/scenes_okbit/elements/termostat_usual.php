@@ -36,8 +36,11 @@
 	
 
 	// -----------Переключатель {{ELEMENT_ID}} --------------
+	
+	var ch_int{{ELEMENT_ID}}=Number('{{ICO}}');
+	
 	var Ch{{ELEMENT_ID}}=Number('%{{OBJECT}}.disabled%');
-    if(Ch{{ELEMENT_ID}} == 1){
+    if(Ch{{ELEMENT_ID}} != ch_int{{ELEMENT_ID}}){
 		document.querySelector("#checkbox_{{ELEMENT_ID}}").setAttribute('checked', 'checed');
 	}
   	else {
@@ -49,13 +52,23 @@
 	function switch_{{ELEMENT_ID}}(){
 		
 		if(document.getElementById('checkbox_{{ELEMENT_ID}}').checked){
-			url_string ='/objects/?object={{OBJECT}}&op=set&p=disabled&v=1';
+			if (ch_int{{ELEMENT_ID}} == 0){
+				url_string ='/objects/?object={{OBJECT}}&op=set&p=disabled&v=1';
+			}
+			else {
+				url_string ='/objects/?object={{OBJECT}}&op=set&p=disabled&v=0';	
+			}
 			xmlhttp = new XMLHttpRequest();
 			xmlhttp.open("GET", url_string, true);
 			xmlhttp.send(null); 
 		}
 		else {
-			url_string ='/objects/?object={{OBJECT}}&op=set&p=disabled&v=0';
+			if (ch_int{{ELEMENT_ID}} == 0){
+				url_string ='/objects/?object={{OBJECT}}&op=set&p=disabled&v=0';
+			}
+			else {
+				url_string ='/objects/?object={{OBJECT}}&op=set&p=disabled&v=1';	
+			}
 			xmlhttp = new XMLHttpRequest();
 			xmlhttp.open("GET", url_string, true);
 			xmlhttp.send(null); 
