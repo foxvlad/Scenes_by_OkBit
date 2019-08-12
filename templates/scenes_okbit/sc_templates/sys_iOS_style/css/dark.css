@@ -2143,7 +2143,7 @@ center-menu
 	}
 	
 	.range-t, .range{
-		width:calc(100% - 50px)!important;
+		width:calc(100% - 70px)!important;
 		margin-top: 10px;
 	}
 	
